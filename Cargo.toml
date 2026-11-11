@@ -1,0 +1,44 @@
+[package]
+name = "cozy-curses"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = ["tools/pixelwind"]
+
+[dependencies]
+# Só 2D + UI + áudio: sem PBR/glTF/3D o .wasm encolhe muito e compila mais rápido.
+bevy = { version = "0.20.0", default-features = false, features = ["2d", "ui", "audio"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# Saves no navegador ficam no localStorage. A ligação é feita direto com wasm-bindgen
+# (já vem com o Bevy): ativar a feature "Storage" do web-sys recompilaria o Bevy inteiro.
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+wasm-bindgen = { version = "0.2", default-features = false }
+
+[features]
+# Linka o Bevy dinamicamente no dev -> recompilações bem mais rápidas.
+# Uso: cargo run --features dev
+dev = ["bevy/dynamic_linking"]
+
+# Nosso código compila com nível 2 no dev para evitar lag nas ações procedurais...
+[profile.dev]
+opt-level = 2
+
+# ...mas as dependências (Bevy etc.) são otimizadas, senão o jogo roda arrastado.
+[profile.dev.package."*"]
+opt-level = 3
+
+# Perfil de desenvolvimento web: igual ao dev, mas sem debuginfo.
+# Com debuginfo o .wasm passa de 1 GB e o link/servidor ficam lentíssimos.
+[profile.web]
+inherits = "dev"
+debug = false
+
+[profile.web.package."*"]
+opt-level = 3
+
+[profile.release]
+lto = "thin"
+codegen-units = 1

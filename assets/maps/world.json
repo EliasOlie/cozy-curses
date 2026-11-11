@@ -1,0 +1,19 @@
+{
+  "start": "house",
+  "maps": [
+    { "id": "farm", "name": "Fazenda", "indoor": false, "farm": true },
+    { "id": "village", "name": "Vila Serena", "indoor": false },
+    { "id": "house", "name": "Casa", "indoor": true },
+    { "id": "bakery", "name": "Padaria", "indoor": true, "keeper": "Baker", "shop": "Bakery" },
+    { "id": "store", "name": "Armazém", "indoor": true, "keeper": "Merchant", "shop": "Store" }
+  ],
+  "doors": [
+    { "map": "farm", "at": [20, 9], "to": "house" },
+    { "map": "village", "at": [10, 12], "to": "bakery" },
+    { "map": "village", "at": [46, 12], "to": "store" }
+  ],
+  "portals": [
+    { "map": "farm", "edge": ">", "to": "village", "to_edge": "<" },
+    { "map": "village", "edge": "<", "to": "farm", "to_edge": ">" }
+  ]
+}

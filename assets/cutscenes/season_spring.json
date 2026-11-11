@@ -1,0 +1,21 @@
+{
+  "id": "season_spring",
+  "title": "Chegada da Primavera",
+  "notes": "Tocada pelo código na virada de estação (cycle.rs).",
+  "steps": [
+    { "fade": "out", "seconds": 0.8 },
+    {
+      "banner": "ESTAÇÃO: PRIMAVERA",
+      "subtitle": "Dia {dia} • A brisa morna dissipa as névoas e desperta as sementes adormecidas.",
+      "seconds": 4.0
+    },
+    { "fade": "in", "seconds": 1.0 },
+    {
+      "say": "O Vento do Vale",
+      "pages": [
+        "As flores brotam ao longo dos cercados e os animais celebram a relva fresca.",
+        "Florinda já abriu sua floricultura com as melhores mudas da primavera!"
+      ]
+    }
+  ]
+}

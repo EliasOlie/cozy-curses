@@ -1,0 +1,65 @@
+{
+  "name": "crates",
+  "size": [
+    16,
+    16
+  ],
+  "palette": "both",
+  "notes": "Pilha de 3 caixotes 16x16, pegada 1x1. Noite: ossinhos no lugar das cenouras e olhos nas frestas.",
+  "legend": {
+    "l": "wood_light",
+    "w": "wood",
+    "W": "wood_dark",
+    "L": "leaf_light",
+    "a": "crop",
+    "A": "crop_light",
+    "n": "crop_leaf",
+    "b": "bone",
+    "Y": "eye"
+  },
+  "layers": [
+    {
+      "name": "base",
+      "rows": [
+        ".....aAanL......",
+        "....llllllll....",
+        "....WWWWWWWW....",
+        "....WlwwwwlW....",
+        "....WwlwwlwW....",
+        "....WwwllwwW....",
+        "....WwlwwlwW....",
+        "....WlwwwwlW....",
+        ".lllWWWWWWWWlll.",
+        ".WWWWWWWWWWWWWW.",
+        ".WlwwwlWWlwwwlW.",
+        ".WwlwlwWWwlwlwW.",
+        ".WwwlwwWWwwlwwW.",
+        ".WwlwlwWWwlwlwW.",
+        ".WWWWWWWWWWWWWW.",
+        "................"
+      ]
+    },
+    {
+      "name": "noite",
+      "only": "night",
+      "rows": [
+        ".....b..b.b.....",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "...........Y....",
+        "....Y...........",
+        "................",
+        "................",
+        "................"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "farmer_body",
+  "size": [16, 32],
+  "palette": "day",
+  "columns": 3,
+  "notes": "Corpo do jogador (cabeça, pescoço, mãos). Tingido pela cor de pele. Quadros: down/up/side (side olha para a direita) x parado/passo/passo.",
+  "legend": { "t": "tint", "L": "tint_light", "d": "tint_dark", "D": "tint_deep", "k": "ink" },
+  "frames": [
+    {
+      "name": "down_0",
+      "layers": [
+        {
+          "name": "cabeça",
+          "offset": [0, 6],
+          "rows": [
+            "....tttttttt....",
+            "...tttttttttt...",
+            "...tttttttttt...",
+            "...tLtttttttd...",
+            "...tLtttttttd...",
+            "..dttkttttkttd..",
+            "..dttkttttkttd..",
+            "...tdttttttdt...",
+            "...ttttDDtttt...",
+            "....dttttttd....",
+            "......dddd......"
+          ]
+        },
+        { "name": "mãos", "offset": [0, 22], "rows": ["...t........t...", "...d........d..."] }
+      ]
+    },
+    { "name": "down_1", "from": "down_0", "offset": [0, 1] },
+    { "name": "down_2", "from": "down_0", "offset": [0, 1] },
+    {
+      "name": "up_0",
+      "layers": [
+        {
+          "name": "nuca",
+          "offset": [0, 6],
+          "rows": [
+            "....tttttttt....",
+            "...tttttttttt...",
+            "...tttttttttt...",
+            "...tttttttttd...",
+            "...tttttttttd...",
+            "..dttttttttttd..",
+            "..dttttttttttd..",
+            "...tttttttttd...",
+            "...tttttttttd...",
+            "....dttttttd....",
+            "......dddd......"
+          ]
+        },
+        { "name": "mãos", "offset": [0, 22], "rows": ["...t........t...", "...d........d..."] }
+      ]
+    },
+    { "name": "up_1", "from": "up_0", "offset": [0, 1] },
+    { "name": "up_2", "from": "up_0", "offset": [0, 1] },
+    {
+      "name": "side_0",
+      "layers": [
+        {
+          "name": "perfil",
+          "offset": [0, 6],
+          "rows": [
+            ".....ttttttt....",
+            "....ttttttttt...",
+            "....ttttttttt...",
+            "....tLtttttttt..",
+            "....tLtttttttt..",
+            "....tdtttttkt...",
+            "....tddttttktt..",
+            "....tdttttttt...",
+            "....tttttttDt...",
+            ".....dtttttd....",
+            "......dddd......"
+          ]
+        },
+        { "name": "mão", "offset": [0, 22], "rows": [".......tt.......", ".......dd......."] }
+      ]
+    },
+    { "name": "side_1", "from": "side_0", "offset": [0, 1] },
+    { "name": "side_2", "from": "side_0", "offset": [0, 1] }
+  ]
+}

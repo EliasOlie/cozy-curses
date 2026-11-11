@@ -1,0 +1,121 @@
+{
+  "name": "crow",
+  "size": [16, 16],
+  "palette": "night",
+  "columns": 4,
+  "notes": "Corvo-de-olho: corvo preto com reflexos roxos e um olho grande extra aceso no peito/asa (pálpebra vermelha). Olhando para a DIREITA (o jogo espelha). Quadros: 0 voando asas em cima, 1 voando asas embaixo, 2 no chão bicando (cabeça alta), 3 no chão bicando (bico no chão). Pés em y=14 nos quadros do chão.",
+  "legend": {
+    "K": "fur_dark",
+    "q": "essence_dark",
+    "s": "velvet",
+    "E": "eye",
+    "p": "eye_pupil",
+    "g": "glow",
+    "m": "metal",
+    "b": "bone_dark"
+  },
+  "frames": [
+    {
+      "name": "voar_a",
+      "layers": [
+        {
+          "name": "asa_cima",
+          "rows": [
+            "................",
+            ".K.K............",
+            ".KqKK...........",
+            "..KqqKK.........",
+            "...KqqKK........",
+            "....KqKKK.......",
+            ".....KKKKK......"
+          ]
+        },
+        {
+          "name": "corpo",
+          "offset": [0, 6],
+          "rows": [
+            "...........KK...",
+            ".KK.KsEEEsKKgKm.",
+            "..KKsEEpEEsKKK..",
+            "...KKsEEEsKKK...",
+            ".....KKKKKK.....",
+            "......bb........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "voar_b",
+      "layers": [
+        {
+          "name": "corpo",
+          "offset": [0, 5],
+          "rows": [
+            "...........KK...",
+            ".KK.KsEEEsKKgKm.",
+            "..KKsEEpEEsKKK..",
+            "...KKsEEEsKKK...",
+            ".....KKKKKK....."
+          ]
+        },
+        {
+          "name": "asa_baixo",
+          "offset": [0, 9],
+          "rows": [
+            ".....KqqKKK.....",
+            "....KqqKKK......",
+            "...KqqKK........",
+            "..KqKK..........",
+            ".K.K............"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bicar_a",
+      "layers": [
+        {
+          "name": "cabeca",
+          "offset": [0, 4],
+          "rows": [
+            "..........KK....",
+            ".........KKKK...",
+            ".........KKgKmm.",
+            "........KKKKKm.."
+          ]
+        },
+        {
+          "name": "corpo",
+          "offset": [0, 8],
+          "rows": [
+            ".....KqKKKKK....",
+            ".KKKKsEEEsKKK...",
+            "..qKsEEpEEsKK...",
+            "...KKsEEEsKKK...",
+            ".....KKqqKKK....",
+            "......b..b......",
+            "......bb.bb....."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bicar_b",
+      "layers": [
+        {
+          "name": "corpo",
+          "offset": [0, 8],
+          "rows": [
+            ".....KqKKKKK....",
+            ".KKKKsEEEsKKKK..",
+            "..qKsEEpEEsKKgK.",
+            "...KKsEEEsKKKKK.",
+            ".....KKqqKK..mm.",
+            "......b..b....m.",
+            "......bb.bb....."
+          ]
+        }
+      ]
+    }
+  ]
+}

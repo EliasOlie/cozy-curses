@@ -1,0 +1,66 @@
+{
+  "name": "floor_wood",
+  "size": [16, 16],
+  "palette": "both",
+  "outline": false,
+  "columns": 2,
+  "notes": "Assoalho de tábuas horizontais (4 px cada), sem costura nas 4 direções. 2 quadros com as mesmas emendas e veios diferentes (o b tem um nó).",
+  "legend": {
+    "d": "wood_dark",
+    "w": "wood",
+    "l": "wood_light",
+    "k": "soil_dark"
+  },
+  "frames": [
+    {
+      "name": "tabuas_a",
+      "layers": [
+        {
+          "rows": [
+            "dddddddddddddddd",
+            "wwwwwwlwwwwwwwww",
+            "wwlwwwwwwwwllwww",
+            "wwwwwwwwwwwwwwww",
+            "dddddddddddddddd",
+            "wwwwwwwwwwwwwdlw",
+            "wwwwwwwllwwwwdww",
+            "wlwwwwwwwwwwwdww",
+            "dddddddddddddddd",
+            "wwwwwwwwwlwwwwww",
+            "wwlllwwwwwwwwwww",
+            "wwwwwwwwwwwwwllw",
+            "dddddddddddddddd",
+            "lwwwwwwwwwwwwwwd",
+            "wwwwwlllwwwwwwwd",
+            "wwwwwwwwwwwwlwwd"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tabuas_b",
+      "layers": [
+        {
+          "rows": [
+            "dddddddddddddddd",
+            "wwwwwdlwwwwwwwww",
+            "wwwwwdwwwlllwwww",
+            "wlwwwdwwwwwwwwww",
+            "dddddddddddddddd",
+            "wwwwwwwwwwwwwwlw",
+            "wwlwwwwwwwwwwwww",
+            "wwwwwwwwwlwwwwww",
+            "dddddddddddddddd",
+            "wwwwwwwwdlwwwwww",
+            "wwwwwlwwdwwwlkww",
+            "wwwwwwwwdwwwwlww",
+            "dddddddddddddddd",
+            "wwwwwwwwwwwwwwww",
+            "wwwlwwwwwwwwwwww",
+            "wwwwwwwwwwlllwww"
+          ]
+        }
+      ]
+    }
+  ]
+}

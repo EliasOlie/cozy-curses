@@ -1,0 +1,351 @@
+{
+  "name": "fx",
+  "size": [8, 8],
+  "palette": "both",
+  "outline": false,
+  "columns": 8,
+  "notes": "Partículas e ícones 8x8. 0-1 borboleta (asas abertas/fechadas; à noite mariposa neon com olhos nas asas), 2-3 folha caindo (2 rotações; à noite nervura brilhante), 4-5 vaga-lume (fraco/forte), 6-8 fumaça (pequena/média/grande), 9-10 poeira de passo (pequena/grande), 11-12 brilho na água (pequeno/grande), 13 '!' de conversa, 14 coração, 15 moedinha (à noite, violeta amaldiçoada). Contorno manual só nos ícones (13-15).",
+  "legend": {
+    "x": "outline",
+    "k": "ink",
+    "f": "flower", "y": "flower_alt",
+    "O": "glow_alt", "o": "glow", "Y": "eye",
+    "W": "tint_light",
+    "L": "leaf_light", "e": "leaf", "E": "leaf_dark", "w": "wood",
+    "K": "stone_light", "s": "stone", "S": "stone_dark",
+    "p": "path_light", "P": "path", "t": "soil_light",
+    "l": "water_light",
+    "g": "glow_alt", "G": "glow", "d": "hay_dark",
+    "r": "flower", "R": "roof"
+  },
+  "frames": [
+    {
+      "name": "borboleta_aberta",
+      "layers": [
+        {
+          "rows": [
+            "..k.k...",
+            "ff.k.ff.",
+            "fyfkfyf.",
+            "fffkfff.",
+            ".ffkff..",
+            ".yf.fy..",
+            "........",
+            "........"
+          ]
+        },
+        {
+          "name": "mariposa",
+          "only": "night",
+          "rows": [
+            "........",
+            "OO...OO.",
+            "OYO.OYO.",
+            "OOO.OOO.",
+            ".OO.OO..",
+            ".oO.Oo..",
+            "........",
+            "........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "borboleta_fechada",
+      "layers": [
+        {
+          "rows": [
+            "........",
+            "..k.k...",
+            "..f.f...",
+            "..fkf...",
+            "..yky...",
+            "...k....",
+            "........",
+            "........"
+          ]
+        },
+        {
+          "name": "mariposa",
+          "only": "night",
+          "rows": [
+            "........",
+            "........",
+            "..O.O...",
+            "..O.O...",
+            "..o.o...",
+            "........",
+            "........",
+            "........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "folha_a",
+      "layers": [
+        {
+          "rows": [
+            "........",
+            ".....LL.",
+            "...LLLe.",
+            "..LLeeE.",
+            ".LeeeE..",
+            ".eeEE...",
+            "w.......",
+            "........"
+          ]
+        },
+        {
+          "name": "nervura",
+          "only": "night",
+          "rows": [
+            "........",
+            "........",
+            ".....o..",
+            "....o...",
+            "...o....",
+            "..o.....",
+            "........",
+            "........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "folha_b",
+      "layers": [
+        {
+          "rows": [
+            "........",
+            "........",
+            "..LLL...",
+            ".LLeeeE.",
+            "LeeeeEEw",
+            ".eEEEE..",
+            "........",
+            "........"
+          ]
+        },
+        {
+          "name": "nervura",
+          "only": "night",
+          "rows": [
+            "........",
+            "........",
+            "........",
+            "........",
+            ".ooooo..",
+            "........",
+            "........",
+            "........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vagalume_fraco",
+      "layers": [
+        {
+          "rows": [
+            "........",
+            "........",
+            "........",
+            "...o....",
+            "..oWo...",
+            "...o....",
+            "........",
+            "........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vagalume_forte",
+      "layers": [
+        {
+          "rows": [
+            "........",
+            "........",
+            "...O....",
+            "..oWo...",
+            ".OWWWO..",
+            "..oWo...",
+            "...O....",
+            "........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fumaca_p",
+      "layers": [
+        {
+          "rows": [
+            "........",
+            "........",
+            "........",
+            "...KK...",
+            "..KKss..",
+            "..sssS..",
+            "...SS...",
+            "........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fumaca_m",
+      "layers": [
+        {
+          "rows": [
+            "........",
+            "........",
+            "..KK....",
+            ".KKsKK..",
+            ".KssKss.",
+            ".ssssSS.",
+            "..sSSS..",
+            "........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fumaca_g",
+      "layers": [
+        {
+          "rows": [
+            "..KKK...",
+            ".KKKsKK.",
+            "KKssKKss",
+            "KsssssKs",
+            "ssssssss",
+            "sssSssSS",
+            ".sSSSSS.",
+            "..SS.S.."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "poeira_p",
+      "layers": [
+        {
+          "rows": [
+            "........",
+            "........",
+            "........",
+            "........",
+            ".p....p.",
+            "pPp..pPp",
+            ".Pt..tP.",
+            "........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "poeira_g",
+      "layers": [
+        {
+          "rows": [
+            "........",
+            "........",
+            "........",
+            ".pp..pp.",
+            "pppPpppP",
+            "pPPPPPPt",
+            ".PtP.Pt.",
+            "........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "brilho_agua_p",
+      "layers": [
+        {
+          "rows": [
+            "........",
+            "........",
+            "........",
+            "...l....",
+            "..lWl...",
+            "...l....",
+            "........",
+            "........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "brilho_agua_g",
+      "layers": [
+        {
+          "rows": [
+            "........",
+            "...l....",
+            "...l....",
+            "..lWl...",
+            "llWWWll.",
+            "..lWl...",
+            "...l....",
+            "...l...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "exclamacao",
+      "layers": [
+        {
+          "rows": [
+            "..xxxx..",
+            "..xWyx..",
+            "..xyyx..",
+            "..xyyx..",
+            "..xyyx..",
+            "..xxxx..",
+            "..xyyx..",
+            "..xxxx.."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "coracao",
+      "layers": [
+        {
+          "rows": [
+            ".xx..xx.",
+            "xWrxxrrx",
+            "xWrrrrrx",
+            "xrrrrrRx",
+            ".xrrrRx.",
+            "..xrRx..",
+            "...xx...",
+            "........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "moeda",
+      "layers": [
+        {
+          "rows": [
+            "..xxxx..",
+            ".xGGggx.",
+            "xGgGdggx",
+            "xGgGdgdx",
+            "xggGdgdx",
+            ".xgggdx.",
+            "..xxxx..",
+            "........"
+          ]
+        }
+      ]
+    }
+  ]
+}

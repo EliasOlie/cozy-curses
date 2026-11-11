@@ -1,0 +1,110 @@
+{
+  "name": "dog",
+  "size": [16, 16],
+  "palette": "both",
+  "columns": 4,
+  "notes": "Cachorro caramelo da varanda (inspiration_1), olhando para a DIREITA (o jogo espelha). Orelha caída escura, focinho e peito claros, nariz preto. Pés na linha 14. Quadros: 0-1 sentado abanando o rabo (cima/baixo), 2-3 andando (patas abertas/juntas). Noite: pelo arroxeado e olho aceso (chave eye).",
+  "legend": { "T": "fur_tan", "t": "fur_tan_light", "D": "fur_tan_dark", "E": "eye", "n": "ink" },
+  "frames": [
+    {
+      "name": "sentado_a",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            ".........TTT....",
+            "........DTTTT...",
+            ".......DDTTET...",
+            ".......DDTTTtn..",
+            "........DTttt...",
+            "........tTTT....",
+            ".D.....TTttT....",
+            ".D....TTTttT....",
+            "..D..TTTTtTT....",
+            "...DTTTTTtTT....",
+            "...DTTTTDtTT....",
+            "...DTTTDDtTT....",
+            "...DDtt..ttt....",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sentado_b",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            ".........TTT....",
+            "........DTTTT...",
+            ".......DDTTET...",
+            ".......DDTTTtn..",
+            "........DTttt...",
+            "........tTTT....",
+            ".......TTttT....",
+            "......TTTttT....",
+            ".....TTTTtTT....",
+            "....TTTTTtTT....",
+            "..DDTTTTDtTT....",
+            ".D.DTTTDDtTT....",
+            "...DDtt..ttt....",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "andar_a",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "..........TTT...",
+            ".........DTTTT..",
+            "........DDTTET..",
+            ".D......DDTTTtn.",
+            "..D......DTttt..",
+            "..DTTTTTTTTtt...",
+            "...TTTTTTTTTt...",
+            "...TTTTTTTTTT...",
+            "...DTtttttTTT...",
+            "...DD.....TT....",
+            "..DD.......TT...",
+            "..tt........tt..",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "andar_b",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "..........TTT...",
+            ".........DTTTT..",
+            "........DDTTET..",
+            "........DDTTTtn.",
+            "..D......DTttt..",
+            "..DTTTTTTTTtt...",
+            "...TTTTTTTTTt...",
+            "...TTTTTTTTTT...",
+            "...DTtttttTTT...",
+            "....DT....TT....",
+            "....DT....TT....",
+            "....tt....tt....",
+            "................"
+          ]
+        }
+      ]
+    }
+  ]
+}

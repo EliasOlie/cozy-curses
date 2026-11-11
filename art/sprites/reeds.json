@@ -1,0 +1,122 @@
+{
+  "name": "reeds",
+  "size": [
+    16,
+    16
+  ],
+  "palette": "both",
+  "outline": false,
+  "columns": 2,
+  "notes": "Touceira de taboas (cattails) 16x16 para a margem do lago. Quadro 0 parado; quadro 1 com a metade de cima (y < 9) 1 px para a direita. Noite: espigas soltam esporos brilhantes.",
+  "legend": {
+    "E": "leaf_dark",
+    "L": "leaf_light",
+    "O": "glow_alt",
+    "W": "wood_dark",
+    "e": "leaf",
+    "l": "wood_light",
+    "n": "crop_leaf",
+    "o": "glow",
+    "w": "wood",
+    "x": "outline"
+  },
+  "layers": [],
+  "frames": [
+    {
+      "name": "parado",
+      "layers": [
+        {
+          "name": "taboas",
+          "rows": [
+            "........xnx.....",
+            ".....x..xlWx....",
+            "....xnx.xwWx....",
+            "....xlWxxwWx....",
+            "....xwWxxwWx....",
+            ".xx.xwWxxnxnx...",
+            "xLexxwWxxnxlWxx.",
+            "xLexxnx.xnxwWxex",
+            ".xLexnx.xnxwWxEx",
+            ".xLexnxxxnxwWeEx",
+            ".xLxenxLxnxnxEx.",
+            "..xLexnLxnxneEx.",
+            "..xLexnxLnxneEx.",
+            "...xLenxLnxnEx..",
+            "...xEEEEEEEEEx..",
+            "....xxxxxxxxx..."
+          ]
+        },
+        {
+          "name": "esporos",
+          "only": "night",
+          "rows": [
+            "................",
+            "................",
+            "..O......o......",
+            "................",
+            ".....o........o.",
+            "................",
+            "................",
+            "...........o....",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "balanco",
+      "layers": [
+        {
+          "name": "taboas",
+          "rows": [
+            ".........xnx....",
+            "......x..xlWx...",
+            ".....xnx.xwWx...",
+            ".....xlWxxwWx...",
+            ".....xwWxxwWx...",
+            "..xx.xwWxxnxnx..",
+            ".xLexxwWxxnxlWxx",
+            ".xLexxnx.xnxwWxe",
+            "..xLexnx.xnxwWxE",
+            ".xLexnxxxnxwWeEx",
+            ".xLxenxLxnxnxEx.",
+            "..xLexnLxnxneEx.",
+            "..xLexnxLnxneEx.",
+            "...xLenxLnxnEx..",
+            "...xEEEEEEEEEx..",
+            "....xxxxxxxxx..."
+          ]
+        },
+        {
+          "name": "esporos",
+          "only": "night",
+          "rows": [
+            "................",
+            "................",
+            "...O......o.....",
+            "................",
+            "......o........o",
+            "................",
+            "................",
+            "............o...",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    }
+  ]
+}

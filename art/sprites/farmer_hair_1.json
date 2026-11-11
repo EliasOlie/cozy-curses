@@ -1,0 +1,92 @@
+{
+  "name": "farmer_hair_1",
+  "size": [16, 32],
+  "palette": "day",
+  "columns": 3,
+  "notes": "Cabelo comprido até os ombros, repartido. Tingido pela cor do cabelo.",
+  "legend": { "h": "tint", "L": "tint_light", "H": "tint_dark", "D": "tint_deep" },
+  "frames": [
+    {
+      "name": "down_0",
+      "layers": [
+        {
+          "offset": [0, 4],
+          "rows": [
+            ".....hhhhhh.....",
+            "....hLhhhhhH....",
+            "...hLLhhHhhhH...",
+            "..hLLhhhHhhhhH..",
+            "..hLhhhH.HhhhH..",
+            "..hLhH....HhhH..",
+            "..hL........hH..",
+            "..hL........hH..",
+            "..hL........hH..",
+            "..hH........hH..",
+            "..hH........hH..",
+            "..hH........hH..",
+            "..hH........hH..",
+            "..hH........HH..",
+            "..H..........H.."
+          ]
+        }
+      ]
+    },
+    { "name": "down_1", "from": "down_0", "offset": [0, 1] },
+    { "name": "down_2", "from": "down_0", "offset": [0, 1] },
+    {
+      "name": "up_0",
+      "layers": [
+        {
+          "offset": [0, 4],
+          "rows": [
+            ".....hhhhhh.....",
+            "....hLhhhhhH....",
+            "...hLhhhhhhhH...",
+            "..hLhhhhhhhhhH..",
+            "..hLhhhhhhhhhH..",
+            "..hLhhhhhhhhhH..",
+            "..hhhHhhhHhhhH..",
+            "..hhhhhhhhhhhH..",
+            "..hhhhhhhhhhhH..",
+            "..hhHhhhhhHhhH..",
+            "..hhhhhhhhhhhH..",
+            "..hhhhhhhhhhhH..",
+            "..hhhHhhhhHhhH..",
+            "..hhhHhhhhHhhH..",
+            "...HhhhHhhhhH...",
+            "....H.H..H.H...."
+          ]
+        }
+      ]
+    },
+    { "name": "up_1", "from": "up_0", "offset": [0, 1] },
+    { "name": "up_2", "from": "up_0", "offset": [0, 1] },
+    {
+      "name": "side_0",
+      "layers": [
+        {
+          "offset": [0, 4],
+          "rows": [
+            ".....hhhhhh.....",
+            "....hLhhhhhH....",
+            "...hLhhhhhhhH...",
+            "...hhhhhhhhhhH..",
+            "...hhhhhhhhH.H..",
+            "..hhhhhhhh......",
+            "..hhhhhhH.......",
+            "..hhhhhH........",
+            "..hhhhhH........",
+            "..hhhhH.........",
+            "..hhhhH.........",
+            "..hhhH..........",
+            "..hhhH..........",
+            "...hH...........",
+            "...H............"
+          ]
+        }
+      ]
+    },
+    { "name": "side_1", "from": "side_0", "offset": [0, 1] },
+    { "name": "side_2", "from": "side_0", "offset": [0, 1] }
+  ]
+}

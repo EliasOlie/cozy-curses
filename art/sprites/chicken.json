@@ -1,0 +1,453 @@
+{
+  "name": "chicken",
+  "size": [
+    16,
+    16
+  ],
+  "palette": "both",
+  "columns": 4,
+  "notes": "Linha 0: galinha branca de quintal (inspiration_1); linha 1: galo ruivo de crista grande, pescoço dourado e cauda escura com reflexos azul/verde. Olhando para a DIREITA (o jogo espelha). Pés na linha 14. Quadros por linha: 0-1 andando (passo + balanço), 2-3 bicando (cabeça descendo, bico no chão). Noite: penas lavanda e olho aceso (chave eye); no galo, a cauda também abre um olho.",
+  "legend": {
+    "W": "fur_white",
+    "w": "fur_white_shade",
+    "b": "beak",
+    "c": "comb",
+    "E": "eye",
+    "T": "fur_tan",
+    "D": "fur_tan_dark",
+    "H": "fur_tan_light",
+    "K": "fur_dark",
+    "U": "cloth",
+    "G": "leaf_dark"
+  },
+  "frames": [
+    {
+      "name": "andar_a",
+      "layers": [
+        {
+          "name": "corpo",
+          "offset": [
+            0,
+            5
+          ],
+          "rows": [
+            "..W.............",
+            ".WW......WW.....",
+            ".WWW....WWWW....",
+            ".WwWWWWWWWWW....",
+            ".wWWWWwwWWWW....",
+            "..wWWwwwWWW.....",
+            "...wwWWWWWw.....",
+            ".....wwwww......"
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            0,
+            1
+          ],
+          "rows": [
+            "..........cc....",
+            ".........cWWW...",
+            ".........WWEWb..",
+            ".........WWWWbb.",
+            ".........WWWc..."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            0,
+            13
+          ],
+          "rows": [
+            "......b..b......",
+            "......bb.bb....."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "andar_b",
+      "layers": [
+        {
+          "name": "corpo",
+          "offset": [
+            0,
+            6
+          ],
+          "rows": [
+            "..W.............",
+            ".WW......WW.....",
+            ".WWW....WWWW....",
+            ".WwWWWWWWWWW....",
+            ".wWWWWwwWWWW....",
+            "..wWWwwwWWW.....",
+            "...wwWWWWWw.....",
+            ".....wwwww......"
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            0,
+            2
+          ],
+          "rows": [
+            "..........cc....",
+            ".........cWWW...",
+            ".........WWEWb..",
+            ".........WWWWbb.",
+            ".........WWWc..."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            0,
+            14
+          ],
+          "rows": [
+            ".......bbb......"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bicar_a",
+      "layers": [
+        {
+          "name": "corpo",
+          "offset": [
+            0,
+            5
+          ],
+          "rows": [
+            "..W.............",
+            ".WW......WW.....",
+            ".WWW....WWWW....",
+            ".WwWWWWWWWWW....",
+            ".wWWWWwwWWWW....",
+            "..wWWwwwWWW.....",
+            "...wwWWWWWw.....",
+            ".....wwwww......"
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            0,
+            6
+          ],
+          "rows": [
+            "...........cc...",
+            "..........cWWW..",
+            "..........WWEWb.",
+            "..........WWWc.."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            0,
+            13
+          ],
+          "rows": [
+            "......b..b......",
+            "......bb.bb....."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bicar_b",
+      "layers": [
+        {
+          "name": "corpo",
+          "offset": [
+            0,
+            5
+          ],
+          "rows": [
+            "..W.............",
+            ".WW......WW.....",
+            ".WWW....WWWW....",
+            ".WwWWWWWWWWW....",
+            ".wWWWWwwWWWW....",
+            "..wWWwwwWWW.....",
+            "...wwWWWWWw.....",
+            ".....wwwww......"
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            0,
+            9
+          ],
+          "rows": [
+            "...........cW...",
+            "..........WWWW..",
+            "..........WWEW..",
+            "..........cWWW..",
+            "............bb..",
+            ".............b.."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            0,
+            13
+          ],
+          "rows": [
+            "......b..b......",
+            "......bb.bb....."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "galo_andar_a",
+      "layers": [
+        {
+          "name": "corpo",
+          "offset": [
+            0,
+            4
+          ],
+          "rows": [
+            ".KK.............",
+            "KUKK.....HH.....",
+            "KKUK....HHHH....",
+            ".KKGK..THHHH....",
+            "..KKTTTTTTHH....",
+            "..KTTTTDDTTT....",
+            "...TTTDDDTT.....",
+            "....DTTTTTD.....",
+            ".....DDDDD......"
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            0,
+            1
+          ],
+          "rows": [
+            "..........cc....",
+            ".........cccc...",
+            ".........HHHH...",
+            ".........HHEHb..",
+            ".........HHHHbb.",
+            ".........HHcc...",
+            "...........c...."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            0,
+            13
+          ],
+          "rows": [
+            "......b..b......",
+            "......bb.bb....."
+          ]
+        },
+        {
+          "name": "olho na cauda",
+          "only": "night",
+          "offset": [
+            1,
+            5
+          ],
+          "rows": [
+            "E"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "galo_andar_b",
+      "layers": [
+        {
+          "name": "corpo",
+          "offset": [
+            0,
+            5
+          ],
+          "rows": [
+            ".KK.............",
+            "KUKK.....HH.....",
+            "KKUK....HHHH....",
+            ".KKGK..THHHH....",
+            "..KKTTTTTTHH....",
+            "..KTTTTDDTTT....",
+            "...TTTDDDTT.....",
+            "....DTTTTTD.....",
+            ".....DDDDD......"
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            0,
+            2
+          ],
+          "rows": [
+            "..........cc....",
+            ".........cccc...",
+            ".........HHHH...",
+            ".........HHEHb..",
+            ".........HHHHbb.",
+            ".........HHcc...",
+            "...........c...."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            0,
+            14
+          ],
+          "rows": [
+            ".......bbb......"
+          ]
+        },
+        {
+          "name": "olho na cauda",
+          "only": "night",
+          "offset": [
+            1,
+            6
+          ],
+          "rows": [
+            "E"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "galo_bicar_a",
+      "layers": [
+        {
+          "name": "corpo",
+          "offset": [
+            0,
+            4
+          ],
+          "rows": [
+            ".KK.............",
+            "KUKK.....HH.....",
+            "KKUK....HHHH....",
+            ".KKGK..THHHH....",
+            "..KKTTTTTTHH....",
+            "..KTTTTDDTTT....",
+            "...TTTDDDTT.....",
+            "....DTTTTTD.....",
+            ".....DDDDD......"
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            0,
+            5
+          ],
+          "rows": [
+            "...........cc...",
+            "..........cccc..",
+            "..........HHHH..",
+            "..........HHEHb.",
+            "..........HHcbb.",
+            "............c..."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            0,
+            13
+          ],
+          "rows": [
+            "......b..b......",
+            "......bb.bb....."
+          ]
+        },
+        {
+          "name": "olho na cauda",
+          "only": "night",
+          "offset": [
+            1,
+            5
+          ],
+          "rows": [
+            "E"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "galo_bicar_b",
+      "layers": [
+        {
+          "name": "corpo",
+          "offset": [
+            0,
+            4
+          ],
+          "rows": [
+            ".KK.............",
+            "KUKK.....HH.....",
+            "KKUK....HHHH....",
+            ".KKGK..THHHH....",
+            "..KKTTTTTTHH....",
+            "..KTTTTDDTTT....",
+            "...TTTDDDTT.....",
+            "....DTTTTTD.....",
+            ".....DDDDD......"
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            0,
+            8
+          ],
+          "rows": [
+            "...........cc...",
+            "..........cHHH..",
+            "..........HHEH..",
+            "..........cHHH..",
+            "...........cbb..",
+            ".............b.."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            0,
+            13
+          ],
+          "rows": [
+            "......b..b......",
+            "......bb.bb....."
+          ]
+        },
+        {
+          "name": "olho na cauda",
+          "only": "night",
+          "offset": [
+            1,
+            5
+          ],
+          "rows": [
+            "E"
+          ]
+        }
+      ]
+    }
+  ]
+}

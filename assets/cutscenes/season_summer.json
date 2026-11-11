@@ -1,0 +1,21 @@
+{
+  "id": "season_summer",
+  "title": "Chegada do Verão",
+  "notes": "Tocada pelo código na virada de estação (cycle.rs).",
+  "steps": [
+    { "fade": "out", "seconds": 0.8 },
+    {
+      "banner": "ESTAÇÃO: VERÃO",
+      "subtitle": "Dia {dia} • O sol alto abrasa os vales e banha o rio em tons dourados.",
+      "seconds": 4.0
+    },
+    { "fade": "in", "seconds": 1.0 },
+    {
+      "say": "O Vento do Vale",
+      "pages": [
+        "Dias longos de colheitas fartas, milho verde e frutas doces.",
+        "Lembre-se de manter o regador cheio e o gado hidratado na sombra."
+      ]
+    }
+  ]
+}

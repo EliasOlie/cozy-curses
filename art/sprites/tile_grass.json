@@ -1,0 +1,129 @@
+{
+  "name": "tile_grass",
+  "size": [16, 16],
+  "palette": "both",
+  "outline": false,
+  "columns": 4,
+  "notes": "Grama 'pintada' (inspiration_1): verde vivo com pinceladas claras, tufinhos em V, manchas suaves mais escuras e florzinhas brancas/amarelas/rosa. Nada encosta na borda, então as 4 variações emendam em qualquer ordem. Noite: pontinhos bioluminescentes (glow) em camadas only night. Quadros: lisa, tufos, manchas, florzinhas.",
+  "legend": { "g": "grass", "l": "grass_light", "d": "grass_dark", "D": "grass_deep", "P": "petal", "y": "flower_alt", "f": "flower", "o": "glow" },
+  "layers": [
+    {
+      "name": "base",
+      "shape": "rect",
+      "color": "grass",
+      "noise": [
+        { "color": "grass_light", "density": 0.11, "seed": 11 },
+        { "color": "grass_dark", "density": 0.035, "seed": 12 }
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "name": "lisa",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "....l...........",
+            "...l.l..........",
+            "...dld..........",
+            "................",
+            "................",
+            "...........l....",
+            "..........l.l...",
+            "..........dgd...",
+            "................",
+            "................",
+            "..l.............",
+            "..d.............",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tufos",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "..l..l..........",
+            "..ll.l.l........",
+            "..dlldld........",
+            "...DdDd.........",
+            "................",
+            ".........l..l...",
+            ".........l.ll...",
+            "........ldlld...",
+            "........dDdDd...",
+            "................",
+            "..l.l...........",
+            ".l.ll...........",
+            ".dldld..........",
+            "..DdD...........",
+            "................"
+          ]
+        },
+        { "only": "night", "offset": [12, 13], "rows": ["o"] }
+      ]
+    },
+    {
+      "name": "manchas",
+      "layers": [
+        { "shape": "ellipse", "rect": [1, 1, 9, 6], "color": "grass_dark", "noise": [{ "color": "grass", "density": 0.18, "seed": 21 }] },
+        { "shape": "ellipse", "rect": [3, 2, 5, 3], "noise": [{ "color": "grass_deep", "density": 0.25, "seed": 23 }] },
+        { "shape": "ellipse", "rect": [7, 8, 8, 6], "color": "grass_dark", "noise": [{ "color": "grass", "density": 0.18, "seed": 22 }] },
+        { "shape": "ellipse", "rect": [9, 9, 4, 3], "noise": [{ "color": "grass_deep", "density": 0.25, "seed": 24 }] },
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "...l............",
+            "..l.l...........",
+            "................",
+            "................",
+            "................",
+            "................",
+            "..........l.....",
+            ".........l.l....",
+            "................",
+            "................",
+            "................",
+            "................"
+          ]
+        },
+        { "only": "night", "offset": [4, 11], "rows": ["o"] }
+      ]
+    },
+    {
+      "name": "florzinhas",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "...P............",
+            "..PyP......f....",
+            "...P.......d....",
+            "...d............",
+            "................",
+            ".......y........",
+            ".......d....P...",
+            "...........PyP..",
+            "............P...",
+            "..f.........d...",
+            "..d.............",
+            "........P.......",
+            "........d.......",
+            "................"
+          ]
+        },
+        { "only": "night", "offset": [13, 2], "rows": ["o"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+[target.x86_64-unknown-linux-gnu]
+# mold é um linker muito mais rápido que o padrão
+linker = "clang"
+rustflags = ["-C", "link-arg=-fuse-ld=mold"]
+
+[target.wasm32-unknown-unknown]
+# `cargo run --target wasm32-unknown-unknown` sobe um servidor local e serve o jogo no navegador
+runner = "tools/wasm-runner.sh"
+
+[alias]
+web = "run --profile web --target wasm32-unknown-unknown"
+# Gera todos os sprites: art/sprites/*.json -> assets/sprites/*.png
+# (target-dir separado: não disputa o lock com o build do jogo)
+art = "run -q -p pixelwind --target-dir target/tools -- art/sprites"
+pixelwind = "run -q -p pixelwind --target-dir target/tools --"
+# Molduras da interface: art/ui/*.json -> assets/ui/*.png já ampliadas 3x (9-slice)
+ui-art = "run -q -p pixelwind --target-dir target/tools -- --out assets/ui --scale 3 art/ui"
+
+[build]
+# A máquina WSL tem ~4 GB de RAM; limitar jobs evita estouro de memória ao compilar o Bevy
+jobs = 4

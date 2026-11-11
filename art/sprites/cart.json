@@ -1,0 +1,61 @@
+{
+  "name": "cart",
+  "size": [
+    48,
+    32
+  ],
+  "palette": "both",
+  "outline": false,
+  "notes": "Carroça de madeira 48x32 com dois fardos de feno, rodas de raio e lança para a direita. Pegada 3x1 (y 16-31). Noite: só a paleta.",
+  "legend": {
+    "W": "wood_dark",
+    "Y": "hay_dark",
+    "h": "shadow",
+    "i": "ink",
+    "l": "wood_light",
+    "m": "metal",
+    "u": "hay_light",
+    "w": "wood",
+    "x": "outline",
+    "y": "hay"
+  },
+  "layers": [
+    {
+      "name": "carroca",
+      "rows": [
+        "................................................",
+        ".......xxxxxxxxxxxxx..xxxxxxxxxxxxx.............",
+        "......xuuuuwuuywuyuyxxuyuuwuyuwuuuyx............",
+        ".....xuuuuuwuuuwuuyyxuuyuuwuuuwuyuyyx...........",
+        ".....xuuuuywuuuwuuyyxyuuuuwuuuwuuuyyx...........",
+        ".....xuuyuuwuuuwuyyyxuuuuuwuuuwuyyyyx...........",
+        ".....xyYYYYWYYYWYYYYxyYYYYWYYYWYYYYYx...........",
+        ".....xuYYuyWyYYWYYYyxuyYYyWyyuWyyyyYx...........",
+        "...xxxuuyYYWyYYWYyyyxuuyyyWYyYWyyyyYxxx.........",
+        "..xlWxuYYYYWyyyWuyyyxuYYyuWyyYWyyyyYxlWx........",
+        "..xlWxuyyyyWyyyWYYuyxuyuyYWyyuWuyuyYxlWx........",
+        "..xlWxuyyyyWyyyWYyYYxuyYYyWYyYWYYYYYxlWx........",
+        "..xlWWxYYYYWYYYWYYYYxxYYYYWYYYWYYYYxWlWx........",
+        "..xlWlllllllllllllllllllllllllllllllllWx........",
+        "..xlWwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwlWx........",
+        "..xlWwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwlWx........",
+        "..xlWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWlWx........",
+        "..xlWwwwwwwmwwwwwwwwwwwwwwwwwwmwwwwwwlWx......x.",
+        "..xlWwwwwWWWWwwwwwwwwwwwwwwwWWWWwwwwwlWx.....xwx",
+        "..xlWWWWWWllWWWWWWWWWWWWWWWWWllWWWWWWlWx.....xwx",
+        "..xlWwWWllllllWWwwwwwwwwwWWllllllWWwwlWlxxxx.xwx",
+        "..xlWWWlwwiiwwwWWwwwwwwwWWlwwiiwwwWWwlWWllllxxwx",
+        "..xlWWlliwiiwiwwWWWWWWWWWlliwiiwiwwWWlWxWWWWllwx",
+        "...xxWliiimmiiiwWWWWWWWWWliiimmiiiwWxxx.xxxxWWwx",
+        "....xWlwwmmmmwwwWxxxxxxxWlwwmmmmwwwWx.......xxwx",
+        "....xWliiimmiiiwWx.....xWliiimmiiiwWx........xwx",
+        "....xWlliwiiwiwwWx.....xWlliwiiwiwwWx.........x.",
+        "....xWWwwwiiwwwWWx.....xWWwwwiiwwwWWx...........",
+        ".....xWWwwwwwwWWxhhhhhhhxWWwwwwwwWWx............",
+        "...hhhxWWWwwWWWxhhhhhhhhhxWWWwwWWWxhhhhhh.......",
+        "...hhhhxxWWWWxxhhhhhhhhhhhxxWWWWxxhhhhhhh.......",
+        ".........xxxxhhhhhhhhhhhhhhhxxxxh..............."
+      ]
+    }
+  ]
+}

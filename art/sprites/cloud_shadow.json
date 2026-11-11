@@ -1,0 +1,19 @@
+{
+  "name": "cloud_shadow",
+  "size": [96, 48],
+  "palette": "day",
+  "outline": false,
+  "notes": "Sombra de nuvem passando sobre a fazenda: mancha irregular de vários lóbulos com borda pontilhada (dither) para parecer suave. Só a chave shadow (já translúcida); as formas não somam alfa, então o miolo fica uniforme.",
+  "legend": { "h": "shadow" },
+  "layers": [
+    { "shape": "ellipse", "rect": [2, 4, 92, 42], "noise": [{ "color": "shadow", "density": 0.18, "seed": 11 }] },
+    { "shape": "ellipse", "rect": [6, 8, 84, 34], "noise": [{ "color": "shadow", "density": 0.45, "seed": 12 }] },
+    { "shape": "ellipse", "rect": [8, 16, 34, 20], "color": "shadow" },
+    { "shape": "ellipse", "rect": [24, 9, 30, 24], "color": "shadow" },
+    { "shape": "ellipse", "rect": [44, 12, 36, 22], "color": "shadow" },
+    { "shape": "ellipse", "rect": [62, 18, 26, 16], "color": "shadow" },
+    { "shape": "ellipse", "rect": [18, 22, 52, 16], "color": "shadow" },
+    { "shape": "ellipse", "rect": [56, 8, 14, 10], "noise": [{ "color": "shadow", "density": 0.5, "seed": 13 }] },
+    { "shape": "ellipse", "rect": [10, 32, 20, 10], "noise": [{ "color": "shadow", "density": 0.5, "seed": 14 }] }
+  ]
+}

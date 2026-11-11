@@ -1,0 +1,259 @@
+{
+  "name": "haunt",
+  "size": [16, 32],
+  "palette": "night",
+  "columns": 4,
+  "notes": "Espantalho Errante: espantalho de palha que anda à noite. Chapéu de palha torto, cabeça de saco com sorriso costurado e olhos acesos, camisa de flanela vermelha, calça remendada, pernas de graveto com palha nos punhos. Olhando para a DIREITA (o jogo espelha). Quadros: 0-1 andando (cambaleia: no 1 desce 1 px e o chapéu atrasa), 2 preparando o bote (braços erguidos, inclinado para trás, boca rasgada brilhando), 3 investida (inclinado para frente, braço esticado). Pés em y=30.",
+  "legend": {
+    "Y": "hay_dark",
+    "y": "hay",
+    "7": "hay_light",
+    "B": "bone",
+    "J": "bone_dark",
+    "Q": "fur_white_shade",
+    "k": "ink",
+    "E": "eye",
+    "g": "glow",
+    "w": "wood_light",
+    "v": "velvet",
+    "V": "velvet_dark",
+    "c": "cloth",
+    "C": "cloth_dark",
+    "p": "swamp"
+  },
+  "frames": [
+    {
+      "name": "andar_a",
+      "layers": [
+        { "name": "chapeu", "offset": [3, 2], "rows": [
+          "...Y......",
+          "...YY.....",
+          "..YyyY....",
+          "..YyyyY...",
+          "..VVVVV...",
+          "Yyy7yyyy7Y"
+        ] },
+        { "name": "cabeca", "offset": [4, 8], "rows": [
+          ".BJJJJJ.",
+          "BJJJJEEJ",
+          "JJJJJEEJ",
+          "QJJkJJJk",
+          "QJJJkkkJ",
+          ".QwwwwQ."
+        ] },
+        { "name": "tronco", "offset": [3, 14], "rows": [
+          ".7y7yy7.",
+          ".VvvVvvV",
+          "VvvVvvVv",
+          "vvVvvVvv",
+          "vVvvVvvV",
+          "VvvVvvVv",
+          "vvVvvVvv"
+        ] },
+        { "name": "calca", "offset": [3, 21], "rows": [
+          "wwwwwww.",
+          "cccCccc.",
+          "ccpCccc.",
+          "cccCccc.",
+          "ccC.cCc.",
+          "7y7.7y7."
+        ] },
+        { "name": "braco", "offset": [8, 15], "rows": [
+          "VV....",
+          "vVV...",
+          ".vvV..",
+          "..vvV.",
+          "..7y7.",
+          "..y7y.",
+          "...y.."
+        ] },
+        { "name": "pernas", "offset": [0, 27], "rows": [
+          "....w...w.......",
+          "...w.....w......",
+          "...w.....w......",
+          "..ww.....ww....."
+        ] }
+      ]
+    },
+    {
+      "name": "andar_b",
+      "layers": [
+        { "name": "chapeu", "offset": [5, 3], "rows": [
+          "...Y......",
+          "...YY.....",
+          "..YyyY....",
+          "..YyyyY...",
+          "..VVVVV...",
+          "Yyy7yyyy7Y"
+        ] },
+        { "name": "cabeca", "offset": [5, 9], "rows": [
+          ".BJJJJJ.",
+          "BJJJJEEJ",
+          "JJJJJEEJ",
+          "QJJkJJJk",
+          "QJJJkkkJ",
+          ".QwwwwQ."
+        ] },
+        { "name": "tronco", "offset": [4, 15], "rows": [
+          ".7y7yy7.",
+          ".VvvVvvV",
+          "VvvVvvVv",
+          "vvVvvVvv",
+          "vVvvVvvV",
+          "VvvVvvVv",
+          "vvVvvVvv"
+        ] },
+        { "name": "calca", "offset": [4, 22], "rows": [
+          "wwwwwww.",
+          "cccCccc.",
+          "ccpCccc.",
+          "cccCccc.",
+          "ccC.cCc.",
+          "7y7.7y7."
+        ] },
+        { "name": "braco", "offset": [9, 16], "rows": [
+          "VV....",
+          "vVV...",
+          ".vvV..",
+          "..vvV.",
+          "..7y7.",
+          "..y7y.",
+          "...y.."
+        ] },
+        { "name": "pernas", "offset": [0, 28], "rows": [
+          ".....w...w......",
+          "......w.w.......",
+          ".....ww.ww......"
+        ] }
+      ]
+    },
+    {
+      "name": "preparar_bote",
+      "layers": [
+        { "name": "braco_de_tras", "rows": [
+          "................",
+          "................",
+          ".7.7............",
+          ".y7y............",
+          ".7y7............",
+          ".VV.............",
+          ".VV.............",
+          ".VV.............",
+          ".VV.............",
+          ".VV.............",
+          ".VV.............",
+          ".VV.............",
+          ".VV.............",
+          "..VV............",
+          "..VV............",
+          "...V............"
+        ] },
+        { "name": "chapeu", "offset": [2, 2], "rows": [
+          "...Y......",
+          "...YY.....",
+          "..YyyY....",
+          "..YyyyY...",
+          "..VVVVV...",
+          "Yyy7yyyy7Y"
+        ] },
+        { "name": "cabeca", "offset": [3, 8], "rows": [
+          ".BJJJJJ.",
+          "BJJJJEEJ",
+          "JJJJJEEJ",
+          "QJJkkkkk",
+          "QJJkgkgk",
+          ".QwwwwQ."
+        ] },
+        { "name": "tronco", "offset": [3, 14], "rows": [
+          ".7y7yy7.",
+          ".VvvVvvV",
+          "VvvVvvVv",
+          "vvVvvVvv",
+          "vVvvVvvV",
+          "VvvVvvVv",
+          "vvVvvVvv"
+        ] },
+        { "name": "calca", "offset": [3, 21], "rows": [
+          "wwwwwww.",
+          "cccCccc.",
+          "ccpCccc.",
+          "cccCccc.",
+          "ccC.cCc.",
+          "7y7.7y7."
+        ] },
+        { "name": "braco_erguido", "rows": [
+          "................",
+          "................",
+          "............7.7.",
+          "............y7y.",
+          "............7y7.",
+          "............Vv..",
+          "............Vv..",
+          "............Vv..",
+          "............Vv..",
+          "............Vv..",
+          "............Vv..",
+          "............Vv..",
+          "...........Vv...",
+          "...........Vv...",
+          "..........Vv....",
+          ".........Vv....."
+        ] },
+        { "name": "pernas", "offset": [0, 27], "rows": [
+          "....w...w.......",
+          "...w.....w......",
+          "...w.....w......",
+          "..ww.....ww....."
+        ] }
+      ]
+    },
+    {
+      "name": "investida",
+      "layers": [
+        { "name": "chapeu", "offset": [5, 4], "rows": [
+          "...Y......",
+          "...YY.....",
+          "..YyyY....",
+          "..YyyyY...",
+          "..VVVVV...",
+          "Yyy7yyyy7Y"
+        ] },
+        { "name": "cabeca", "offset": [6, 10], "rows": [
+          ".BJJJJJ.",
+          "BJJJJEEJ",
+          "JJJJJEEJ",
+          "QJJkkkkk",
+          "QJJkgkgk",
+          ".QwwwwQ."
+        ] },
+        { "name": "tronco", "offset": [5, 16], "rows": [
+          ".7y7yy7.",
+          ".VvvVvvV",
+          "VvvVvvVv",
+          "vvVvvVvv",
+          "vVvvVvvV",
+          "VvvVvvVv",
+          "vvVvvVvv"
+        ] },
+        { "name": "calca", "offset": [4, 23], "rows": [
+          "wwwwwww.",
+          "cccCccc.",
+          "ccpCccc.",
+          "cccCccc.",
+          "ccC.cCc.",
+          "7y7.7y7."
+        ] },
+        { "name": "braco_esticado", "offset": [0, 16], "rows": [
+          "............7.7.",
+          "..........VvVy7.",
+          "..........vVv7y.",
+          "............7.7."
+        ] },
+        { "name": "pernas", "offset": [0, 29], "rows": [
+          "....w.....w.....",
+          "..ww.......ww..."
+        ] }
+      ]
+    }
+  ]
+}

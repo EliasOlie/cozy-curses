@@ -1,0 +1,40 @@
+{
+  "name": "tag",
+  "size": [
+    16,
+    12
+  ],
+  "palette": "day",
+  "outline": false,
+  "notes": "Plaquinha de madeira para o nome de quem fala, 9-slice (borda 4), preguinhos nos cantos.",
+  "legend": {
+    "x": "outline",
+    "W": "path_light",
+    "H": "path",
+    "b": "wood_light",
+    "s": "wood",
+    "D": "wood_dark",
+    "G": "ui_wood_glow",
+    "o": "glow",
+    "K": "stone_light"
+  },
+  "layers": [
+    {
+      "name": "plaquinha",
+      "rows": [
+        ".xxxxxxxxxxxxxx.",
+        "xHHHHHHHHHHHHHHx",
+        "xHKbbbbbbbbbbKsx",
+        "xHbbbbbbbbbbbbsx",
+        "xHbbbbbbbbbbbbsx",
+        "xHbbbbbbbbbbbbsx",
+        "xHbbbbbbbbbbbbsx",
+        "xHbbbbbbbbbbbbsx",
+        "xHKbbbbbbbbbbKsx",
+        "xssssssssssssssx",
+        "xDDDDDDDDDDDDDDx",
+        ".xxxxxxxxxxxxxx."
+      ]
+    }
+  ]
+}

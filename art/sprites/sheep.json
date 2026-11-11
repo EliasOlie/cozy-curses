@@ -1,0 +1,609 @@
+{
+  "name": "sheep",
+  "size": [
+    24,
+    24
+  ],
+  "palette": "both",
+  "columns": 4,
+  "notes": "Linha 0: ovelha de lã fofinha (inspiration_1); linha 1: carneiro, a mesma lã com chifres enrolados de osso. Olhando para a DIREITA (o jogo espelha). Corpo de nuvem com cachinhos, carinha e pernas escuras, topete de lã. Pés na linha 22. Quadros por linha: 0-1 andando, 2-3 pastando (cabeça baixa; no 3 o focinho encosta no chão). Noite: lã lavanda e olho aceso (camada only night).",
+  "legend": {
+    "W": "fur_white",
+    "w": "fur_white_shade",
+    "F": "fur_dark",
+    "e": "fur_white_shade",
+    "E": "eye",
+    "b": "fur_tan_dark",
+    "B": "bone_dark"
+  },
+  "frames": [
+    {
+      "name": "andar_a",
+      "layers": [
+        {
+          "name": "lã",
+          "offset": [
+            0,
+            7
+          ],
+          "rows": [
+            "......WW..WW..WW........",
+            "....WWWWWWWWWWWWWW......",
+            "...WWWWWWWWWWWWWWWW.....",
+            "..WWWWWWWWWWWWWWWWWW....",
+            "..WWWwWWWWWwWWWWWWWW....",
+            ".WWWwWWWWWwWWWWWwWWW....",
+            ".WWWWWWWWWWWWWWWWWWW....",
+            ".wWWWWWwWWWWWWwWWWWw....",
+            "..wWWWwWWWWWWwWWWWww....",
+            "..wwWWWWWWWWWWWWWww.....",
+            "...wwwWwwwWWwwwWww......",
+            "....w.ww..ww..ww.w......"
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            0,
+            19
+          ],
+          "rows": [
+            "...FF...FF...FF..FF.....",
+            "...FF...FF...FF..FF.....",
+            "...FF...FF...FF..FF.....",
+            "...FF...FF...FF..FF....."
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            0,
+            6
+          ],
+          "rows": [
+            "..................WWW...",
+            ".................WWWWW..",
+            "................FWWWWW..",
+            "...............FFFFFFF..",
+            "................FFeFFFF.",
+            ".................FFFFFF.",
+            ".................FFFFFF.",
+            "..................FFFF.."
+          ]
+        },
+        {
+          "only": "night",
+          "offset": [
+            18,
+            10
+          ],
+          "rows": [
+            "E"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "andar_b",
+      "layers": [
+        {
+          "name": "lã",
+          "offset": [
+            0,
+            7
+          ],
+          "rows": [
+            "......WW..WW..WW........",
+            "....WWWWWWWWWWWWWW......",
+            "...WWWWWWWWWWWWWWWW.....",
+            "..WWWWWWWWWWWWWWWWWW....",
+            "..WWWwWWWWWwWWWWWWWW....",
+            ".WWWwWWWWWwWWWWWwWWW....",
+            ".WWWWWWWWWWWWWWWWWWW....",
+            ".wWWWWWwWWWWWWwWWWWw....",
+            "..wWWWwWWWWWWwWWWWww....",
+            "..wwWWWWWWWWWWWWWww.....",
+            "...wwwWwwwWWwwwWww......",
+            "....w.ww..ww..ww.w......"
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            0,
+            19
+          ],
+          "rows": [
+            "...FF...FF...FF..FF.....",
+            "..FF.....FF.FF....FF....",
+            "..FF.....FF.FF....FF....",
+            "..FF.....FF.FF....FF...."
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            0,
+            7
+          ],
+          "rows": [
+            "..................WWW...",
+            ".................WWWWW..",
+            "................FWWWWW..",
+            "...............FFFFFFF..",
+            "................FFeFFFF.",
+            ".................FFFFFF.",
+            ".................FFFFFF.",
+            "..................FFFF.."
+          ]
+        },
+        {
+          "only": "night",
+          "offset": [
+            18,
+            11
+          ],
+          "rows": [
+            "E"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pastar_a",
+      "layers": [
+        {
+          "name": "lã",
+          "offset": [
+            0,
+            7
+          ],
+          "rows": [
+            "......WW..WW..WW........",
+            "....WWWWWWWWWWWWWW......",
+            "...WWWWWWWWWWWWWWWW.....",
+            "..WWWWWWWWWWWWWWWWWW....",
+            "..WWWwWWWWWwWWWWWWWW....",
+            ".WWWwWWWWWwWWWWWwWWW....",
+            ".WWWWWWWWWWWWWWWWWWW....",
+            ".wWWWWWwWWWWWWwWWWWw....",
+            "..wWWWwWWWWWWwWWWWww....",
+            "..wwWWWWWWWWWWWWWww.....",
+            "...wwwWwwwWWwwwWww......",
+            "....w.ww..ww..ww.w......"
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            0,
+            19
+          ],
+          "rows": [
+            "...FF...FF...FF..FF.....",
+            "...FF...FF...FF..FF.....",
+            "...FF...FF...FF..FF.....",
+            "...FF...FF...FF..FF....."
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            0,
+            13
+          ],
+          "rows": [
+            "...................WWW..",
+            "..................WWWWW.",
+            "..................FWWWW.",
+            ".................FFFFFF.",
+            "..................FFeFF.",
+            "..................FFFFF.",
+            "...................FFFF.",
+            "...................FFFF.",
+            "....................FF.."
+          ]
+        },
+        {
+          "only": "night",
+          "offset": [
+            20,
+            17
+          ],
+          "rows": [
+            "E"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pastar_b",
+      "layers": [
+        {
+          "name": "lã",
+          "offset": [
+            0,
+            7
+          ],
+          "rows": [
+            "......WW..WW..WW........",
+            "....WWWWWWWWWWWWWW......",
+            "...WWWWWWWWWWWWWWWW.....",
+            "..WWWWWWWWWWWWWWWWWW....",
+            "..WWWwWWWWWwWWWWWWWW....",
+            ".WWWwWWWWWwWWWWWwWWW....",
+            ".WWWWWWWWWWWWWWWWWWW....",
+            ".wWWWWWwWWWWWWwWWWWw....",
+            "..wWWWwWWWWWWwWWWWww....",
+            "..wwWWWWWWWWWWWWWww.....",
+            "...wwwWwwwWWwwwWww......",
+            "....w.ww..ww..ww.w......"
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            0,
+            19
+          ],
+          "rows": [
+            "...FF...FF...FF..FF.....",
+            "...FF...FF...FF..FF.....",
+            "...FF...FF...FF..FF.....",
+            "...FF...FF...FF..FF....."
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            0,
+            14
+          ],
+          "rows": [
+            "...................WWW..",
+            "..................WWWWW.",
+            "..................FWWWW.",
+            ".................FFFFFF.",
+            "..................FFeFF.",
+            "..................FFFFF.",
+            "...................FFFF.",
+            "...................FFFF.",
+            "....................FF.."
+          ]
+        },
+        {
+          "only": "night",
+          "offset": [
+            20,
+            18
+          ],
+          "rows": [
+            "E"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "carneiro_andar_a",
+      "layers": [
+        {
+          "name": "lã",
+          "offset": [
+            0,
+            7
+          ],
+          "rows": [
+            "......WW..WW..WW........",
+            "....WWWWWWWWWWWWWW......",
+            "...WWWWWWWWWWWWWWWW.....",
+            "..WWWWWWWWWWWWWWWWWW....",
+            "..WWWwWWWWWwWWWWWWWW....",
+            ".WWWwWWWWWwWWWWWwWWW....",
+            ".WWWWWWWWWWWWWWWWWWW....",
+            ".wWWWWWwWWWWWWwWWWWw....",
+            "..wWWWwWWWWWWwWWWWww....",
+            "..wwWWWWWWWWWWWWWww.....",
+            "...wwwWwwwWWwwwWww......",
+            "....w.ww..ww..ww.w......"
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            0,
+            19
+          ],
+          "rows": [
+            "...FF...FF...FF..FF.....",
+            "...FF...FF...FF..FF.....",
+            "...FF...FF...FF..FF.....",
+            "...FF...FF...FF..FF....."
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            0,
+            6
+          ],
+          "rows": [
+            "..................WWW...",
+            ".................WWWWW..",
+            "................FWWWWW..",
+            "...............FFFFFFF..",
+            "................FFeFFFF.",
+            ".................FFFFFF.",
+            ".................FFFFFF.",
+            "..................FFFF.."
+          ]
+        },
+        {
+          "name": "chifre enrolado",
+          "offset": [
+            14,
+            6
+          ],
+          "rows": [
+            ".bbbb.",
+            "bBBBBb",
+            "bB..bB",
+            "bB.bBb",
+            ".bBb.."
+          ]
+        },
+        {
+          "only": "night",
+          "offset": [
+            18,
+            10
+          ],
+          "rows": [
+            "E"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "carneiro_andar_b",
+      "layers": [
+        {
+          "name": "lã",
+          "offset": [
+            0,
+            7
+          ],
+          "rows": [
+            "......WW..WW..WW........",
+            "....WWWWWWWWWWWWWW......",
+            "...WWWWWWWWWWWWWWWW.....",
+            "..WWWWWWWWWWWWWWWWWW....",
+            "..WWWwWWWWWwWWWWWWWW....",
+            ".WWWwWWWWWwWWWWWwWWW....",
+            ".WWWWWWWWWWWWWWWWWWW....",
+            ".wWWWWWwWWWWWWwWWWWw....",
+            "..wWWWwWWWWWWwWWWWww....",
+            "..wwWWWWWWWWWWWWWww.....",
+            "...wwwWwwwWWwwwWww......",
+            "....w.ww..ww..ww.w......"
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            0,
+            19
+          ],
+          "rows": [
+            "...FF...FF...FF..FF.....",
+            "..FF.....FF.FF....FF....",
+            "..FF.....FF.FF....FF....",
+            "..FF.....FF.FF....FF...."
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            0,
+            7
+          ],
+          "rows": [
+            "..................WWW...",
+            ".................WWWWW..",
+            "................FWWWWW..",
+            "...............FFFFFFF..",
+            "................FFeFFFF.",
+            ".................FFFFFF.",
+            ".................FFFFFF.",
+            "..................FFFF.."
+          ]
+        },
+        {
+          "name": "chifre enrolado",
+          "offset": [
+            14,
+            7
+          ],
+          "rows": [
+            ".bbbb.",
+            "bBBBBb",
+            "bB..bB",
+            "bB.bBb",
+            ".bBb.."
+          ]
+        },
+        {
+          "only": "night",
+          "offset": [
+            18,
+            11
+          ],
+          "rows": [
+            "E"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "carneiro_pastar_a",
+      "layers": [
+        {
+          "name": "lã",
+          "offset": [
+            0,
+            7
+          ],
+          "rows": [
+            "......WW..WW..WW........",
+            "....WWWWWWWWWWWWWW......",
+            "...WWWWWWWWWWWWWWWW.....",
+            "..WWWWWWWWWWWWWWWWWW....",
+            "..WWWwWWWWWwWWWWWWWW....",
+            ".WWWwWWWWWwWWWWWwWWW....",
+            ".WWWWWWWWWWWWWWWWWWW....",
+            ".wWWWWWwWWWWWWwWWWWw....",
+            "..wWWWwWWWWWWwWWWWww....",
+            "..wwWWWWWWWWWWWWWww.....",
+            "...wwwWwwwWWwwwWww......",
+            "....w.ww..ww..ww.w......"
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            0,
+            19
+          ],
+          "rows": [
+            "...FF...FF...FF..FF.....",
+            "...FF...FF...FF..FF.....",
+            "...FF...FF...FF..FF.....",
+            "...FF...FF...FF..FF....."
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            0,
+            13
+          ],
+          "rows": [
+            "...................WWW..",
+            "..................WWWWW.",
+            "..................FWWWW.",
+            ".................FFFFFF.",
+            "..................FFeFF.",
+            "..................FFFFF.",
+            "...................FFFF.",
+            "...................FFFF.",
+            "....................FF.."
+          ]
+        },
+        {
+          "name": "chifre enrolado",
+          "offset": [
+            15,
+            13
+          ],
+          "rows": [
+            ".bbbb.",
+            "bBBBBb",
+            "bB..bB",
+            "bB.bBb",
+            ".bBb.."
+          ]
+        },
+        {
+          "only": "night",
+          "offset": [
+            20,
+            17
+          ],
+          "rows": [
+            "E"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "carneiro_pastar_b",
+      "layers": [
+        {
+          "name": "lã",
+          "offset": [
+            0,
+            7
+          ],
+          "rows": [
+            "......WW..WW..WW........",
+            "....WWWWWWWWWWWWWW......",
+            "...WWWWWWWWWWWWWWWW.....",
+            "..WWWWWWWWWWWWWWWWWW....",
+            "..WWWwWWWWWwWWWWWWWW....",
+            ".WWWwWWWWWwWWWWWwWWW....",
+            ".WWWWWWWWWWWWWWWWWWW....",
+            ".wWWWWWwWWWWWWwWWWWw....",
+            "..wWWWwWWWWWWwWWWWww....",
+            "..wwWWWWWWWWWWWWWww.....",
+            "...wwwWwwwWWwwwWww......",
+            "....w.ww..ww..ww.w......"
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            0,
+            19
+          ],
+          "rows": [
+            "...FF...FF...FF..FF.....",
+            "...FF...FF...FF..FF.....",
+            "...FF...FF...FF..FF.....",
+            "...FF...FF...FF..FF....."
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            0,
+            14
+          ],
+          "rows": [
+            "...................WWW..",
+            "..................WWWWW.",
+            "..................FWWWW.",
+            ".................FFFFFF.",
+            "..................FFeFF.",
+            "..................FFFFF.",
+            "...................FFFF.",
+            "...................FFFF.",
+            "....................FF.."
+          ]
+        },
+        {
+          "name": "chifre enrolado",
+          "offset": [
+            15,
+            14
+          ],
+          "rows": [
+            ".bbbb.",
+            "bBBBBb",
+            "bB..bB",
+            "bB.bBb",
+            ".bBb.."
+          ]
+        },
+        {
+          "only": "night",
+          "offset": [
+            20,
+            18
+          ],
+          "rows": [
+            "E"
+          ]
+        }
+      ]
+    }
+  ]
+}

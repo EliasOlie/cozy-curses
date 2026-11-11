@@ -1,0 +1,39 @@
+{
+  "name": "bench",
+  "size": [
+    32,
+    16
+  ],
+  "palette": "both",
+  "notes": "Banco de praça 32x16: encosto, assento visto de cima e pés de ferro. Pegada 2x1.",
+  "legend": {
+    "i": "ink",
+    "l": "wood_light",
+    "w": "wood",
+    "W": "wood_dark",
+    "m": "metal"
+  },
+  "layers": [
+    {
+      "name": "base",
+      "rows": [
+        "................................",
+        "...WWimWWWWWWWWWWWWWWWWWWimWW...",
+        "...llimllllllllllllllllllimll...",
+        "...wwimwwwwwwwwwwwwwwwwwwimww...",
+        "...WWimWWWWWWWWWWWWWWWWWWimWW...",
+        ".....im..................im.....",
+        ".....im..................im.....",
+        ".....im..................im.....",
+        "..lllimllllllllllllllllllimlll..",
+        "..llwimlwlllwlllwlllwlllwimlll..",
+        "..wwwimwwwwwwwwwwwwwwwwwwimwww..",
+        "..WWWimWWWWWWWWWWWWWWWWWWimWWW..",
+        ".....im..................im.....",
+        ".....im..................im.....",
+        ".....im..................im.....",
+        "................................"
+      ]
+    }
+  ]
+}

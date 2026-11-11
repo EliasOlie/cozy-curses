@@ -1,0 +1,87 @@
+{
+  "name": "bubble",
+  "size": [12, 12],
+  "palette": "both",
+  "outline": false,
+  "columns": 3,
+  "notes": "Balão de fala sobre os moradores: 0 '!', 1 '...', 2 '?'. Creme (bone) com contorno manual, sombra embaixo (bone_dark) e rabinho para baixo.",
+  "legend": { "x": "outline", "w": "bone", "b": "bone_dark", "k": "ink" },
+  "frames": [
+    {
+      "name": "exclamacao",
+      "layers": [
+        { "name": "balao", "rows": [
+          "..xxxxxxxx..",
+          ".xwwwwwwwwx.",
+          "xwwwwwwwwwwx",
+          "xwwwwwwwwwwx",
+          "xwwwwwwwwwwx",
+          "xwwwwwwwwwwx",
+          "xwwwwwwwwwbx",
+          ".xbbbbbbbbx.",
+          "..xxxwbxxx..",
+          "....xbx.....",
+          "....xx......",
+          "............"
+        ] },
+        { "name": "simbolo", "offset": [5, 2], "rows": [
+          "kk",
+          "kk",
+          "kk",
+          "..",
+          "kk"
+        ] }
+      ]
+    },
+    {
+      "name": "reticencias",
+      "layers": [
+        { "name": "balao", "rows": [
+          "..xxxxxxxx..",
+          ".xwwwwwwwwx.",
+          "xwwwwwwwwwwx",
+          "xwwwwwwwwwwx",
+          "xwwwwwwwwwwx",
+          "xwwwwwwwwwwx",
+          "xwwwwwwwwwbx",
+          ".xbbbbbbbbx.",
+          "..xxxwbxxx..",
+          "....xbx.....",
+          "....xx......",
+          "............"
+        ] },
+        { "name": "simbolo", "offset": [2, 3], "rows": [
+          "kk.kk.kk",
+          "kk.kk.kk"
+        ] }
+      ]
+    },
+    {
+      "name": "interrogacao",
+      "layers": [
+        { "name": "balao", "rows": [
+          "..xxxxxxxx..",
+          ".xwwwwwwwwx.",
+          "xwwwwwwwwwwx",
+          "xwwwwwwwwwwx",
+          "xwwwwwwwwwwx",
+          "xwwwwwwwwwwx",
+          "xwwwwwwwwwbx",
+          ".xbbbbbbbbx.",
+          "..xxxwbxxx..",
+          "....xbx.....",
+          "....xx......",
+          "............"
+        ] },
+        { "name": "simbolo", "offset": [3, 1], "rows": [
+          ".kkkk.",
+          "kk..kk",
+          "...kk.",
+          "..kk..",
+          "......",
+          "..kk.."
+        ] }
+      ]
+    }
+  ]
+}

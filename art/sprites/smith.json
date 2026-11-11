@@ -1,0 +1,1095 @@
+{
+  "name": "smith",
+  "size": [16, 32],
+  "palette": "both",
+  "columns": 3,
+  "notes": "Inveja. Dia: ferreiro grandalhão e inseguro, bandana vermelha com ponta solta, sobrancelhas preocupadas, fuligem na bochecha, barba por fazer, braços de fora, avental de couro, martelo pendurado. Noite: mímico — cópia torta e sem rosto do ferreiro (até a bandana), baú de dentes e língua no lugar do avental, olhos na tampa, braços e pernas compridos demais. Folha 3x3: linhas baixo, cima, lado (olhando p/ a direita); colunas parado, passo A, passo B.",
+  "legend": {
+    "E": "eye",
+    "F": "cloth",
+    "O": "wood_dark",
+    "R": "roof_dark",
+    "S": "skin_shadow",
+    "T": "stone_dark",
+    "a": "soil",
+    "b": "bone",
+    "f": "shirt",
+    "h": "soil_dark",
+    "k": "ink",
+    "l": "wood_light",
+    "m": "metal",
+    "o": "wood",
+    "p": "flower",
+    "q": "roof_light",
+    "r": "roof",
+    "s": "skin",
+    "t": "stone"
+  },
+  "frames": [
+    {
+      "name": "down_0",
+      "layers": [
+        {
+          "name": "pernas_day",
+          "only": "day",
+          "offset": [0, 24],
+          "rows": [
+            "....TTk..TTk....",
+            "....TTk..TTk....",
+            "....TTk..TTk....",
+            "....TTk..TTk....",
+            "....TTk..TTk....",
+            "....kkk..kkk....",
+            "...kkkk..kkkk..."
+          ]
+        },
+        {
+          "name": "pernas_night",
+          "only": "night",
+          "offset": [0, 22],
+          "rows": [
+            "....F......F....",
+            "....F.....F.....",
+            "...F......F.....",
+            "...F.......F....",
+            "....F......F....",
+            "....F.......F...",
+            "....F......F....",
+            "....F......F....",
+            "...FFF....FFF..."
+          ]
+        },
+        {
+          "name": "corpo_day",
+          "only": "day",
+          "offset": [0, 4],
+          "rows": [
+            "....rrrrrrrr....",
+            "...rqrrrrrrrr...",
+            "...RRRRRRRRRRrr.",
+            "...ssssssssss.r.",
+            "...skksssskks...",
+            "...ssssssssss...",
+            "...ssksssskss...",
+            "...sTsssssssS...",
+            "...shhhkkhhhS...",
+            "....hhhhhhhh....",
+            "....SSSSSSSS....",
+            ".ssttttttttttss.",
+            ".sSttaaaaaattSs.",
+            ".sSttaaaaaattSs.",
+            ".sSStaahhaatSSs.",
+            ".sssSaaaaaaSsss.",
+            ".SsStaaaaaatSsS.",
+            "..ssaaaaaaaass..",
+            "..SSaaaaaaaaSS..",
+            "...aaaaaaaaaa...",
+            "...aahaaaahaa...",
+            "...aaaaaaaaaa..."
+          ]
+        },
+        {
+          "name": "corpo_night",
+          "only": "night",
+          "offset": [0, 2],
+          "rows": [
+            ".......rrrr.....",
+            "......rrrrrr....",
+            ".....RRRRRRRr...",
+            ".....fffffffF...",
+            ".....ffffffFF...",
+            ".....ffffffFF...",
+            "......ffffFF....",
+            ".......FFFF.....",
+            "........FF......",
+            "...llllllllll...",
+            "..oooooooooooo..",
+            "..omoEooooEomo..",
+            "..OmOOOOOOOOmO..",
+            "..bbkbbkkbbkbb..",
+            "..kkkppppppkkk..",
+            "..bkbbkppkbbkb..",
+            "..oooooppooooo..",
+            "..omoooppooomo..",
+            "..OmOOOOpOOOmO..",
+            "..OOOOOOOOOOOO.."
+          ]
+        },
+        {
+          "name": "extra_day_0",
+          "only": "day",
+          "offset": [12, 23],
+          "rows": [
+            ".o.",
+            "mmT",
+            "mmT"
+          ]
+        },
+        {
+          "name": "extra_night_0",
+          "only": "night",
+          "offset": [0, 11],
+          "rows": [
+            ".f............f.",
+            ".f............f.",
+            ".F............f.",
+            ".F............F.",
+            ".F............F.",
+            ".f............F.",
+            ".F............F.",
+            ".F............f.",
+            ".f............F.",
+            ".ff...........F.",
+            "..f..........ff.",
+            "..............f."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "down_1",
+      "layers": [
+        {
+          "name": "pernas_day",
+          "only": "day",
+          "offset": [0, 25],
+          "rows": [
+            "....TTk..TTk....",
+            "....TTk..TTk....",
+            "....TTk..TTk....",
+            "....kkk..TTk....",
+            "...kkkk..kkk....",
+            ".........kkkk..."
+          ]
+        },
+        {
+          "name": "pernas_night",
+          "only": "night",
+          "offset": [0, 23],
+          "rows": [
+            "....F......F....",
+            "...F......F.....",
+            "...F.......F....",
+            "..F........F....",
+            "..F.........F...",
+            "..FF........F...",
+            "............F...",
+            "...........FFF.."
+          ]
+        },
+        {
+          "name": "corpo_day",
+          "only": "day",
+          "offset": [0, 5],
+          "rows": [
+            "....rrrrrrrr....",
+            "...rqrrrrrrrr...",
+            "...RRRRRRRRRRrr.",
+            "...ssssssssss.r.",
+            "...skksssskks...",
+            "...ssssssssss...",
+            "...ssksssskss...",
+            "...sTsssssssS...",
+            "...shhhkkhhhS...",
+            "....hhhhhhhh....",
+            "....SSSSSSSS....",
+            ".ssttttttttttss.",
+            ".sSttaaaaaattSs.",
+            ".sSttaaaaaattSs.",
+            ".sSStaahhaatSSs.",
+            ".sssSaaaaaaSsss.",
+            ".SsStaaaaaatSsS.",
+            "..ssaaaaaaaass..",
+            "..SSaaaaaaaaSS..",
+            "...aaaaaaaaaa...",
+            "...aahaaaahaa...",
+            "...aaaaaaaaaa..."
+          ]
+        },
+        {
+          "name": "corpo_night",
+          "only": "night",
+          "offset": [0, 3],
+          "rows": [
+            ".......rrrr.....",
+            "......rrrrrr....",
+            ".....RRRRRRRr...",
+            ".....fffffffF...",
+            ".....ffffffFF...",
+            ".....ffffffFF...",
+            "......ffffFF....",
+            ".......FFFF.....",
+            "........FF......",
+            "...llllllllll...",
+            "..oooooooooooo..",
+            "..omoEooooEomo..",
+            "..OmOOOOOOOOmO..",
+            "..bbkbbkkbbkbb..",
+            "..kkkppppppkkk..",
+            "..bkbbkppkbbkb..",
+            "..oooooppooooo..",
+            "..omoooppooomo..",
+            "..OmOOOOpOOOmO..",
+            "..OOOOOOOOOOOO.."
+          ]
+        },
+        {
+          "name": "extra_day_0",
+          "only": "day",
+          "offset": [12, 24],
+          "rows": [
+            ".o.",
+            "mmT",
+            "mmT"
+          ]
+        },
+        {
+          "name": "extra_night_0",
+          "only": "night",
+          "offset": [0, 12],
+          "rows": [
+            ".f............f.",
+            ".f............f.",
+            ".F............f.",
+            ".F............F.",
+            ".F............F.",
+            ".f............F.",
+            ".F............F.",
+            ".F............f.",
+            ".f............F.",
+            ".ff...........F.",
+            "..f..........ff.",
+            "..............f."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "down_2",
+      "layers": [
+        {
+          "name": "pernas_day",
+          "only": "day",
+          "offset": [0, 25],
+          "rows": [
+            "....TTk..TTk....",
+            "....TTk..TTk....",
+            "....TTk..TTk....",
+            "....TTk..kkk....",
+            "....kkk..kkkk...",
+            "...kkkk........."
+          ]
+        },
+        {
+          "name": "pernas_night",
+          "only": "night",
+          "offset": [0, 23],
+          "rows": [
+            "....F......F....",
+            "....F.......F...",
+            "...F........F...",
+            "...F.........F..",
+            "....F........F..",
+            "....F.......FF..",
+            "....F...........",
+            "...FFF.........."
+          ]
+        },
+        {
+          "name": "corpo_day",
+          "only": "day",
+          "offset": [0, 5],
+          "rows": [
+            "....rrrrrrrr....",
+            "...rqrrrrrrrr...",
+            "...RRRRRRRRRRrr.",
+            "...ssssssssss.r.",
+            "...skksssskks...",
+            "...ssssssssss...",
+            "...ssksssskss...",
+            "...sTsssssssS...",
+            "...shhhkkhhhS...",
+            "....hhhhhhhh....",
+            "....SSSSSSSS....",
+            ".ssttttttttttss.",
+            ".sSttaaaaaattSs.",
+            ".sSttaaaaaattSs.",
+            ".sSStaahhaatSSs.",
+            ".sssSaaaaaaSsss.",
+            ".SsStaaaaaatSsS.",
+            "..ssaaaaaaaass..",
+            "..SSaaaaaaaaSS..",
+            "...aaaaaaaaaa...",
+            "...aahaaaahaa...",
+            "...aaaaaaaaaa..."
+          ]
+        },
+        {
+          "name": "corpo_night",
+          "only": "night",
+          "offset": [0, 3],
+          "rows": [
+            ".......rrrr.....",
+            "......rrrrrr....",
+            ".....RRRRRRRr...",
+            ".....fffffffF...",
+            ".....ffffffFF...",
+            ".....ffffffFF...",
+            "......ffffFF....",
+            ".......FFFF.....",
+            "........FF......",
+            "...llllllllll...",
+            "..oooooooooooo..",
+            "..omoEooooEomo..",
+            "..OmOOOOOOOOmO..",
+            "..bbkbbkkbbkbb..",
+            "..kkkppppppkkk..",
+            "..bkbbkppkbbkb..",
+            "..oooooppooooo..",
+            "..omoooppooomo..",
+            "..OmOOOOpOOOmO..",
+            "..OOOOOOOOOOOO.."
+          ]
+        },
+        {
+          "name": "extra_day_0",
+          "only": "day",
+          "offset": [12, 24],
+          "rows": [
+            ".o.",
+            "mmT",
+            "mmT"
+          ]
+        },
+        {
+          "name": "extra_night_0",
+          "only": "night",
+          "offset": [0, 12],
+          "rows": [
+            ".f............f.",
+            ".f............f.",
+            ".F............f.",
+            ".F............F.",
+            ".F............F.",
+            ".f............F.",
+            ".F............F.",
+            ".F............f.",
+            ".f............F.",
+            ".ff...........F.",
+            "..f..........ff.",
+            "..............f."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "up_0",
+      "layers": [
+        {
+          "name": "pernas_day",
+          "only": "day",
+          "offset": [0, 24],
+          "rows": [
+            "....TTk..TTk....",
+            "....TTk..TTk....",
+            "....TTk..TTk....",
+            "....TTk..TTk....",
+            "....TTk..TTk....",
+            "....kkk..kkk....",
+            "....kkk..kkk...."
+          ]
+        },
+        {
+          "name": "pernas_night",
+          "only": "night",
+          "offset": [0, 22],
+          "rows": [
+            "....F......F....",
+            ".....F.....F....",
+            ".....F......F...",
+            "....F.......F...",
+            "....F......F....",
+            "...F.......F....",
+            "....F......F....",
+            "....F......F....",
+            "...FFF....FFF..."
+          ]
+        },
+        {
+          "name": "corpo_day",
+          "only": "day",
+          "offset": [0, 4],
+          "rows": [
+            "....rrrrrrrr....",
+            "...rrrrrrrrrr...",
+            "...RRRRRRRRRR...",
+            "...hhhhrrhhhh...",
+            "..shhhhrRhhhhs..",
+            "...hhhhhRhhhh...",
+            "...hhhhhhhhhh...",
+            "...shhhhhhhhs...",
+            "....ssssssss....",
+            "....ssssssss....",
+            "....SSSSSSSS....",
+            ".ssttttttttttss.",
+            ".sSttattttattSs.",
+            ".sStttattatttSs.",
+            ".sSttttaatttTSs.",
+            ".sssSttttttSsss.",
+            ".SsStaaaaaatSsS.",
+            "..ssttttttttss..",
+            "..SSttttttttSS..",
+            "...TTTTTTTTTT...",
+            "...TTTTTTTTTT..."
+          ]
+        },
+        {
+          "name": "corpo_night",
+          "only": "night",
+          "offset": [0, 2],
+          "rows": [
+            ".......rrrr.....",
+            "......rrrrrr....",
+            ".....RRRRRRRr...",
+            ".....fffffffF...",
+            ".....ffffffFF...",
+            ".....ffffffFF...",
+            "......ffffFF....",
+            ".......FFFF.....",
+            "........FF......",
+            "...llllllllll...",
+            "..oooooooooooo..",
+            "..omoooooooomo..",
+            "..OmOOOOOOOOmO..",
+            "..oooooooooooo..",
+            "..omoooooooomo..",
+            "..OmOOOOOOOOmO..",
+            "..oooooooooooo..",
+            "..omoooooooomo..",
+            "..OmOOOOOOOOmO..",
+            "..OOOOOOOOOOOO.."
+          ]
+        },
+        {
+          "name": "extra_day_0",
+          "only": "day",
+          "offset": [1, 23],
+          "rows": [
+            ".o.",
+            "mmT",
+            "mmT"
+          ]
+        },
+        {
+          "name": "extra_night_0",
+          "only": "night",
+          "offset": [0, 11],
+          "rows": [
+            ".f............f.",
+            ".f............f.",
+            ".F............f.",
+            ".F............F.",
+            ".F............F.",
+            ".f............F.",
+            ".F............F.",
+            ".F............f.",
+            ".f............F.",
+            ".ff...........F.",
+            "..f..........ff.",
+            "..............f."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "up_1",
+      "layers": [
+        {
+          "name": "pernas_day",
+          "only": "day",
+          "offset": [0, 25],
+          "rows": [
+            "....TTk..TTk....",
+            "....TTk..TTk....",
+            "....TTk..TTk....",
+            "....kkk..TTk....",
+            "....kkk..kkk....",
+            ".........kkk...."
+          ]
+        },
+        {
+          "name": "pernas_night",
+          "only": "night",
+          "offset": [0, 23],
+          "rows": [
+            "....F......F....",
+            "...F......F.....",
+            "...F.......F....",
+            "..F........F....",
+            "..F.........F...",
+            "..FF........F...",
+            "............F...",
+            "...........FFF.."
+          ]
+        },
+        {
+          "name": "corpo_day",
+          "only": "day",
+          "offset": [0, 5],
+          "rows": [
+            "....rrrrrrrr....",
+            "...rrrrrrrrrr...",
+            "...RRRRRRRRRR...",
+            "...hhhhrrhhhh...",
+            "..shhhhrRhhhhs..",
+            "...hhhhhRhhhh...",
+            "...hhhhhhhhhh...",
+            "...shhhhhhhhs...",
+            "....ssssssss....",
+            "....ssssssss....",
+            "....SSSSSSSS....",
+            ".ssttttttttttss.",
+            ".sSttattttattSs.",
+            ".sStttattatttSs.",
+            ".sSttttaatttTSs.",
+            ".sssSttttttSsss.",
+            ".SsStaaaaaatSsS.",
+            "..ssttttttttss..",
+            "..SSttttttttSS..",
+            "...TTTTTTTTTT...",
+            "...TTTTTTTTTT..."
+          ]
+        },
+        {
+          "name": "corpo_night",
+          "only": "night",
+          "offset": [0, 3],
+          "rows": [
+            ".......rrrr.....",
+            "......rrrrrr....",
+            ".....RRRRRRRr...",
+            ".....fffffffF...",
+            ".....ffffffFF...",
+            ".....ffffffFF...",
+            "......ffffFF....",
+            ".......FFFF.....",
+            "........FF......",
+            "...llllllllll...",
+            "..oooooooooooo..",
+            "..omoooooooomo..",
+            "..OmOOOOOOOOmO..",
+            "..oooooooooooo..",
+            "..omoooooooomo..",
+            "..OmOOOOOOOOmO..",
+            "..oooooooooooo..",
+            "..omoooooooomo..",
+            "..OmOOOOOOOOmO..",
+            "..OOOOOOOOOOOO.."
+          ]
+        },
+        {
+          "name": "extra_day_0",
+          "only": "day",
+          "offset": [1, 24],
+          "rows": [
+            ".o.",
+            "mmT",
+            "mmT"
+          ]
+        },
+        {
+          "name": "extra_night_0",
+          "only": "night",
+          "offset": [0, 12],
+          "rows": [
+            ".f............f.",
+            ".f............f.",
+            ".F............f.",
+            ".F............F.",
+            ".F............F.",
+            ".f............F.",
+            ".F............F.",
+            ".F............f.",
+            ".f............F.",
+            ".ff...........F.",
+            "..f..........ff.",
+            "..............f."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "up_2",
+      "layers": [
+        {
+          "name": "pernas_day",
+          "only": "day",
+          "offset": [0, 25],
+          "rows": [
+            "....TTk..TTk....",
+            "....TTk..TTk....",
+            "....TTk..TTk....",
+            "....TTk..kkk....",
+            "....kkk..kkk....",
+            "....kkk........."
+          ]
+        },
+        {
+          "name": "pernas_night",
+          "only": "night",
+          "offset": [0, 23],
+          "rows": [
+            "....F......F....",
+            "....F.......F...",
+            "...F........F...",
+            "...F.........F..",
+            "....F........F..",
+            "....F.......FF..",
+            "....F...........",
+            "...FFF.........."
+          ]
+        },
+        {
+          "name": "corpo_day",
+          "only": "day",
+          "offset": [0, 5],
+          "rows": [
+            "....rrrrrrrr....",
+            "...rrrrrrrrrr...",
+            "...RRRRRRRRRR...",
+            "...hhhhrrhhhh...",
+            "..shhhhrRhhhhs..",
+            "...hhhhhRhhhh...",
+            "...hhhhhhhhhh...",
+            "...shhhhhhhhs...",
+            "....ssssssss....",
+            "....ssssssss....",
+            "....SSSSSSSS....",
+            ".ssttttttttttss.",
+            ".sSttattttattSs.",
+            ".sStttattatttSs.",
+            ".sSttttaatttTSs.",
+            ".sssSttttttSsss.",
+            ".SsStaaaaaatSsS.",
+            "..ssttttttttss..",
+            "..SSttttttttSS..",
+            "...TTTTTTTTTT...",
+            "...TTTTTTTTTT..."
+          ]
+        },
+        {
+          "name": "corpo_night",
+          "only": "night",
+          "offset": [0, 3],
+          "rows": [
+            ".......rrrr.....",
+            "......rrrrrr....",
+            ".....RRRRRRRr...",
+            ".....fffffffF...",
+            ".....ffffffFF...",
+            ".....ffffffFF...",
+            "......ffffFF....",
+            ".......FFFF.....",
+            "........FF......",
+            "...llllllllll...",
+            "..oooooooooooo..",
+            "..omoooooooomo..",
+            "..OmOOOOOOOOmO..",
+            "..oooooooooooo..",
+            "..omoooooooomo..",
+            "..OmOOOOOOOOmO..",
+            "..oooooooooooo..",
+            "..omoooooooomo..",
+            "..OmOOOOOOOOmO..",
+            "..OOOOOOOOOOOO.."
+          ]
+        },
+        {
+          "name": "extra_day_0",
+          "only": "day",
+          "offset": [1, 24],
+          "rows": [
+            ".o.",
+            "mmT",
+            "mmT"
+          ]
+        },
+        {
+          "name": "extra_night_0",
+          "only": "night",
+          "offset": [0, 12],
+          "rows": [
+            ".f............f.",
+            ".f............f.",
+            ".F............f.",
+            ".F............F.",
+            ".F............F.",
+            ".f............F.",
+            ".F............F.",
+            ".F............f.",
+            ".f............F.",
+            ".ff...........F.",
+            "..f..........ff.",
+            "..............f."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "side_0",
+      "layers": [
+        {
+          "name": "pernas_day",
+          "only": "day",
+          "offset": [0, 24],
+          "rows": [
+            ".....TTTTk......",
+            ".....TTTTk......",
+            "......TTk.......",
+            "......TTk.......",
+            "......TTk.......",
+            "......kkkk......",
+            "......kkkkkk...."
+          ]
+        },
+        {
+          "name": "pernas_night",
+          "only": "night",
+          "offset": [0, 22],
+          "rows": [
+            "......F.F.......",
+            "......F..F......",
+            ".....F...F......",
+            ".....F....F.....",
+            "......F...F.....",
+            "......F....F....",
+            "......F...F.....",
+            "......F...F.....",
+            ".....FFF..FFF..."
+          ]
+        },
+        {
+          "name": "corpo_day",
+          "only": "day",
+          "offset": [0, 4],
+          "rows": [
+            ".....rrrrrr.....",
+            "....rqrrrrrr....",
+            "..rrRRRRRRRR....",
+            ".r..hhhsssss....",
+            "....hhhsssskk...",
+            "....hhSsssskss..",
+            "....hhSsssssss..",
+            "....hhssTsssss..",
+            ".....hhhhhkhh...",
+            ".....hhhhhhh....",
+            "......SSSS......",
+            "....tttttttt....",
+            "...tttssStaaa...",
+            "...tttssStaaa...",
+            "...tttssSaaaa...",
+            "...tttssSaaaa...",
+            "...TttssSaaaa...",
+            "....ttsssaaaa...",
+            "....ttSSaaaaa...",
+            "....TTTaaaaaa...",
+            "....TTTaaaaaa...",
+            ".....TTaaaaa...."
+          ]
+        },
+        {
+          "name": "corpo_night",
+          "only": "night",
+          "offset": [0, 2],
+          "rows": [
+            "......rrrr......",
+            ".....rrrrrr.....",
+            "...rrRRRRRRR....",
+            "..r..ffffffF....",
+            ".....fffffffF...",
+            ".....ffffffFF...",
+            "......fffffF....",
+            ".......FFFF.....",
+            "........FF......",
+            "....llllllll....",
+            "....oooooooo....",
+            "....omoooooE....",
+            "....OmOOOOOOk...",
+            "....bbkbbkbbbk..",
+            "....kkkpppppppp.",
+            "....bkbbkbpbk...",
+            "....oooooopo....",
+            "....omoooopo....",
+            "....OmOOOOOO....",
+            "....OOOOOOOO...."
+          ]
+        },
+        {
+          "name": "extra_day_0",
+          "only": "day",
+          "offset": [3, 22],
+          "rows": [
+            ".o.",
+            "mmT",
+            "mmT"
+          ]
+        },
+        {
+          "name": "extra_night_0",
+          "only": "night",
+          "offset": [7, 11],
+          "rows": [
+            "f.",
+            "f.",
+            "F.",
+            "F.",
+            "f.",
+            "F.",
+            "F.",
+            "f.",
+            "F.",
+            "f.",
+            "ff",
+            ".f"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "side_1",
+      "layers": [
+        {
+          "name": "pernas_day",
+          "only": "day",
+          "offset": [0, 25],
+          "rows": [
+            ".....TTTTk......",
+            ".....TTkTT......",
+            "....TTk..TTk....",
+            "...TTk....TTk...",
+            "...kk......kkk..",
+            "..kkk.......kkk."
+          ]
+        },
+        {
+          "name": "pernas_night",
+          "only": "night",
+          "offset": [0, 23],
+          "rows": [
+            ".....F...F......",
+            "....F.....F.....",
+            "...F.......F....",
+            "...F........F...",
+            "..F..........F..",
+            "..FF.........F..",
+            ".............F..",
+            "............FFF."
+          ]
+        },
+        {
+          "name": "corpo_day",
+          "only": "day",
+          "offset": [0, 5],
+          "rows": [
+            ".....rrrrrr.....",
+            "....rqrrrrrr....",
+            "..rrRRRRRRRR....",
+            ".r..hhhsssss....",
+            "....hhhsssskk...",
+            "....hhSsssskss..",
+            "....hhSsssssss..",
+            "....hhssTsssss..",
+            ".....hhhhhkhh...",
+            ".....hhhhhhh....",
+            "......SSSS......",
+            "....tttttttt....",
+            "...tttssStaaa...",
+            "...tttssStaaa...",
+            "...tttssSaaaa...",
+            "...tttssSaaaa...",
+            "...TttssSaaaa...",
+            "....ttsssaaaa...",
+            "....ttSSaaaaa...",
+            "....TTTaaaaaa...",
+            "....TTTaaaaaa...",
+            ".....TTaaaaa...."
+          ]
+        },
+        {
+          "name": "corpo_night",
+          "only": "night",
+          "offset": [0, 3],
+          "rows": [
+            "......rrrr......",
+            ".....rrrrrr.....",
+            "...rrRRRRRRR....",
+            "..r..ffffffF....",
+            ".....fffffffF...",
+            ".....ffffffFF...",
+            "......fffffF....",
+            ".......FFFF.....",
+            "........FF......",
+            "....llllllll....",
+            "....oooooooo....",
+            "....omoooooE....",
+            "....OmOOOOOOk...",
+            "....bbkbbkbbbk..",
+            "....kkkpppppppp.",
+            "....bkbbkbpbk...",
+            "....oooooopo....",
+            "....omoooopo....",
+            "....OmOOOOOO....",
+            "....OOOOOOOO...."
+          ]
+        },
+        {
+          "name": "extra_day_0",
+          "only": "day",
+          "offset": [3, 23],
+          "rows": [
+            ".o.",
+            "mmT",
+            "mmT"
+          ]
+        },
+        {
+          "name": "extra_night_0",
+          "only": "night",
+          "offset": [7, 12],
+          "rows": [
+            "f.",
+            "f.",
+            "F.",
+            "F.",
+            "f.",
+            "F.",
+            "F.",
+            "f.",
+            "F.",
+            "f.",
+            "ff",
+            ".f"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "side_2",
+      "layers": [
+        {
+          "name": "pernas_day",
+          "only": "day",
+          "offset": [0, 25],
+          "rows": [
+            ".....TTTTk......",
+            ".....TTTTk......",
+            ".....TTkTk......",
+            "....TTk.TTk.....",
+            "....kkk.kkk.....",
+            "....kkk.kkkk...."
+          ]
+        },
+        {
+          "name": "pernas_night",
+          "only": "night",
+          "offset": [0, 23],
+          "rows": [
+            "......F.F.......",
+            "......F..F......",
+            ".....F...F......",
+            ".....F...F......",
+            "......F.F.......",
+            "......F.F.......",
+            "......F.FF......",
+            ".....FFF........"
+          ]
+        },
+        {
+          "name": "corpo_day",
+          "only": "day",
+          "offset": [0, 5],
+          "rows": [
+            ".....rrrrrr.....",
+            "....rqrrrrrr....",
+            "..rrRRRRRRRR....",
+            ".r..hhhsssss....",
+            "....hhhsssskk...",
+            "....hhSsssskss..",
+            "....hhSsssssss..",
+            "....hhssTsssss..",
+            ".....hhhhhkhh...",
+            ".....hhhhhhh....",
+            "......SSSS......",
+            "....tttttttt....",
+            "...tttssStaaa...",
+            "...tttssStaaa...",
+            "...tttssSaaaa...",
+            "...tttssSaaaa...",
+            "...TttssSaaaa...",
+            "....ttsssaaaa...",
+            "....ttSSaaaaa...",
+            "....TTTaaaaaa...",
+            "....TTTaaaaaa...",
+            ".....TTaaaaa...."
+          ]
+        },
+        {
+          "name": "corpo_night",
+          "only": "night",
+          "offset": [0, 3],
+          "rows": [
+            "......rrrr......",
+            ".....rrrrrr.....",
+            "...rrRRRRRRR....",
+            "..r..ffffffF....",
+            ".....fffffffF...",
+            ".....ffffffFF...",
+            "......fffffF....",
+            ".......FFFF.....",
+            "........FF......",
+            "....llllllll....",
+            "....oooooooo....",
+            "....omoooooE....",
+            "....OmOOOOOOk...",
+            "....bbkbbkbbbk..",
+            "....kkkpppppppp.",
+            "....bkbbkbpbk...",
+            "....oooooopo....",
+            "....omoooopo....",
+            "....OmOOOOOO....",
+            "....OOOOOOOO...."
+          ]
+        },
+        {
+          "name": "extra_day_0",
+          "only": "day",
+          "offset": [3, 23],
+          "rows": [
+            ".o.",
+            "mmT",
+            "mmT"
+          ]
+        },
+        {
+          "name": "extra_night_0",
+          "only": "night",
+          "offset": [7, 12],
+          "rows": [
+            "f.",
+            "f.",
+            "F.",
+            "F.",
+            "f.",
+            "F.",
+            "F.",
+            "f.",
+            "F.",
+            "f.",
+            "ff",
+            ".f"
+          ]
+        }
+      ]
+    }
+  ]
+}

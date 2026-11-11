@@ -1,0 +1,21 @@
+{
+  "id": "season_winter",
+  "title": "Chegada do Inverno",
+  "notes": "Tocada pelo código na virada de estação (cycle.rs).",
+  "steps": [
+    { "fade": "out", "seconds": 0.8 },
+    {
+      "banner": "ESTAÇÃO: INVERNO",
+      "subtitle": "Dia {dia} • Uma camada de geada prateada cobre o solo e congela o orvalho.",
+      "seconds": 4.0
+    },
+    { "fade": "in", "seconds": 1.0 },
+    {
+      "say": "O Vento do Vale",
+      "pages": [
+        "Apenas as raízes mais resistentes sobrevivem sob o abraço do gelo.",
+        "Aqueça a fornalha da fazenda e proteja seus animais no celeiro."
+      ]
+    }
+  ]
+}

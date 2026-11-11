@@ -1,0 +1,66 @@
+{
+  "name": "slot",
+  "size": [
+    16,
+    16
+  ],
+  "palette": "day",
+  "outline": false,
+  "notes": "Espaço de inventário (fixo): moldura fina de madeira, miolo pergaminho mais escuro, rebaixado (sombra em cima/esquerda).",
+  "legend": {
+    "x": "outline",
+    "L": "wood_light",
+    "w": "wood",
+    "D": "wood_dark",
+    "q": "parchment_dark",
+    "P": "plaster_dark",
+    "p": "plaster",
+    "G": "glow",
+    "g": "gold",
+    "d": "gold_dark"
+  },
+  "layers": [
+    {
+      "name": "miolo",
+      "rows": [
+        "................",
+        "................",
+        "..qqqqqqqqqqqq..",
+        "..qPPPPPPPPPPp..",
+        "..qPPPPPPPPPPp..",
+        "..qPPPPPPPPPPp..",
+        "..qPPPPPPPPPPp..",
+        "..qPPPPPPPPPPp..",
+        "..qPPPPPPPPPPp..",
+        "..qPPPPPPPPPPp..",
+        "..qPPPPPPPPPPp..",
+        "..qPPPPPPPPPPp..",
+        "..qPPPPPPPPPPp..",
+        "..qppppppppppp..",
+        "................",
+        "................"
+      ]
+    },
+    {
+      "name": "moldura",
+      "rows": [
+        ".xxxxxxxxxxxxxx.",
+        "xLLLLLLLLLLLLLwx",
+        "xL............Dx",
+        "xL............Dx",
+        "xL............Dx",
+        "xL............Dx",
+        "xL............Dx",
+        "xL............Dx",
+        "xL............Dx",
+        "xL............Dx",
+        "xL............Dx",
+        "xL............Dx",
+        "xL............Dx",
+        "xL............Dx",
+        "xwDDDDDDDDDDDDDx",
+        ".xxxxxxxxxxxxxx."
+      ]
+    }
+  ]
+}

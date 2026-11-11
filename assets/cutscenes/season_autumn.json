@@ -1,0 +1,21 @@
+{
+  "id": "season_autumn",
+  "title": "Chegada do Outono",
+  "notes": "Tocada pelo código na virada de estação (cycle.rs).",
+  "steps": [
+    { "fade": "out", "seconds": 0.8 },
+    {
+      "banner": "ESTAÇÃO: OUTONO",
+      "subtitle": "Dia {dia} • Folhas avermelhadas caem suavemente sobre os caminhos de terra.",
+      "seconds": 4.0
+    },
+    { "fade": "in", "seconds": 1.0 },
+    {
+      "say": "O Vento do Vale",
+      "pages": [
+        "Tempo de abóboras robustas, uvas maduras e preparação para o frio.",
+        "Com a noite mais longa, as sombras sussurram mais perto das janelas..."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "panel",
+  "size": [
+    24,
+    24
+  ],
+  "palette": "day",
+  "outline": false,
+  "notes": "Painel 9-slice (borda 8). Moldura de madeira com chanfro claro em cima/esquerda, escuro embaixo/direita, cantos arredondados e pregos de ferro; miolo pergaminho creme com sombra da moldura no topo/esquerda. Miolo 8x8 central e bordas lisos (esticáveis).",
+  "legend": {
+    "x": "outline",
+    "L": "wood_light",
+    "w": "wood",
+    "D": "wood_dark",
+    "K": "stone_light",
+    "s": "stone",
+    "S": "stone_dark",
+    "p": "plaster",
+    "P": "plaster_dark"
+  },
+  "layers": [
+    {
+      "name": "moldura",
+      "rows": [
+        "..xxxxxxxxxxxxxxxxxxxx..",
+        ".xLLLLLLLLLLLLLLLLLLLLx.",
+        "xLwwwwDwwwwwwwwwwDwwwwDx",
+        "xLwKswDwwwwwwwwwwDwKswDx",
+        "xLwsSwDwwwwwwwwwwDwsSwDx",
+        "xLwwwDDDDDDDDDDDDDDwwwDx",
+        "xLDDDDxxxxxxxxxxxxLDDDDx",
+        "xLwwwDxPPPPPPPPPPxLwwwDx",
+        "xLwwwDxPpppppppppxLwwwDx",
+        "xLwwwDxPpppppppppxLwwwDx",
+        "xLwwwDxPpppppppppxLwwwDx",
+        "xLwwwDxPpppppppppxLwwwDx",
+        "xLwwwDxPpppppppppxLwwwDx",
+        "xLwwwDxPpppppppppxLwwwDx",
+        "xLwwwDxPpppppppppxLwwwDx",
+        "xLwwwDxPpppppppppxLwwwDx",
+        "xLwwwDxPpppppppppxLwwwDx",
+        "xLDDDDxxxxxxxxxxxxLDDDDx",
+        "xLwwwLLLLLLLLLLLLLLwwwDx",
+        "xLwKswDwwwwwwwwwwDwKswDx",
+        "xLwsSwDwwwwwwwwwwDwsSwDx",
+        "xLwwwwDwwwwwwwwwwDwwwwDx",
+        ".xDDDDDDDDDDDDDDDDDDDDx.",
+        "..xxxxxxxxxxxxxxxxxxxx.."
+      ]
+    }
+  ]
+}

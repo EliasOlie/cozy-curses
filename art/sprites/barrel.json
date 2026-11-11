@@ -1,0 +1,38 @@
+{
+  "name": "barrel",
+  "size": [
+    16,
+    16
+  ],
+  "palette": "both",
+  "notes": "Barril de madeira com aros de ferro, 16x16, pegada 1x1.",
+  "legend": {
+    "l": "wood_light",
+    "w": "wood",
+    "W": "wood_dark",
+    "m": "metal"
+  },
+  "layers": [
+    {
+      "name": "base",
+      "rows": [
+        "................",
+        ".....WWWWWW.....",
+        "....wwwwwwww....",
+        "...WWWWWWWWWW...",
+        "...mmmmmmmmmm...",
+        "...wlwwWwlwwW...",
+        "...wlwwWwlwwW...",
+        "...mmmmmmmmmm...",
+        "...wlwwWwlwwW...",
+        "...wlwwWwlwwW...",
+        "...wlwwWwlwwW...",
+        "...mmmmmmmmmm...",
+        "...WlwwWwlwwW...",
+        "....WWWWWWWW....",
+        "................",
+        "................"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "flowerbed",
+  "size": [
+    16,
+    16
+  ],
+  "palette": "both",
+  "outline": false,
+  "notes": "Moita de flores coloridas 16x16 (enfeite): três tufos de folha com flores rosa, amarela, branca e azul. Noite: as flores brilham (magenta/ciano) e há um par de olhos no meio das folhas.",
+  "legend": {
+    "D": "leaf_deep",
+    "E": "leaf_dark",
+    "F": "flower_alt",
+    "H": "petal",
+    "L": "leaf_light",
+    "Z": "leaf_shine",
+    "e": "leaf",
+    "f": "flower",
+    "t": "cloth",
+    "v": "eye",
+    "w": "wood",
+    "x": "outline"
+  },
+  "layers": [
+    {
+      "name": "moita",
+      "rows": [
+        "................",
+        "................",
+        "................",
+        ".....xxxxxx.....",
+        "....xZZZFLLx....",
+        "...xZZZFwFLex...",
+        ".xxLZZZZFLLeDxx.",
+        "xLLLfLZLLLeEHeEx",
+        "xLLfFfLLLeEHFHEx",
+        "LLLLfeeeeEEDHeED",
+        "eLeeEEtEEDfDeEDD",
+        "xeFeetHtDfFfEfDx",
+        "xFwFDEtDEEfEfFfx",
+        ".xFDDDDxxDDDDfx.",
+        ".xDDDDDDDDDDDDx.",
+        "..xxxxxxxxxxxx.."
+      ]
+    },
+    {
+      "name": "olhos",
+      "only": "night",
+      "rows": [
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        ".......v.v......",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................"
+      ]
+    }
+  ]
+}

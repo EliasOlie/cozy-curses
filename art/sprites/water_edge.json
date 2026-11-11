@@ -1,0 +1,111 @@
+{
+  "name": "water_edge",
+  "size": [16, 16],
+  "palette": "both",
+  "outline": false,
+  "columns": 4,
+  "notes": "Overlay sobre um tile de água quando o vizinho do lado é terra. Ordem: N, E, S, W.",
+  "legend": { "g": "grass", "l": "grass_light", "d": "grass_dark", "D": "grass_deep", "s": "soil", "S": "soil_dark", "k": "water_dark", "f": "water_light" },
+  "frames": [
+    {
+      "name": "n",
+      "layers": [
+        {
+          "rows": [
+            "gggggggggggggggg",
+            "gglgggggdggglggg",
+            "ggggdgggggggggdg",
+            "sSssSssSsssSssSs",
+            "SSSSSSSSSSSSSSSS",
+            "kkkkkkkkkkkkkkkk",
+            ".kk..kkk...kk.k.",
+            "..f.....ff.....f",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "e",
+      "layers": [
+        {
+          "rows": [
+            "...........kDggg",
+            "..........fkDglg",
+            "...........kdggg",
+            "............kDgg",
+            "..........f.kDgg",
+            "...........kdggg",
+            "...........kDgdg",
+            "..........fkDggg",
+            "............kdgg",
+            "............kDlg",
+            "...........fkDgg",
+            "...........kdggg",
+            "...........kDggg",
+            "..........f.kDgg",
+            "............kdgg",
+            "...........kDglg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "s",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            ".f....ff.....f..",
+            "ff.fffffff.ffff.",
+            "llllllllllllllll",
+            "gggglgggggggdggg",
+            "ggdgggggggglgggg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "w",
+      "layers": [
+        {
+          "rows": [
+            "gggDk...........",
+            "glgDkf..........",
+            "gggdk...........",
+            "ggDk............",
+            "ggDk.f..........",
+            "gggdk...........",
+            "gdgDk...........",
+            "gggDkf..........",
+            "ggdk............",
+            "glDk............",
+            "ggDkf...........",
+            "gggdk...........",
+            "gggDk...........",
+            "ggDk.f..........",
+            "ggdk............",
+            "glgDk..........."
+          ]
+        }
+      ]
+    }
+  ]
+}

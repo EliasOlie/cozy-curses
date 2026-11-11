@@ -1,0 +1,43 @@
+{
+  "name": "button_pressed",
+  "size": [
+    16,
+    16
+  ],
+  "palette": "day",
+  "outline": false,
+  "notes": "Botão pressionado: 1 px mais baixo, sem espessura, chanfro invertido (sombra em cima/esquerda, luz embaixo/direita). Borda 5.",
+  "legend": {
+    "x": "outline",
+    "W": "path_light",
+    "H": "path",
+    "b": "wood_light",
+    "s": "wood",
+    "D": "wood_dark",
+    "G": "ui_wood_glow",
+    "o": "glow"
+  },
+  "layers": [
+    {
+      "name": "botao",
+      "rows": [
+        "................",
+        ".xxxxxxxxxxxxxx.",
+        "xDDDDDDDDDDDDDDx",
+        "xDssssssssssssbx",
+        "xDssssssssssssbx",
+        "xDssssssssssssbx",
+        "xDssssssssssssbx",
+        "xDssssssssssssbx",
+        "xDssssssssssssbx",
+        "xDssssssssssssbx",
+        "xDssssssssssssbx",
+        "xDssssssssssssbx",
+        "xDssssssssssssbx",
+        "xDssssssssssssbx",
+        "xbbbbbbbbbbbbbbx",
+        ".xxxxxxxxxxxxxx."
+      ]
+    }
+  ]
+}

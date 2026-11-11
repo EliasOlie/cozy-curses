@@ -1,0 +1,26 @@
+{
+  "id": "intro",
+  "title": "Chegada a Vila Serena",
+  "notes": "Tocada pelo código no dia 1 de um jogo novo (economy.rs), junto com a visita do Prefeito ao sítio.",
+  "skippable": true,
+  "steps": [
+    { "fade": "out", "seconds": 0.5 },
+    { "banner": "VILA SERENA", "subtitle": "O recomeço de {nome} no Sítio {sitio}", "seconds": 3.5 },
+    { "fade": "in", "seconds": 1.0 },
+    {
+      "say": "Prefeito Anselmo",
+      "pages": [
+        "Bem-vindo à Vila Serena, {nome}! Seu sítio estava abandonado há tempos.",
+        "De dia, o sol é quente e nossa gente é pacata e acolhedora. Cuide da terra e ela cuidará de você.",
+        "Mas preste atenção ao sino das seis da tarde... quando a noite desce, o vale tem suas próprias regras."
+      ]
+    },
+    {
+      "say": "Prefeito Anselmo",
+      "pages": [
+        "Se for transitar na escuridão, não mostre seu rosto a céu aberto. Uma máscara rústica é tudo que te separa do abismo.",
+        "Agora pegue suas ferramentas e plante suas primeiras sementes. O futuro da vila começa hoje!"
+      ]
+    }
+  ]
+}

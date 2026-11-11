@@ -1,0 +1,77 @@
+{
+  "name": "farmer_hair_2",
+  "size": [16, 32],
+  "palette": "day",
+  "columns": 3,
+  "notes": "Cabelo preso em coque (rabo de cavalo de lado). Tingido; o elástico (ink) fica escuro.",
+  "legend": { "h": "tint", "L": "tint_light", "H": "tint_dark", "D": "tint_deep", "k": "ink" },
+  "frames": [
+    {
+      "name": "down_0",
+      "layers": [
+        {
+          "offset": [0, 1],
+          "rows": [
+            "......hhhh......",
+            ".....hLhhhH.....",
+            "......kkkk......",
+            "....hLhhhhhH....",
+            "...hLhhhhhhhH...",
+            "..hLhhhhhhhhhH..",
+            "..hLhhhhhhhhhH..",
+            "..hhhhhhhhhhhH..",
+            "..hhhH....Hhhh.."
+          ]
+        }
+      ]
+    },
+    { "name": "down_1", "from": "down_0", "offset": [0, 1] },
+    { "name": "down_2", "from": "down_0", "offset": [0, 1] },
+    {
+      "name": "up_0",
+      "layers": [
+        {
+          "offset": [0, 1],
+          "rows": [
+            "......hhhh......",
+            ".....hLhhhH.....",
+            "......kkkk......",
+            "....hLhhhhhH....",
+            "...hLhhhhhhhH...",
+            "..hLhhhhhhhhhH..",
+            "..hhhhhhhhhhhH..",
+            "..hhhhhhhhhhhH..",
+            "..hhhHhhhhHhhH..",
+            "..hhhhhhhhhhhH..",
+            "..hhhhhhhhhhhH..",
+            "...hhhhhhhhhH...",
+            "....HhhhhhhH...."
+          ]
+        }
+      ]
+    },
+    { "name": "up_1", "from": "up_0", "offset": [0, 1] },
+    { "name": "up_2", "from": "up_0", "offset": [0, 1] },
+    {
+      "name": "side_0",
+      "layers": [
+        {
+          "offset": [0, 4],
+          "rows": [
+            ".....hLhhhh.....",
+            "....hLLhhhhhH...",
+            "..hhhLhhhhhhhH..",
+            ".hLhhhhhhhhhhH..",
+            ".hhkhhhhhhhH.H..",
+            ".hh.hhhhhh......",
+            ".hH.hhhhH.......",
+            "..H.............",
+            "..H............."
+          ]
+        }
+      ]
+    },
+    { "name": "side_1", "from": "side_0", "offset": [0, 1] },
+    { "name": "side_2", "from": "side_0", "offset": [0, 1] }
+  ]
+}

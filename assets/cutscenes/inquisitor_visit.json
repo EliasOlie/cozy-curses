@@ -1,0 +1,21 @@
+{
+  "id": "inquisitor_visit",
+  "title": "Auditoria do Inquisidor",
+  "notes": "Tocada pelo código quando o Inquisidor cobra a multa (economy.rs). Variável extra: {multa}.",
+  "skippable": false,
+  "steps": [
+    {
+      "banner": "A AUDITORIA",
+      "subtitle": "O Inquisidor desceu da montanha com o Livro Negro de Contas",
+      "seconds": 3.5
+    },
+    {
+      "say": "Inquisidor",
+      "pages": [
+        "Sinto o odor pútrido de {maldicao}% de maldição empesteando a brisa matinal.",
+        "Os registros não mentem, camponês. Sua dívida com o Santo Ofício foi calculada em {multa} ouro.",
+        "Pague o dízimo da redenção ou veja a névoa devorar o que você construiu. Eu voltarei ao anoitecer."
+      ]
+    }
+  ]
+}

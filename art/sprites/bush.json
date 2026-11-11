@@ -1,0 +1,51 @@
+{
+  "name": "bush",
+  "size": [16, 16],
+  "palette": "both",
+  "notes": "Arbusto de frutinhas que bloqueia. À noite, olhinhos espiam entre as folhas.",
+  "legend": { "L": "leaf_light", "e": "leaf", "E": "leaf_dark", "D": "leaf_deep", "b": "flower", "B": "roof_dark", "y": "eye", "p": "eye_pupil" },
+  "layers": [
+    {
+      "rows": [
+        "................",
+        "................",
+        "......LLL.......",
+        "....LLeeeLe.....",
+        "...LeeLeebeE....",
+        "..LeebeeeeeeE...",
+        "..LeeeeeLeeeE...",
+        ".LeeLeeeeebeEE..",
+        ".LeebeeeeeeeeE..",
+        ".EeeeeeebeeeEE..",
+        ".EEeeeeeeeeEED..",
+        "..EEEeebeEEEED..",
+        "..DEEEEEEEEEDD..",
+        "...DDDDDDDDDD...",
+        "................",
+        "................"
+      ]
+    },
+    {
+      "name": "olhos",
+      "only": "night",
+      "rows": [
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "....yp..yp......",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................"
+      ]
+    }
+  ]
+}

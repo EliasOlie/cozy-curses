@@ -1,0 +1,67 @@
+{
+  "name": "pumpkin",
+  "size": [
+    16,
+    16
+  ],
+  "palette": "both",
+  "outline": false,
+  "notes": "Abóbora 16x16 com gomos, folhas e gavinha (enfeite de canteiro). Noite: a casca fica roxa e um rosto entalhado brilha por dentro.",
+  "legend": {
+    "C": "crop_dark",
+    "E": "leaf_dark",
+    "W": "wood_dark",
+    "c": "crop",
+    "d": "gold",
+    "g": "window",
+    "k": "crop_light",
+    "n": "crop_leaf",
+    "w": "wood",
+    "x": "outline"
+  },
+  "layers": [
+    {
+      "name": "abobora",
+      "rows": [
+        "................",
+        "................",
+        ".........xx.....",
+        ".......xxWnx....",
+        "......xWWnnx....",
+        "....xxxWwxxx....",
+        "...xkkkkkkccx...",
+        "..xkkCkkkkCccx..",
+        ".xkkkCkkkcCkcCx.",
+        ".xkkkCkkccCccCx.",
+        ".xkkkCkcccCcCCx.",
+        "xncccCccccCCCCEx",
+        "xEnccCccccCCCnnx",
+        ".xxxcCccCCCCxxx.",
+        "....xxxCCxxx....",
+        ".......xx......."
+      ]
+    },
+    {
+      "name": "rosto",
+      "only": "night",
+      "rows": [
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "......g...g.....",
+        ".....gdg.gdg....",
+        "................",
+        ".....gdgdgdg....",
+        "......g.g.g.....",
+        "................",
+        "................",
+        "................"
+      ]
+    }
+  ]
+}

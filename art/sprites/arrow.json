@@ -1,0 +1,21 @@
+{
+  "name": "arrow",
+  "size": [7, 6],
+  "palette": "both",
+  "outline": false,
+  "notes": "Setinha para baixo que quica sobre o alvo da interação: creme (bone) com sombra à direita (bone_dark) e contorno manual.",
+  "legend": { "x": "outline", "w": "bone", "b": "bone_dark" },
+  "layers": [
+    {
+      "name": "seta",
+      "rows": [
+        "xxxxxxx",
+        "xwwwwbx",
+        "xwwwbbx",
+        ".xwbbx.",
+        "..xbx..",
+        "...x..."
+      ]
+    }
+  ]
+}

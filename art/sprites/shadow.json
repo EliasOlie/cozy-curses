@@ -1,0 +1,22 @@
+{
+  "name": "shadow",
+  "size": [16, 6],
+  "palette": "both",
+  "outline": false,
+  "notes": "Sombra de contato sob personagens e itens: elipse da chave shadow (translúcida), borda pontilhada para suavizar.",
+  "legend": { "s": "shadow" },
+  "layers": [
+    {
+      "name": "elipse",
+      "mirror": true,
+      "rows": [
+        ".....s.s",
+        "..s.ssss",
+        ".s.sssss",
+        "s.ssssss",
+        "..s.ssss",
+        ".....s.s"
+      ]
+    }
+  ]
+}

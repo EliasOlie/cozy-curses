@@ -1,0 +1,64 @@
+{
+  "name": "rowboat",
+  "size": [
+    32,
+    16
+  ],
+  "palette": "both",
+  "outline": false,
+  "notes": "Barquinho a remo 32x16 visto de cima/3-4: amurada clara, assoalho de tábuas, 2 bancos, costado visível embaixo, um remo. Noite: olhinhos sob o banco da proa.",
+  "legend": {
+    "W": "wood_dark",
+    "i": "ink",
+    "l": "wood_light",
+    "u": "hay_light",
+    "v": "eye",
+    "w": "wood",
+    "x": "outline"
+  },
+  "layers": [
+    {
+      "name": "barco",
+      "rows": [
+        "........xxxxxxxxxxxxxxxx........",
+        ".....xxxllllllllllllllllxxx.....",
+        "...xxllllllllllllllllllllllxx...",
+        "..xllllliiiiiiiiiiiiillilllllx..",
+        ".xllliiiwwllWwwwwwuulwwWiiilllx.",
+        "xlliiWWWWWllWWuuuuWWWllWWWWiillx",
+        "xllWWWWWWWluuuWWWWWWWllWWWWWWllx",
+        "xwlwwwwuuuulWwwwwwwwwllWwwwwwlwx",
+        "xwwlluuWWWllWWWWWWWWWllWWWWllwwx",
+        "xWwwwlllWWllWWWWWWWWWllWlllwwwWx",
+        ".xWwwwwwllllllllllllllllwwwwwWx.",
+        "..xWWwwwwwllWwwwwwwwwllWwwwWWx..",
+        "...xWWWwwwllWwwwwwwwwllWwWWWx...",
+        "....xxxWWWllWWWWWWWWWllWWxxx....",
+        ".......xxxxxxxxxxxxxxxxxx.......",
+        "................................"
+      ]
+    },
+    {
+      "name": "olhos",
+      "only": "night",
+      "rows": [
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "........................v.v.....",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................"
+      ]
+    }
+  ]
+}

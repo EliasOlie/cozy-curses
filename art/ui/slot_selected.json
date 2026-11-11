@@ -1,0 +1,87 @@
+{
+  "name": "slot_selected",
+  "size": [
+    16,
+    16
+  ],
+  "palette": "day",
+  "outline": false,
+  "notes": "Slot selecionado (fixo): moldura dourada com cantinhos brilhantes (glow).",
+  "legend": {
+    "x": "outline",
+    "L": "wood_light",
+    "w": "wood",
+    "D": "wood_dark",
+    "q": "parchment_dark",
+    "P": "plaster_dark",
+    "p": "plaster",
+    "G": "glow",
+    "g": "gold",
+    "d": "gold_dark"
+  },
+  "layers": [
+    {
+      "name": "miolo",
+      "rows": [
+        "................",
+        "................",
+        "..qqqqqqqqqqqq..",
+        "..qPPPPPPPPPPp..",
+        "..qPPPPPPPPPPp..",
+        "..qPPPPPPPPPPp..",
+        "..qPPPPPPPPPPp..",
+        "..qPPPPPPPPPPp..",
+        "..qPPPPPPPPPPp..",
+        "..qPPPPPPPPPPp..",
+        "..qPPPPPPPPPPp..",
+        "..qPPPPPPPPPPp..",
+        "..qPPPPPPPPPPp..",
+        "..qppppppppppp..",
+        "................",
+        "................"
+      ]
+    },
+    {
+      "name": "moldura",
+      "rows": [
+        ".xxxxxxxxxxxxxx.",
+        "xGGGggggggggGGGx",
+        "xG............Gx",
+        "xG............Gx",
+        "xg............dx",
+        "xg............dx",
+        "xg............dx",
+        "xg............dx",
+        "xg............dx",
+        "xg............dx",
+        "xg............dx",
+        "xg............dx",
+        "xG............Gx",
+        "xG............Gx",
+        "xGGGddddddddGGGx",
+        ".xxxxxxxxxxxxxx."
+      ]
+    },
+    {
+      "name": "brilho",
+      "rows": [
+        "................",
+        "................",
+        "..G..........G..",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "..G..........G..",
+        "................",
+        "................"
+      ]
+    }
+  ]
+}

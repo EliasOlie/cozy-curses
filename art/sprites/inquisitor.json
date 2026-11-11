@@ -1,0 +1,47 @@
+{
+  "name": "inquisitor",
+  "size": [16, 32],
+  "palette": "day",
+  "notes": "O Inquisidor: cartola, sobrancelhas pesadas, manto escuro, livro-razão com carimbo vermelho.",
+  "legend": {
+    "k": "ink", "m": "metal", "s": "skin", "S": "skin_shadow", "w": "shirt",
+    "C": "cloth_dark", "c": "cloth", "b": "wood", "p": "path_light", "r": "roof"
+  },
+  "layers": [
+    {
+      "offset": [0, 1],
+      "rows": [
+        ".....kkkkkk.....",
+        ".....kkkkkk.....",
+        ".....kkkkkk.....",
+        ".....kkkkkk.....",
+        ".....mmmmmm.....",
+        "...kkkkkkkkkk...",
+        "....ssssssss....",
+        "....ssssssss....",
+        "....kkkssskk....",
+        "....sksssskS....",
+        "....sksssskS....",
+        "....sssSssSS....",
+        "....sskkkksS....",
+        ".....SssssS.....",
+        "....wwSSSSww....",
+        "...cCwwwwwwCC...",
+        "..cCCCwwwwCCCC..",
+        "..cCCCCwwCCCCC..",
+        "..cCCCCCCCCCCC..",
+        "..cCCCCCCCCbbbb.",
+        "..sCCCCCCCbppbb.",
+        "...cCCCCCCbprbs.",
+        "...cCCCCCCbbbb..",
+        "...cCCCCCCCCCC..",
+        "...cCCCCCCCCCC..",
+        "...cCCkCCkCCCC..",
+        "...cCCCCCCCCCC..",
+        "....cCCCCCCC....",
+        "....kkk..kkk....",
+        "...kkkk..kkkk..."
+      ]
+    }
+  ]
+}

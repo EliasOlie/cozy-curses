@@ -1,0 +1,71 @@
+{
+  "name": "tile_water",
+  "size": [16, 16],
+  "palette": "both",
+  "outline": false,
+  "columns": 2,
+  "notes": "Lago turquesa (inspiration_1/2): reflexos claros em traços horizontais e brilhinhos em cruz; ondinhas escuras sob os reflexos. Nada encosta na borda (emenda sem costura). 2 quadros com reflexos em posições/tamanhos diferentes para a animação aparecer. À noite a paleta já vira ciano bioluminescente.",
+  "legend": { "w": "water", "l": "water_light", "d": "water_dark" },
+  "layers": [
+    {
+      "name": "base",
+      "shape": "rect",
+      "color": "water",
+      "noise": [
+        { "color": "water_dark", "density": 0.025, "seed": 41 }
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "name": "reflexo_a",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "...llll.........",
+            "....dd..........",
+            "................",
+            "................",
+            "..........lll...",
+            "...........d....",
+            "................",
+            "................",
+            "....l...........",
+            "...lll..........",
+            "....l.....ll....",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "reflexo_b",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            ".....ll.........",
+            "................",
+            "...........l....",
+            "..........lll...",
+            "...........l....",
+            "................",
+            "................",
+            "..lll...........",
+            "...d............",
+            "................",
+            ".........llll...",
+            "..........dd....",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    }
+  ]
+}

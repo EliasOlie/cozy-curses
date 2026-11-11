@@ -1,0 +1,40 @@
+{
+  "name": "tile_soil",
+  "size": [16, 16],
+  "palette": "both",
+  "outline": false,
+  "notes": "Terra de canteiro escura e fofa (inspiration_1): 3 sulcos horizontais quebrados (linhas cheias de ponta a ponta, emendam nas 4 direções), cristas com torrões claros, sulco fundo com grumos. Sem borda: o jogo desenha as bordas do canteiro.",
+  "legend": { "s": "soil", "L": "soil_light", "d": "soil_dark", "x": "soil_deep" },
+  "layers": [
+    {
+      "name": "terra",
+      "shape": "rect",
+      "color": "soil_dark",
+      "noise": [
+        { "color": "soil", "density": 0.30, "seed": 71 },
+        { "color": "soil_light", "density": 0.03, "seed": 72 }
+      ]
+    },
+    {
+      "name": "sulcos",
+      "rows": [
+        ".LL.LL..LL.LL.L.",
+        "L..s..L...s..L.s",
+        "................",
+        ".d..d.dd..d..d.d",
+        "xxdxxxxxxd.xxxxd",
+        "L.LL..LLL.LL..LL",
+        "L...L.s..L...s..",
+        "................",
+        "d.d..dd.d..dd..d",
+        "xxxdx.xxxxxxd.xx",
+        "LL.LL..LL.LLL..L",
+        ".L..s.L.....L...",
+        "................",
+        "..dd.d..d.dd.d..",
+        "dxx.xxxxxd.xxxxx",
+        "................"
+      ]
+    }
+  ]
+}

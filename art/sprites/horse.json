@@ -1,0 +1,868 @@
+{
+  "name": "horse",
+  "size": [
+    32,
+    32
+  ],
+  "palette": "both",
+  "columns": 4,
+  "notes": "Égua alazã de crina loira (linha 0) e garanhão baio de crina preta bem cheia (linha 1), olhando para a DIREITA (o jogo espelha). Pés em y=30. Quadros por linha: 0-1 andando (pernas juntas / abertas, cabeça balança), 2-3 pastando (cabeça no chão, abanando o rabo). Noite: olho aceso; a crina solta fagulhas de fogo-fátuo.",
+  "legend": {
+    "T": "fur_tan",
+    "D": "fur_tan_dark",
+    "l": "fur_tan_light",
+    "m": "hay_light",
+    "R": "fur_tan_dark",
+    "F": "fur_dark",
+    "n": "ink",
+    "W": "fur_white",
+    "E": "eye",
+    "O": "glow"
+  },
+  "frames": [
+    {
+      "name": "egua_andar_a",
+      "layers": [
+        {
+          "name": "rabo",
+          "offset": [
+            1,
+            13
+          ],
+          "rows": [
+            "..mm",
+            ".mmm",
+            "mmm.",
+            "mm..",
+            "mm..",
+            "mm..",
+            "mm..",
+            ".m.."
+          ]
+        },
+        {
+          "name": "corpo",
+          "offset": [
+            4,
+            12
+          ],
+          "rows": [
+            "..lllllllllllllll...",
+            ".lTTTTTTTTTTTTTTTTl.",
+            "lTTTTTTTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTTTTTTTT",
+            "DTTTTTTTTTTTTTTTTTTD",
+            ".DTTTTTTTTTTTTTTTTD.",
+            "..DDDTTTTTTTTTDDDD..",
+            "....DDDDDDDDDDD....."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            6,
+            22
+          ],
+          "rows": [
+            "TT.DD........DD.TT",
+            "TT.DD........DD.TT",
+            "TT.DD........DD.TT",
+            ".T.D..........D.T.",
+            ".T.D..........D.T.",
+            ".T.D..........D.T.",
+            ".T.D..........D.T.",
+            ".W.W..........W.W.",
+            "nn.nn........nn.nn"
+          ]
+        },
+        {
+          "name": "pescoço e cabeça",
+          "offset": [
+            16,
+            2
+          ],
+          "rows": [
+            "........DT......",
+            "........TTl.....",
+            ".......mTTTl....",
+            "......mmTTETl...",
+            "......mTTTTTTT..",
+            ".....mmTTTD.TWT.",
+            ".....mTTTD...TTn",
+            "....mmTTT.......",
+            "....mTTTT.......",
+            "...mmTTTT.......",
+            "...mTTTTT.......",
+            "..mmTTTTT.......",
+            "..mTTTTTT......."
+          ]
+        },
+        {
+          "only": "night",
+          "offset": [
+            26,
+            5
+          ],
+          "rows": [
+            "E"
+          ]
+        },
+        {
+          "name": "fogo-fátuo",
+          "only": "night",
+          "offset": [
+            22,
+            6
+          ],
+          "rows": [
+            "O"
+          ]
+        },
+        {
+          "name": "fogo-fátuo",
+          "only": "night",
+          "offset": [
+            20,
+            11
+          ],
+          "rows": [
+            "O"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "egua_andar_b",
+      "layers": [
+        {
+          "name": "rabo",
+          "offset": [
+            1,
+            13
+          ],
+          "rows": [
+            "..mm",
+            ".mmm",
+            "mmm.",
+            "mm..",
+            "mm..",
+            "mm..",
+            "mm..",
+            ".m.."
+          ]
+        },
+        {
+          "name": "corpo",
+          "offset": [
+            4,
+            12
+          ],
+          "rows": [
+            "..lllllllllllllll...",
+            ".lTTTTTTTTTTTTTTTTl.",
+            "lTTTTTTTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTTTTTTTT",
+            "DTTTTTTTTTTTTTTTTTTD",
+            ".DTTTTTTTTTTTTTTTTD.",
+            "..DDDTTTTTTTTTDDDD..",
+            "....DDDDDDDDDDD....."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            5,
+            22
+          ],
+          "rows": [
+            ".TT.DD........DD.TT.",
+            ".TT..DD......DD..TT.",
+            "TT...DD......DD...TT",
+            "T.....D......D.....T",
+            "T.....D......D.....T",
+            "T.....D......D.....T",
+            "T.....D......D.....T",
+            "W.....W......W.....W",
+            "nn....nn....nn....nn"
+          ]
+        },
+        {
+          "name": "pescoço e cabeça",
+          "offset": [
+            16,
+            3
+          ],
+          "rows": [
+            "........DT......",
+            "........TTl.....",
+            ".......mTTTl....",
+            "......mmTTETl...",
+            "......mTTTTTTT..",
+            ".....mmTTTD.TWT.",
+            ".....mTTTD...TTn",
+            "....mmTTT.......",
+            "....mTTTT.......",
+            "...mmTTTT.......",
+            "...mTTTTT.......",
+            "..mmTTTTT.......",
+            "..mTTTTTT......."
+          ]
+        },
+        {
+          "only": "night",
+          "offset": [
+            26,
+            6
+          ],
+          "rows": [
+            "E"
+          ]
+        },
+        {
+          "name": "fogo-fátuo",
+          "only": "night",
+          "offset": [
+            22,
+            7
+          ],
+          "rows": [
+            "O"
+          ]
+        },
+        {
+          "name": "fogo-fátuo",
+          "only": "night",
+          "offset": [
+            20,
+            12
+          ],
+          "rows": [
+            "O"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "egua_pastar_a",
+      "layers": [
+        {
+          "name": "rabo",
+          "offset": [
+            1,
+            13
+          ],
+          "rows": [
+            "..mm",
+            ".mmm",
+            "mmm.",
+            "mm..",
+            "mm..",
+            "mm..",
+            "mm..",
+            ".m.."
+          ]
+        },
+        {
+          "name": "corpo",
+          "offset": [
+            4,
+            12
+          ],
+          "rows": [
+            "..lllllllllllllll...",
+            ".lTTTTTTTTTTTTTTTTl.",
+            "lTTTTTTTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTTTTTTTT",
+            "DTTTTTTTTTTTTTTTTTTD",
+            ".DTTTTTTTTTTTTTTTTD.",
+            "..DDDTTTTTTTTTDDDD..",
+            "....DDDDDDDDDDD....."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            6,
+            22
+          ],
+          "rows": [
+            "TT.DD........DD.TT",
+            "TT.DD........DD.TT",
+            "TT.DD........DD.TT",
+            ".T.D..........D.T.",
+            ".T.D..........D.T.",
+            ".T.D..........D.T.",
+            ".T.D..........D.T.",
+            ".W.W..........W.W.",
+            "nn.nn........nn.nn"
+          ]
+        },
+        {
+          "name": "pescoço e cabeça",
+          "offset": [
+            18,
+            13
+          ],
+          "rows": [
+            ".mTTl.......",
+            "mmTTTl......",
+            ".mmTTTl.....",
+            "..mmTTTl....",
+            "...mmTTTl...",
+            "....mmTTTl..",
+            ".....mmTTT..",
+            "......mTTTl.",
+            "......DTTTT.",
+            ".......TETT.",
+            ".......TTTTT",
+            ".......DTTTT",
+            "........TTTT",
+            "........TWTT",
+            "........DTTn"
+          ]
+        },
+        {
+          "only": "night",
+          "offset": [
+            26,
+            22
+          ],
+          "rows": [
+            "E"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "egua_pastar_b",
+      "layers": [
+        {
+          "name": "rabo",
+          "offset": [
+            1,
+            13
+          ],
+          "rows": [
+            "..mm",
+            ".mmm",
+            ".mmm",
+            "..mm",
+            "..mm",
+            "..mm",
+            "..m."
+          ]
+        },
+        {
+          "name": "corpo",
+          "offset": [
+            4,
+            12
+          ],
+          "rows": [
+            "..lllllllllllllll...",
+            ".lTTTTTTTTTTTTTTTTl.",
+            "lTTTTTTTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTTTTTTTT",
+            "DTTTTTTTTTTTTTTTTTTD",
+            ".DTTTTTTTTTTTTTTTTD.",
+            "..DDDTTTTTTTTTDDDD..",
+            "....DDDDDDDDDDD....."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            6,
+            22
+          ],
+          "rows": [
+            "TT.DD........DD.TT",
+            "TT.DD........DD.TT",
+            "TT.DD........DD.TT",
+            ".T.D..........D.T.",
+            ".T.D..........D.T.",
+            ".T.D..........D.T.",
+            ".T.D..........D.T.",
+            ".W.W..........W.W.",
+            "nn.nn........nn.nn"
+          ]
+        },
+        {
+          "name": "pescoço e cabeça",
+          "offset": [
+            18,
+            14
+          ],
+          "rows": [
+            ".mTTl.......",
+            "mmTTTl......",
+            ".mmTTTl.....",
+            "..mmTTTl....",
+            "...mmTTTl...",
+            "....mmTTTl..",
+            ".....mmTTT..",
+            "......mTTTl.",
+            "......DTTTT.",
+            ".......TETT.",
+            ".......TTTTT",
+            ".......DTTTT",
+            "........TTTT",
+            "........TWTT",
+            "........DTTn"
+          ]
+        },
+        {
+          "only": "night",
+          "offset": [
+            26,
+            23
+          ],
+          "rows": [
+            "E"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "garanhao_andar_a",
+      "layers": [
+        {
+          "name": "rabo",
+          "offset": [
+            1,
+            13
+          ],
+          "rows": [
+            "..FF",
+            ".FFF",
+            "FFF.",
+            "FF..",
+            "FF..",
+            "FF..",
+            "FF..",
+            ".F.."
+          ]
+        },
+        {
+          "name": "corpo",
+          "offset": [
+            4,
+            12
+          ],
+          "rows": [
+            "..TTTTTTTTTTTTTTT...",
+            ".TRRRRRRRRRRRRRRRRT.",
+            "TRRRRRRRRRRRRRRRRRRR",
+            "RRRRRRRRRRRRRRRRRRRR",
+            "RRRRRRRRRRRRRRRRRRRR",
+            "RRRRRRRRRRRRRRRRRRRR",
+            "FRRRRRRRRRRRRRRRRRRF",
+            ".FRRRRRRRRRRRRRRRRF.",
+            "..FFFRRRRRRRRRFFFF..",
+            "....FFFFFFFFFFF....."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            6,
+            22
+          ],
+          "rows": [
+            "RR.FF........FF.RR",
+            "RR.FF........FF.RR",
+            "RR.FF........FF.RR",
+            ".R.F..........F.R.",
+            ".R.F..........F.R.",
+            ".R.F..........F.R.",
+            ".R.F..........F.R.",
+            ".W.W..........W.W.",
+            "nn.nn........nn.nn"
+          ]
+        },
+        {
+          "name": "pescoço e cabeça",
+          "offset": [
+            16,
+            2
+          ],
+          "rows": [
+            "........FR......",
+            ".......FRRT.....",
+            "......FFRRRT....",
+            ".....FFFRRERT...",
+            ".....FFFRRRRRR..",
+            "....FFFRRRF.RWR.",
+            "....FFRRRF...RRn",
+            "...FFFRRR.......",
+            "...FFRRRR.......",
+            "..FFFRRRR.......",
+            "..FFRRRRR.......",
+            ".FFFRRRRR.......",
+            ".FFFRRRRR......."
+          ]
+        },
+        {
+          "only": "night",
+          "offset": [
+            26,
+            5
+          ],
+          "rows": [
+            "E"
+          ]
+        },
+        {
+          "name": "fogo-fátuo",
+          "only": "night",
+          "offset": [
+            21,
+            5
+          ],
+          "rows": [
+            "O"
+          ]
+        },
+        {
+          "name": "fogo-fátuo",
+          "only": "night",
+          "offset": [
+            19,
+            10
+          ],
+          "rows": [
+            "O"
+          ]
+        },
+        {
+          "name": "fogo-fátuo",
+          "only": "night",
+          "offset": [
+            17,
+            13
+          ],
+          "rows": [
+            "O"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "garanhao_andar_b",
+      "layers": [
+        {
+          "name": "rabo",
+          "offset": [
+            1,
+            13
+          ],
+          "rows": [
+            "..FF",
+            ".FFF",
+            "FFF.",
+            "FF..",
+            "FF..",
+            "FF..",
+            "FF..",
+            ".F.."
+          ]
+        },
+        {
+          "name": "corpo",
+          "offset": [
+            4,
+            12
+          ],
+          "rows": [
+            "..TTTTTTTTTTTTTTT...",
+            ".TRRRRRRRRRRRRRRRRT.",
+            "TRRRRRRRRRRRRRRRRRRR",
+            "RRRRRRRRRRRRRRRRRRRR",
+            "RRRRRRRRRRRRRRRRRRRR",
+            "RRRRRRRRRRRRRRRRRRRR",
+            "FRRRRRRRRRRRRRRRRRRF",
+            ".FRRRRRRRRRRRRRRRRF.",
+            "..FFFRRRRRRRRRFFFF..",
+            "....FFFFFFFFFFF....."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            5,
+            22
+          ],
+          "rows": [
+            ".RR.FF........FF.RR.",
+            ".RR..FF......FF..RR.",
+            "RR...FF......FF...RR",
+            "R.....F......F.....R",
+            "R.....F......F.....R",
+            "R.....F......F.....R",
+            "R.....F......F.....R",
+            "W.....W......W.....W",
+            "nn....nn....nn....nn"
+          ]
+        },
+        {
+          "name": "pescoço e cabeça",
+          "offset": [
+            16,
+            3
+          ],
+          "rows": [
+            "........FR......",
+            ".......FRRT.....",
+            "......FFRRRT....",
+            ".....FFFRRERT...",
+            ".....FFFRRRRRR..",
+            "....FFFRRRF.RWR.",
+            "....FFRRRF...RRn",
+            "...FFFRRR.......",
+            "...FFRRRR.......",
+            "..FFFRRRR.......",
+            "..FFRRRRR.......",
+            ".FFFRRRRR.......",
+            ".FFFRRRRR......."
+          ]
+        },
+        {
+          "only": "night",
+          "offset": [
+            26,
+            6
+          ],
+          "rows": [
+            "E"
+          ]
+        },
+        {
+          "name": "fogo-fátuo",
+          "only": "night",
+          "offset": [
+            21,
+            6
+          ],
+          "rows": [
+            "O"
+          ]
+        },
+        {
+          "name": "fogo-fátuo",
+          "only": "night",
+          "offset": [
+            19,
+            11
+          ],
+          "rows": [
+            "O"
+          ]
+        },
+        {
+          "name": "fogo-fátuo",
+          "only": "night",
+          "offset": [
+            17,
+            14
+          ],
+          "rows": [
+            "O"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "garanhao_pastar_a",
+      "layers": [
+        {
+          "name": "rabo",
+          "offset": [
+            1,
+            13
+          ],
+          "rows": [
+            "..FF",
+            ".FFF",
+            "FFF.",
+            "FF..",
+            "FF..",
+            "FF..",
+            "FF..",
+            ".F.."
+          ]
+        },
+        {
+          "name": "corpo",
+          "offset": [
+            4,
+            12
+          ],
+          "rows": [
+            "..TTTTTTTTTTTTTTT...",
+            ".TRRRRRRRRRRRRRRRRT.",
+            "TRRRRRRRRRRRRRRRRRRR",
+            "RRRRRRRRRRRRRRRRRRRR",
+            "RRRRRRRRRRRRRRRRRRRR",
+            "RRRRRRRRRRRRRRRRRRRR",
+            "FRRRRRRRRRRRRRRRRRRF",
+            ".FRRRRRRRRRRRRRRRRF.",
+            "..FFFRRRRRRRRRFFFF..",
+            "....FFFFFFFFFFF....."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            6,
+            22
+          ],
+          "rows": [
+            "RR.FF........FF.RR",
+            "RR.FF........FF.RR",
+            "RR.FF........FF.RR",
+            ".R.F..........F.R.",
+            ".R.F..........F.R.",
+            ".R.F..........F.R.",
+            ".R.F..........F.R.",
+            ".W.W..........W.W.",
+            "nn.nn........nn.nn"
+          ]
+        },
+        {
+          "name": "pescoço e cabeça",
+          "offset": [
+            18,
+            13
+          ],
+          "rows": [
+            "FFFRT.......",
+            "FFFRRRT.....",
+            "FFFFRRRT....",
+            ".FFFFRRRT...",
+            "..FFFFRRRT..",
+            "...FFFFRRRT.",
+            ".....FFFRRR.",
+            "......FFRRRT",
+            "......FFRRRR",
+            ".......RERR.",
+            ".......RRRRR",
+            ".......FRRRR",
+            "........RRRR",
+            "........RWRR",
+            "........FRRn"
+          ]
+        },
+        {
+          "only": "night",
+          "offset": [
+            26,
+            22
+          ],
+          "rows": [
+            "E"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "garanhao_pastar_b",
+      "layers": [
+        {
+          "name": "rabo",
+          "offset": [
+            1,
+            13
+          ],
+          "rows": [
+            "..FF",
+            ".FFF",
+            ".FFF",
+            "..FF",
+            "..FF",
+            "..FF",
+            "..F."
+          ]
+        },
+        {
+          "name": "corpo",
+          "offset": [
+            4,
+            12
+          ],
+          "rows": [
+            "..TTTTTTTTTTTTTTT...",
+            ".TRRRRRRRRRRRRRRRRT.",
+            "TRRRRRRRRRRRRRRRRRRR",
+            "RRRRRRRRRRRRRRRRRRRR",
+            "RRRRRRRRRRRRRRRRRRRR",
+            "RRRRRRRRRRRRRRRRRRRR",
+            "FRRRRRRRRRRRRRRRRRRF",
+            ".FRRRRRRRRRRRRRRRRF.",
+            "..FFFRRRRRRRRRFFFF..",
+            "....FFFFFFFFFFF....."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            6,
+            22
+          ],
+          "rows": [
+            "RR.FF........FF.RR",
+            "RR.FF........FF.RR",
+            "RR.FF........FF.RR",
+            ".R.F..........F.R.",
+            ".R.F..........F.R.",
+            ".R.F..........F.R.",
+            ".R.F..........F.R.",
+            ".W.W..........W.W.",
+            "nn.nn........nn.nn"
+          ]
+        },
+        {
+          "name": "pescoço e cabeça",
+          "offset": [
+            18,
+            14
+          ],
+          "rows": [
+            "FFFRT.......",
+            "FFFRRRT.....",
+            "FFFFRRRT....",
+            ".FFFFRRRT...",
+            "..FFFFRRRT..",
+            "...FFFFRRRT.",
+            ".....FFFRRR.",
+            "......FFRRRT",
+            "......FFRRRR",
+            ".......RERR.",
+            ".......RRRRR",
+            ".......FRRRR",
+            "........RRRR",
+            "........RWRR",
+            "........FRRn"
+          ]
+        },
+        {
+          "only": "night",
+          "offset": [
+            26,
+            23
+          ],
+          "rows": [
+            "E"
+          ]
+        }
+      ]
+    }
+  ]
+}

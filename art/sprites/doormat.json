@@ -1,0 +1,59 @@
+{
+  "name": "doormat",
+  "size": [16, 16],
+  "palette": "both",
+  "notes": "Capacho de palha trançada na saída do cômodo, com franja embaixo. Noite: um olho bordado aparece no meio.",
+  "legend": {
+    "y": "hay",
+    "Y": "hay_dark",
+    "l": "path_light",
+    "G": "glow_alt",
+    "e": "eye",
+    "E": "eye_pupil"
+  },
+  "layers": [
+    {
+      "name": "capacho",
+      "rows": [
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        ".YYYYYYYYYYYYYY.",
+        ".YllllllllllllY.",
+        ".YYyyYyyYyyYyyY.",
+        ".YyyYyyYyyYyyYY.",
+        ".YyYyyYyyYyyYyY.",
+        ".YYyyYyyYyyYyyY.",
+        ".YyyYyyYyyYyyYY.",
+        ".YYYYYYYYYYYYYY.",
+        "..Y.Y.Y..Y.Y.Y..",
+        "................",
+        "................"
+      ]
+    },
+    {
+      "name": "olho",
+      "only": "night",
+      "rows": [
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "......GGGG......",
+        ".....GGeEGG.....",
+        "......GGGG......",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................",
+        "................"
+      ]
+    }
+  ]
+}

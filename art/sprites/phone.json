@@ -1,0 +1,123 @@
+{
+  "name": "phone",
+  "size": [80, 128],
+  "palette": "day",
+  "outline": false,
+  "notes": "Celular do fazendeiro (UI do feed). Capinha de cenoura laranja com anéis e folhinhas brotando no topo, moldura escura (ink) com câmera, alto-falante e botão, adesivo de cenoura na moldura de baixo. A TELA é transparente em x 8..71, y 16..111 (64x96): nenhuma camada pinta ali; o jogo desenha o feed por cima. Contorno manual (outline: false) para o contorno automático não invadir a tela.",
+  "legend": {
+    "x": "outline",
+    "o": "crop", "O": "crop_light", "d": "crop_dark",
+    "k": "ink",
+    "S": "stone_dark", "s": "stone",
+    "b": "cloth_dark", "l": "water_light",
+    "g": "crop_leaf", "L": "leaf_light", "E": "leaf_dark",
+    "w": "bone"
+  },
+  "layers": [
+    {
+      "name": "topo",
+      "mirror": true,
+      "rows": [
+        "........................................",
+        "........................................",
+        "........................................",
+        "........................................",
+        "....xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "..xxOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        ".xoOOooooooooooooooooooooooooooooooooooo",
+        ".xoOoooooooooooooooooooooooooooooooooooo",
+        "xoOodddddddddddddddddddddddddddddddddddd",
+        "xoOodxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xoOodxxkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+        "xoOodxkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+        "xoOodxkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+        "xoOodxkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+        "xoOodxkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+        "xoOodxkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"
+      ]
+    },
+    {
+      "name": "base",
+      "mirror": true,
+      "offset": [0, 112],
+      "rows": [
+        "xoOodxkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+        "xoOodxkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+        "xoOodxkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+        "xoOodxkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+        "xoOodxkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+        "xoOodxkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+        "xoOodxxkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk",
+        "xoOodxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "xoOooooooooooooooooooooooooooooooooooooo",
+        ".xoddddddddddddddddddddddddddddddddddddd",
+        ".xdddddddddddddddddddddddddddddddddddddd",
+        "..xxdddddddddddddddddddddddddddddddddddd",
+        "....xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "........................................",
+        "........................................",
+        "........................................"
+      ]
+    },
+    { "name": "esq_contorno", "shape": "rect", "rect": [0, 16, 1, 96], "color": "outline" },
+    { "name": "esq_capa_1", "shape": "rect", "rect": [1, 16, 1, 96], "color": "crop" },
+    { "name": "esq_capa_2", "shape": "rect", "rect": [2, 16, 1, 96], "color": "crop_light" },
+    { "name": "esq_capa_3", "shape": "rect", "rect": [3, 16, 1, 96], "color": "crop" },
+    { "name": "esq_capa_4", "shape": "rect", "rect": [4, 16, 1, 96], "color": "crop_dark" },
+    { "name": "esq_contorno_int", "shape": "rect", "rect": [5, 16, 1, 96], "color": "outline" },
+    { "name": "esq_moldura", "shape": "rect", "rect": [6, 16, 2, 96], "color": "ink" },
+    { "name": "dir_moldura", "shape": "rect", "rect": [72, 16, 2, 96], "color": "ink" },
+    { "name": "dir_contorno_int", "shape": "rect", "rect": [74, 16, 1, 96], "color": "outline" },
+    { "name": "dir_capa_4", "shape": "rect", "rect": [75, 16, 1, 96], "color": "crop_dark" },
+    { "name": "dir_capa_3", "shape": "rect", "rect": [76, 16, 1, 96], "color": "crop" },
+    { "name": "dir_capa_2", "shape": "rect", "rect": [77, 16, 1, 96], "color": "crop_light" },
+    { "name": "dir_capa_1", "shape": "rect", "rect": [78, 16, 1, 96], "color": "crop" },
+    { "name": "dir_contorno", "shape": "rect", "rect": [79, 16, 1, 96], "color": "outline" },
+    { "name": "anel_e1", "offset": [1, 30], "rows": ["ddd"] },
+    { "name": "anel_e2", "offset": [1, 58], "rows": ["ddd"] },
+    { "name": "anel_e3", "offset": [1, 86], "rows": ["ddd"] },
+    { "name": "anel_d1", "offset": [76, 44], "rows": ["ddd"] },
+    { "name": "anel_d2", "offset": [76, 72], "rows": ["ddd"] },
+    { "name": "anel_d3", "offset": [76, 100], "rows": ["ddd"] },
+    { "name": "alto_falante", "offset": [34, 12], "rows": ["SSSSSSSSSSSS"] },
+    { "name": "camera", "offset": [27, 11], "rows": [".SS.", "SblS", "SbbS", ".SS."] },
+    { "name": "sensor", "offset": [49, 12], "rows": ["S"] },
+    {
+      "name": "botao",
+      "offset": [37, 113],
+      "rows": [
+        ".ssss.",
+        "S....S",
+        "S....S",
+        "S....S",
+        ".SSSS."
+      ]
+    },
+    {
+      "name": "folhas_de_cenoura",
+      "mirror": true,
+      "offset": [56, 0],
+      "rows": [
+        "..xx...x",
+        ".xLLx.xL",
+        ".xLgx.xL",
+        "..xLgxxg",
+        "..xggExg",
+        "...xgEEg",
+        "....xgEE",
+        ".....xEE"
+      ]
+    },
+    {
+      "name": "adesivo_cenoura",
+      "offset": [12, 113],
+      "rows": [
+        ".wwwwwwww.",
+        "wLOOoowwww",
+        "wgooodddww",
+        "wLddddwwww",
+        ".wwwwwwww."
+      ]
+    }
+  ]
+}

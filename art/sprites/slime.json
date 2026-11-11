@@ -1,0 +1,117 @@
+{
+  "name": "slime",
+  "size": [16, 16],
+  "palette": "night",
+  "columns": 4,
+  "notes": "Lodo: gosma bioluminescente (ciano) com olhinhos e bolhas verde-ácido; só aparece à noite. Base na linha 14. Quadros: 0 parado (alto), 1 parado (achatado 1 px, mais largo), 2 agachado antes do pulo (olhos apertados), 3 no ar (mais alto, esticado, base em y=12).",
+  "legend": {
+    "G": "glow",
+    "l": "water_light",
+    "T": "water",
+    "t": "water_dark",
+    "k": "eye_pupil",
+    "b": "crop_leaf"
+  },
+  "frames": [
+    {
+      "name": "parado_a",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "......GGGG......",
+            ".....GllGGT.....",
+            "....GlGGGGbT....",
+            "...GlGkGGkGTT...",
+            "...GGGkGGkGTT...",
+            "...GbGGttGGTT...",
+            "...TGGGGGGTTt...",
+            "....TTTTTTtt....",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "parado_b",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "......GGGG......",
+            "....GllGGGbT....",
+            "...GlGkGGkGTT...",
+            "..GGGGkGGkGTTT..",
+            "..GbGGGttGGTTT..",
+            "..TGGGGGGGGTTt..",
+            "...TTTTTTTTtt...",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "agachado",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            ".....GGGGGG.....",
+            "...GllGGGGbTT...",
+            "..GlGkkGGkkGTT..",
+            ".GGbGGGttGGGTTT.",
+            ".TGGGGGGGGGGTTt.",
+            "..TTTTTTTTTTtt..",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "no_ar",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            ".......GG.......",
+            "......GlGG......",
+            ".....GlGGbT.....",
+            ".....lGGGGT.....",
+            "....GGkGGkTT....",
+            "....GGkGGkTT....",
+            "....GbGttGTT....",
+            "....GGGGGGTT....",
+            ".....TGGGTt.....",
+            "......TTtt......",
+            ".......t........",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    }
+  ]
+}

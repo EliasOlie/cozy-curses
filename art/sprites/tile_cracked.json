@@ -1,0 +1,59 @@
+{
+  "name": "tile_cracked",
+  "size": [16, 16],
+  "palette": "both",
+  "outline": false,
+  "notes": "Laje de pedra rachada no meio da grama. Algo pesado (a Gárgula) a quebraria. À noite, as rachaduras vazam luz.",
+  "legend": { "g": "grass", "d": "grass_dark", "k": "stone", "K": "stone_light", "S": "stone_dark", "i": "ink", "o": "glow_alt" },
+  "layers": [
+    {
+      "name": "grama",
+      "shape": "rect",
+      "color": "grass",
+      "noise": [{ "color": "grass_dark", "density": 0.07, "seed": 51 }]
+    },
+    {
+      "name": "laje",
+      "rows": [
+        "................",
+        "..KKKKKKKKKKK...",
+        ".KKkkkkkkkkkkS..",
+        ".KkkkkkikkkkkS..",
+        ".Kkkkkkikkkkkkd.",
+        ".Kkkkkkiikkkkkd.",
+        ".Kkkkkkkkiikkkd.",
+        ".Kkkiiikkkkikkd.",
+        ".Kkkkkiiikkikkd.",
+        ".Kkkkkkkkikkkkd.",
+        ".Kkkkkkkkiikkkd.",
+        ".Kkkkkkkkkkikkd.",
+        ".KkkkkkkkkkkkSd.",
+        "..SSSSSSSSSSSd..",
+        "...dddddddddd...",
+        "................"
+      ]
+    },
+    {
+      "name": "luz",
+      "only": "night",
+      "rows": [
+        "................",
+        "................",
+        "................",
+        ".......o........",
+        ".......o........",
+        ".......oo.......",
+        ".........oo.....",
+        "....ooo....o....",
+        "......ooo..o....",
+        ".........o......",
+        ".........oo.....",
+        "...........o....",
+        "................",
+        "................",
+        "................",
+        "................"
+      ]
+    }
+  ]
+}

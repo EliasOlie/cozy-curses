@@ -1,0 +1,1435 @@
+{
+  "name": "crops",
+  "size": [
+    16,
+    32
+  ],
+  "palette": "both",
+  "columns": 3,
+  "notes": "Crescimento dos 15 cultivos (ordem = enum CropKind). Linha = cultivo, colunas = broto, crescendo, madura; índice = linha*3 + coluna. Base da planta em y=28, montinho de terra em y=29 (centro do tile embaixo). À noite a madura revela a maldição: olho (cenoura), sementes-olho (morango), veias de cérebro (couve-flor), olhos de batata, espigas-boca com dentes (milho), tomates sangrando, mirtilos-olho, melão sorrindo com dentes, rosto aceso (abóbora), veias brilhantes (berinjela), uvas-aranha, raízes com unhas (batata-doce), rosto gritando com olhos de gelo acesos (raiz de inverno), olho no miolo (repolho), alho com presas de vampiro.",
+  "legend": {
+    "S": "soil_dark",
+    "L": "leaf_light",
+    "c": "crop_leaf",
+    "e": "leaf",
+    "E": "leaf_dark",
+    "D": "leaf_deep",
+    "h": "leaf_shine",
+    "O": "crop_light",
+    "o": "crop",
+    "q": "crop_dark",
+    "r": "comb",
+    "R": "barn",
+    "7": "barn_light",
+    "8": "barn",
+    "9": "barn_dark",
+    "t": "flower",
+    "f": "flower",
+    "F": "flower_alt",
+    "T": "petal",
+    "w": "fur_white",
+    "W": "fur_white_shade",
+    "b": "bone",
+    "B": "bone_dark",
+    "y": "hay",
+    "Y": "hay_dark",
+    "H": "hay_light",
+    "g": "gold",
+    "G": "gold_dark",
+    "u": "cloth",
+    "U": "cloth_dark",
+    "6": "window",
+    "v": "velvet",
+    "V": "velvet_dark",
+    "x": "essence_dark",
+    "X": "essence",
+    "z": "essence_light",
+    "k": "wood",
+    "K": "wood_dark",
+    "j": "wood_light",
+    "m": "swamp",
+    "M": "swamp_dark",
+    "n": "swamp_light",
+    "i": "water_light",
+    "a": "slate_light",
+    "A": "slate",
+    "Z": "slate_dark",
+    "1": "fur_tan",
+    "2": "fur_tan_light",
+    "3": "fur_tan_dark",
+    "I": "eye",
+    "P": "eye_pupil",
+    "Q": "glow"
+  },
+  "layers": [
+    {
+      "name": "terra",
+      "offset": [
+        5,
+        29
+      ],
+      "rows": [
+        "SSSSSS"
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "name": "carrot_broto",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            24
+          ],
+          "rows": [
+            "......L..L......",
+            ".....Lcc.cL.....",
+            "......Ec.cE.....",
+            ".......cE.......",
+            ".......cE......."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "carrot_crescendo",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            21
+          ],
+          "rows": [
+            ".....L....L.....",
+            "....Lc..L.cL....",
+            "....cc.Lc.cc....",
+            ".....cE.cEc.....",
+            "...LccEcEccL....",
+            "....EcccccE.....",
+            ".....EccccE.....",
+            "......EcEE......"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "carrot_madura",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            17
+          ],
+          "rows": [
+            "......L...L.....",
+            "...L..cL.Lc.....",
+            "...cL.cc.cc..L..",
+            "....cc.cLc..Lc..",
+            ".L...cEccE.cc...",
+            ".cLL.EcccEcc....",
+            "..ccccEcccE.....",
+            "....EEcccEE.....",
+            ".....OOOOOo.....",
+            "....OOoooooq....",
+            "....oOooooooq...",
+            "....qoooooooq..."
+          ]
+        },
+        {
+          "name": "maldicao",
+          "only": "night",
+          "offset": [
+            0,
+            17
+          ],
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "......III.......",
+            "......IPI......."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "strawberry_broto",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            25
+          ],
+          "rows": [
+            ".....c...c......",
+            "....ccc.ccc.....",
+            ".....Ec.cE......",
+            ".......E........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "strawberry_crescendo",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            22
+          ],
+          "rows": [
+            "......c..c......",
+            "....cccLcccL....",
+            "...cLccEccLcc...",
+            "..ccEcTcEcEccc..",
+            "...EcTFTcEccE...",
+            "....EcTcEEcE....",
+            ".....EEcEE......"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "strawberry_madura",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            18
+          ],
+          "rows": [
+            "......c..c......",
+            "....cccLcccL....",
+            "...cLccEccLcc...",
+            "..ccEcccEcEccc..",
+            "..cEccEcEEcEccc.",
+            "...EcEEcEEcEcE..",
+            "...cec.EE.cec...",
+            "...trr.EE.trr...",
+            "...rFr.E..rFr...",
+            "...rrR....rrR...",
+            "....R......R...."
+          ]
+        },
+        {
+          "name": "maldicao",
+          "only": "night",
+          "offset": [
+            0,
+            18
+          ],
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            ".....I......I...",
+            "....I......I...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cauliflower_broto",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            24
+          ],
+          "rows": [
+            "....c.....c.....",
+            "....cc...cc.....",
+            ".....cc.cc......",
+            "......cEc.......",
+            ".......E........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cauliflower_crescendo",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            22
+          ],
+          "rows": [
+            "......c..c......",
+            "..cc.cLccLc.cc..",
+            ".cLcccEccEcccLc.",
+            "..ccEccbbccEcc..",
+            ".EcccEcbbcEcccE.",
+            "..EEccEccEccEE..",
+            "....EEEccEEE...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cauliflower_madura",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            17
+          ],
+          "rows": [
+            "......cccc......",
+            "....ccwwwwcc....",
+            "...cLwwwwwwLc...",
+            "..cLwwbwwwbwLc..",
+            "..cwwwwwbwwwwc..",
+            ".cLwbwwwwwwbwLc.",
+            ".cEwwwbwwbwwwEc.",
+            ".LcEwwwwwwwwEcL.",
+            "..LcEcBwwBcEcL..",
+            ".cLcEcEccEcEcLc.",
+            "..ccEEcEEcEEcc..",
+            "....EEEEEEEE...."
+          ]
+        },
+        {
+          "name": "maldicao",
+          "only": "night",
+          "offset": [
+            0,
+            17
+          ],
+          "rows": [
+            "................",
+            "................",
+            "................",
+            ".....v...v......",
+            "......vv.v.v....",
+            ".....v..vv......",
+            "....v.v...v....."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "potato_broto",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            25
+          ],
+          "rows": [
+            "......c.c.......",
+            ".....cLcLc......",
+            "......cEc.......",
+            ".......E........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "potato_crescendo",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            22
+          ],
+          "rows": [
+            "......c.cc......",
+            "....cLcLcLc.....",
+            "...cccEccEcc....",
+            "..cLcEcccEcLc...",
+            "...EccEcEccE....",
+            "....EEcEcEE.....",
+            "......EEE......."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "potato_madura",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            19
+          ],
+          "rows": [
+            "....T....T......",
+            "...TFTcc.TFT....",
+            "....TcLcLcT.....",
+            "...cccEccEccc...",
+            "..cLcEcccEcLcc..",
+            "..cEcEcEcEcEcE..",
+            "...EEcEcEcEEE...",
+            "..221..E...221..",
+            ".21113.E..21113.",
+            "..333..E...333.."
+          ]
+        },
+        {
+          "name": "maldicao",
+          "only": "night",
+          "offset": [
+            0,
+            19
+          ],
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "...IP......PI..."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "corn_broto",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            24
+          ],
+          "rows": [
+            ".......c........",
+            "......Lc........",
+            "......cc.c......",
+            ".......cc.......",
+            ".......E........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "corn_crescendo",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            13
+          ],
+          "rows": [
+            ".......L........",
+            ".......c........",
+            "......Lc........",
+            ".......cL.......",
+            "....L..c..L.....",
+            ".....L.cE.c.....",
+            "......LcEc......",
+            ".......cE.......",
+            "...LL..cE..LL...",
+            ".....LLcEcc.....",
+            ".......cE.......",
+            ".......cE.......",
+            "....LcccEccL....",
+            "...c...cE...c...",
+            ".......cE.......",
+            "......EEEE......"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "corn_madura",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            1
+          ],
+          "rows": [
+            ".......H........",
+            "......HyH.......",
+            ".....H.y.H......",
+            "....H..y..H.....",
+            ".......c........",
+            "......Lc.L......",
+            ".....L.cEc......",
+            "...LL..cE..L....",
+            ".......cE..cL...",
+            ".......cEcHg....",
+            ".......cEgHgc...",
+            ".......cEgygc...",
+            ".......cEgHGc...",
+            ".......cEcgGc...",
+            "...L...cE.cc....",
+            "....LL.cE..LL...",
+            "....cHgcE.......",
+            "...cgHgcE.......",
+            "...cgygcE.......",
+            "...cgHGcE.......",
+            "....cgGcE.......",
+            ".....cccE..L....",
+            "..LL...cE.L.....",
+            "....LLccEc......",
+            ".......cE.......",
+            "...c..ccEc..c...",
+            "....cc.cE.cc....",
+            "......EEEE......"
+          ]
+        },
+        {
+          "name": "maldicao",
+          "only": "night",
+          "offset": [
+            0,
+            1
+          ],
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            ".........bPb....",
+            ".........bPb....",
+            ".........bPb....",
+            "................",
+            "................",
+            "................",
+            "................",
+            "....bPb.........",
+            "....bPb.........",
+            "....bPb........."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tomato_broto",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            24
+          ],
+          "rows": [
+            "......c.c.......",
+            ".....cLcLc......",
+            "......cEc.......",
+            "......cE........",
+            ".......E........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tomato_crescendo",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            16
+          ],
+          "rows": [
+            ".......jk.......",
+            "......cjkc......",
+            ".....cLjkLc.....",
+            "....cLcjkcFc....",
+            "....EcEjkcEc....",
+            ".....cLjkLcc....",
+            "....ccEjkEcLc...",
+            "...cLcEjkcEc....",
+            "....EcFjkcLc....",
+            ".....EcjkEEc....",
+            "......EjkE......",
+            "......cjkc......",
+            ".......jK......."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tomato_madura",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            11
+          ],
+          "rows": [
+            ".......jk.......",
+            ".......jk.......",
+            "......cjkc......",
+            ".....cLjkLc.....",
+            "....cLcjkcLcc...",
+            "..cLtrcjkcEcLc..",
+            "..ctrrRjkcLcc...",
+            "..cLrRcjkctrc...",
+            "..cEcLcjktrrR...",
+            "...cLcEjkcrRcc..",
+            "..cLtrcjkcLcEc..",
+            "..ctrrRjkcEcc...",
+            "..cErRcjkctrcL..",
+            "...cLcEjktrrR...",
+            "....EcEjkcrRc...",
+            ".....EEjkEE.....",
+            "......cjkc......",
+            ".......jK......."
+          ]
+        },
+        {
+          "name": "maldicao",
+          "only": "night",
+          "offset": [
+            0,
+            11
+          ],
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            ".....v..........",
+            ".....v..........",
+            "...........v....",
+            "................",
+            "................",
+            ".....v..........",
+            ".....v..........",
+            "...........v....",
+            "...........v...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "blueberry_broto",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            25
+          ],
+          "rows": [
+            "......c..c......",
+            ".....cLccLc.....",
+            "......cEEc......",
+            ".......E........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "blueberry_crescendo",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            21
+          ],
+          "rows": [
+            "......cLc.......",
+            "....cLcccLc.....",
+            "...cLcEcLcEc....",
+            "..cLcTcEcTcLc...",
+            "..cEcccLcccEc...",
+            "...EcEcEcEcE....",
+            "....EEcEEcE.....",
+            "......EEE......."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "blueberry_madura",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            18
+          ],
+          "rows": [
+            "......cLcc......",
+            "....cLcEcLcc....",
+            "...cLc6uEc6ucc..",
+            "..cLcEuUcEuUcLc.",
+            "..cE6ucLcEcc6uc.",
+            "..cLuUcE6ucEuUc.",
+            "...cEcEcuUcEcE..",
+            "..cE6ucEcEc6uc..",
+            "...EuUEcEcEuUE..",
+            "....EEcEEcEEE...",
+            "......EEEE......"
+          ]
+        },
+        {
+          "name": "maldicao",
+          "only": "night",
+          "offset": [
+            0,
+            18
+          ],
+          "rows": [
+            "................",
+            "................",
+            "......IP..IP....",
+            "................",
+            "....IP......IP..",
+            "........IP......",
+            "................",
+            "....IP.....IP..."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "melon_broto",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            25
+          ],
+          "rows": [
+            "....c.....c.....",
+            "...cLc...cLc....",
+            "....cEc.cEc.....",
+            "......cEc......."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "melon_crescendo",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            22
+          ],
+          "rows": [
+            "..cL........Lc..",
+            ".cLcc..cc..ccLc.",
+            "..cEcccLccccEc..",
+            "...EcFcEcLcEc...",
+            ".cLcEccLLDcEcLc.",
+            "..EEcEcLDLEcEE..",
+            "...EE..EEE.EE..."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "melon_madura",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            19
+          ],
+          "rows": [
+            "..cLc......cLc..",
+            ".cLcc.cLc..ccLc.",
+            "..cEcEcccEcEcE..",
+            "...ELLDLLDLLE...",
+            "..LLhLDLLDLLDL..",
+            ".LhLLDLLLDLLDLD.",
+            ".LLLLDLLLDLLDLD.",
+            ".ELLLDLLLDLLDDE.",
+            "..DLLDLLDDLDDD..",
+            "...DDDDDDDDDD..."
+          ]
+        },
+        {
+          "name": "maldicao",
+          "only": "night",
+          "offset": [
+            0,
+            19
+          ],
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            ".....v......v...",
+            "....vbvbvbvbv...",
+            ".....vvvvvvv...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pumpkin_broto",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            24
+          ],
+          "rows": [
+            "...cLc..cLc.....",
+            "..cLLc..cLLc....",
+            "...cEcc.cEc.....",
+            ".....cEcE.......",
+            ".......E........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pumpkin_crescendo",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            22
+          ],
+          "rows": [
+            "...cLc....cLc...",
+            "..cLLcc..cLLcc..",
+            "..cEcLcccLcEc...",
+            "...EcEcFFcEcE...",
+            "..cLcEcLLLcEcLc.",
+            "...EEcLLhLLEE...",
+            "....EEELLLEE...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pumpkin_madura",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            17
+          ],
+          "rows": [
+            "........Kc......",
+            "..cLc..KKcc.....",
+            ".cLLcc.Kj..cLc..",
+            "..cEcOOOOOoocLc.",
+            "...OOqOOOOqooqE.",
+            "..OOOqOOOoqOoq..",
+            ".cOOOqOOooqooqc.",
+            ".LOOOqOoooqoqqc.",
+            ".cLoooqooooqqqE.",
+            ".EcoooqooqqqqcE.",
+            "..EEoqooqqqqEE..",
+            "....Eqqqqqq....."
+          ]
+        },
+        {
+          "name": "maldicao",
+          "only": "night",
+          "offset": [
+            0,
+            17
+          ],
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            ".....6....6.....",
+            "....6g6..6g6....",
+            "................",
+            "....6g6g6g6g....",
+            ".....6.6.6.6...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "eggplant_broto",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            25
+          ],
+          "rows": [
+            "......cLc.......",
+            ".....cLLLc......",
+            "......cEc.......",
+            ".......E........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "eggplant_crescendo",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            21
+          ],
+          "rows": [
+            "......cLc.......",
+            "....cLcLcLc.....",
+            "...cLcEcEcLc....",
+            "..cLcXcEcXcLc...",
+            "..cEXFXcXFXEc...",
+            "...EcXcEcXcE....",
+            "....EEcEcEE.....",
+            "......EEE......."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "eggplant_madura",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            18
+          ],
+          "rows": [
+            "......cLcc......",
+            "....cLcLcLcc....",
+            "...cLcEcEcLcLc..",
+            "..cLcEcLcEcEcLc.",
+            "..cEcEcEcEcEcEc.",
+            "...EcccEcEcccE..",
+            "..ccxc.E.cxcc...",
+            "..Xxxx.E.Xxxx...",
+            "..Xxxx.E.Xxxx...",
+            "..xxxV.E.xxxV...",
+            "...xV..E..xV...."
+          ]
+        },
+        {
+          "name": "maldicao",
+          "only": "night",
+          "offset": [
+            0,
+            18
+          ],
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "...Q.......Q....",
+            "....Q.....Q.....",
+            "...Q.......Q...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "grape_broto",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            24
+          ],
+          "rows": [
+            ".......cL.......",
+            "......c..c......",
+            ".....cLc.L......",
+            "......cEc.......",
+            ".......E........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "grape_crescendo",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            12
+          ],
+          "rows": [
+            "..jkkkkkkkkkkK..",
+            "...k........K...",
+            "...k...cL...K...",
+            "...k..cLc...K...",
+            "...kc.cEc.cLK...",
+            "...kLccEccLcK...",
+            "...k..cEc...K...",
+            "..jkkkkkkkkkkK..",
+            "...k.cLEc...K...",
+            "...kcLcEcLc.K...",
+            "...k..cEcLc.K...",
+            "...k...Ec...K...",
+            "...k..cEc...K...",
+            "...k...E....K...",
+            "...k...E....K...",
+            "...K...E....K...",
+            "...K..EEE...K..."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "grape_madura",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            8
+          ],
+          "rows": [
+            ".jkkkkkkkkkkkkK.",
+            ".cLcLcEcLcEcLcc.",
+            "..kEcLcEcLcEcK..",
+            "..kzvzvcLzvzvK..",
+            "..kvVvVcEvVvVK..",
+            "..k.vVv.E.vVvK..",
+            "..k.vV..E..vVK..",
+            "..k..V..E...VK..",
+            ".jkkkkkkEkkkkkK.",
+            ".cLcLcEcLcEcLcc.",
+            "..kEcLcEcLcEcK..",
+            "..kzvzvcEzvzvK..",
+            "..kvVvVcEvVvVK..",
+            "..k.vVv.E.vVvK..",
+            "..k.vV..E..vVK..",
+            "..k..V..E...VK..",
+            "..k.....E....K..",
+            "..k....cE....K..",
+            "..k...cLEc...K..",
+            "..k.....E....K..",
+            "..K....EEE...K.."
+          ]
+        },
+        {
+          "name": "maldicao",
+          "only": "night",
+          "offset": [
+            0,
+            8
+          ],
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "...I.I...I.I....",
+            "................",
+            "...P...P.P....P.",
+            "......P...P.....",
+            "....P......P....",
+            "................",
+            "................",
+            "................",
+            "...I.I...I.I....",
+            "................",
+            "...P...P.P....P.",
+            "......P...P.....",
+            "....P......P...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sweet_potato_broto",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            24
+          ],
+          "rows": [
+            ".....cc.cc......",
+            "....cLLcLLc.....",
+            ".....cc.cc......",
+            "......cEc.......",
+            ".......E........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sweet_potato_crescendo",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            23
+          ],
+          "rows": [
+            "...cc......cc...",
+            "..cLLc.cc.cLLc..",
+            "...cEccLLccEc...",
+            "..cc.cEccEc.cc..",
+            ".cLLcEcEEcEcLLc.",
+            "..cEc.EEEE.cEc.."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sweet_potato_madura",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            20
+          ],
+          "rows": [
+            "...cc..cc...cc..",
+            "..cLLccLLc.cLLc.",
+            "...cEcLcEccLEc..",
+            "..cc.cEcEcEc.cc.",
+            ".cLLcEcEEcEcLLc.",
+            "..cEc.EEEEE.cEc.",
+            "...778..E..877..",
+            "..77889.E.98877.",
+            "...8899.E.9988.."
+          ]
+        },
+        {
+          "name": "maldicao",
+          "only": "night",
+          "offset": [
+            0,
+            20
+          ],
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "...b.........b..",
+            "..b...........b.",
+            "...b.........b.."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "winter_root_broto",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            24
+          ],
+          "rows": [
+            "......i..i......",
+            ".....ici.ci.....",
+            "......cE.c......",
+            ".......cE.......",
+            ".......E........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "winter_root_crescendo",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            22
+          ],
+          "rows": [
+            "....i.....i.....",
+            "...icc...cci....",
+            "....cEc.cEc.....",
+            "..ic.cEcEc.ci...",
+            "...cc.cEc.cc....",
+            "....EccEccE.....",
+            "......EEE......."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "winter_root_madura",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            16
+          ],
+          "rows": [
+            "....i.....i.....",
+            "...icc.i.cci....",
+            "....cEc.c.Ec....",
+            "..ic.cEcEc.ci...",
+            "...cc.cEc.cc....",
+            "....EccEccE.....",
+            ".....iiiiA......",
+            "....iiaaaaA.....",
+            "...iaaaaaaAA....",
+            "...aaaaaaAAZ....",
+            "...AaaaaAAAZ....",
+            "....AAAAAZZ.....",
+            "......ZZ........"
+          ]
+        },
+        {
+          "name": "maldicao",
+          "only": "night",
+          "offset": [
+            0,
+            16
+          ],
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            ".....Q..Q.......",
+            "................",
+            "......QQ........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "winter_cabbage_broto",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            25
+          ],
+          "rows": [
+            ".....c...c......",
+            "....cLc.cLc.....",
+            ".....cLcLc......",
+            "......EcE......."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "winter_cabbage_crescendo",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            23
+          ],
+          "rows": [
+            "....mm....mm....",
+            "...mnnm..mnnm...",
+            "..mnnmmnnmmnnm..",
+            "..mmnmnhhnmnmm..",
+            "...MmmnnnnmmM...",
+            "....MMmmmmMM...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "winter_cabbage_madura",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            18
+          ],
+          "rows": [
+            "....m......m....",
+            "...mnm....mnm...",
+            "..mnnnmmmmnnnm..",
+            ".mnnmnnhhnnmnnm.",
+            ".mnmnnhhnnnnmnm.",
+            ".mmnnhnnnnmnnmm.",
+            "..mnnnnnnnmnnm..",
+            ".mMnnnnnnmnnMm..",
+            ".MmMnnnnmnnMmM..",
+            "..MMmMnnnmMMM...",
+            "....MMMMMMM....."
+          ]
+        },
+        {
+          "name": "maldicao",
+          "only": "night",
+          "offset": [
+            0,
+            18
+          ],
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "......III.......",
+            ".....IIPII......",
+            "......III......."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "garlic_broto",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            23
+          ],
+          "rows": [
+            "........L.......",
+            "......L.c.......",
+            "......c.c.L.....",
+            "......c.c.c.....",
+            ".......ccc......",
+            ".......EE......."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "garlic_crescendo",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            19
+          ],
+          "rows": [
+            "........L.......",
+            "....L...c...L...",
+            "....c..Lc..Lc...",
+            ".....c.cc..c....",
+            ".....c.cc.c.....",
+            "......ccccc.....",
+            "..L...cccc...L..",
+            "...cc.cEcc..c...",
+            ".....ccEccc.....",
+            "......EEEE......"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "garlic_madura",
+      "layers": [
+        {
+          "name": "planta",
+          "offset": [
+            0,
+            13
+          ],
+          "rows": [
+            "..........cc....",
+            ".........c..c...",
+            "........c...w...",
+            "...L....c..ww...",
+            "...c....c.......",
+            "....c.L.c..L....",
+            "....c.c.c.Lc....",
+            ".....cc.cc.c....",
+            "..L..c.cc.c...L.",
+            "...c.cccccc..c..",
+            "....ccEcccc.c...",
+            ".....cEEccEc....",
+            "......wwbww.....",
+            ".....wTwwbwB....",
+            ".....wwbwwbB....",
+            "......BwBwB....."
+          ]
+        },
+        {
+          "name": "maldicao",
+          "only": "night",
+          "offset": [
+            0,
+            13
+          ],
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "......PPPP......",
+            ".......bvb......"
+          ]
+        }
+      ]
+    }
+  ]
+}

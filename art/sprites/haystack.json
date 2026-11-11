@@ -1,0 +1,81 @@
+{
+  "name": "haystack",
+  "size": [
+    32,
+    24
+  ],
+  "palette": "both",
+  "outline": false,
+  "notes": "Pilha de 3 fardos (2 embaixo, 1 em cima), 32x24, pegada 2x1. Noite: olhinhos no vão entre os fardos.",
+  "legend": {
+    "W": "wood_dark",
+    "Y": "hay_dark",
+    "h": "shadow",
+    "u": "hay_light",
+    "v": "eye",
+    "w": "wood",
+    "x": "outline",
+    "y": "hay"
+  },
+  "layers": [
+    {
+      "name": "fardos",
+      "rows": [
+        "................................",
+        ".........xxxxxxxxxxxxxx.........",
+        "........xuuuuwuuuuwuuuyx........",
+        ".......xyuuuuwuuuuwuuuyyx.......",
+        ".......xuuuuuwuuuuwuuuyyx.......",
+        ".......xuyyuuwuuyuwuuyyyx.......",
+        ".......xyYYYYWYYYYWYYYYYx.......",
+        ".......xuuyuyWyuyyWyYYyYx.......",
+        ".......xuYYYYWyYYyWuYYyYx.......",
+        ".......xuyuyyWyYYyWYYyyYx.......",
+        "..xxxxxxuyYYyWyyYYWYyyyYxxxxxx..",
+        ".xuuuywuxYYYYWYYYYWYYYYxuwuuuyx.",
+        "xuuuuuwuuxxxxxxxxxxxxxxuuwuyuyyx",
+        "xyuuuuwuuywuuuyxuyuuuwuuuwuuuyyx",
+        "xuuuuuwuuuwuuuyxuuuuuwuuuwuuuyyx",
+        "xyYYYYWYYYWYYYYxyYYYYWYYYWYYYYYx",
+        "xuYYyyWyuyWyyYYxuyYYyWYuyWYYyyYx",
+        "xuuyyyWuYYWyyuyxuyuyyWyYYWYYyyYx",
+        "xuYYyyWYYuWuyYYxuyYYyWyyuWyYYyYx",
+        "xuyuyyWYyYWYYyyxuyyyuWuyYWyyyyYx",
+        "xuyYYyWyyyWYYYyxuyyyYWYYyWyyyyYx",
+        ".xYYYYWYYYWYYYYxxYYYYWYYYWYYYYx.",
+        "..xuxxxxxxxxxxuxhxxxxxxxxxxxux..",
+        "...x....hhhhhhxhhhhhhhhh....x..."
+      ]
+    },
+    {
+      "name": "olhos",
+      "only": "night",
+      "rows": [
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "..............v..v..............",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................",
+        "................................"
+      ]
+    }
+  ]
+}

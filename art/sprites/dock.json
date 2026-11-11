@@ -1,0 +1,40 @@
+{
+  "name": "dock",
+  "size": [
+    16,
+    16
+  ],
+  "palette": "both",
+  "outline": false,
+  "notes": "Tábuas de píer 16x16 sem contorno: 4 tábuas horizontais com emendas desencontradas e pregos; emenda nas 4 direções. A última linha é sombra (translúcida) e a penúltima a fresta escura, então a borda de baixo do píer projeta sombra na água.",
+  "legend": {
+    "W": "wood_dark",
+    "h": "shadow",
+    "l": "wood_light",
+    "m": "metal",
+    "w": "wood"
+  },
+  "layers": [
+    {
+      "name": "tabuas",
+      "rows": [
+        "lllllWllllllllll",
+        "wwwwmWmwwwwwwwww",
+        "wwwwwWwwwwwwwwww",
+        "WWWWWWWWWWWWWWWW",
+        "llllllllllllWlll",
+        "wwwwwwwwwwwmWmwl",
+        "lwwwwwwwwwwwWwww",
+        "WWWWWWWWWWWWWWWW",
+        "llWlllllllllllll",
+        "wmWmwwwwwwlwwwww",
+        "lwWwwwwwwwwwwwwl",
+        "WWWWWWWWWWWWWWWW",
+        "lllllllllWllllll",
+        "lwwwwwwwmWmwwwlw",
+        "WWWWWWWWWWWWWWWW",
+        "hhhhhhhhhhhhhhhh"
+      ]
+    }
+  ]
+}

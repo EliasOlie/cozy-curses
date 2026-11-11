@@ -1,0 +1,169 @@
+{
+  "name": "tree_oak",
+  "size": [
+    32,
+    48
+  ],
+  "palette": "both",
+  "outline": false,
+  "columns": 3,
+  "notes": "Carvalho 32x48 (gerado por forma: tufos esféricos iluminados do alto à esquerda). Âncora: centro de baixo; base do tronco em y≈45. Noite: olhos na copa e vaga-lumes. Spritesheet de 3 quadros (vento): parado, copa 1 px p/ esquerda, copa 1 px p/ direita. Copa e olhos ficam nas camadas globais (deslocadas pelo offset do quadro); tronco, sombra e vaga-lumes são camadas de cada quadro e não se mexem.",
+  "legend": {
+    "x": "outline",
+    "L": "leaf_light",
+    "e": "leaf",
+    "E": "leaf_dark",
+    "D": "leaf_deep",
+    "l": "wood_light",
+    "w": "wood",
+    "W": "wood_dark",
+    "h": "shadow",
+    "y": "eye",
+    "o": "glow"
+  },
+  "layers": [
+    {
+      "name": "copa",
+      "rows": [
+        "................................",
+        "............xxxxxxxx............",
+        "..........xxLLLLLLLexx..........",
+        ".........xLLLLLLeLeeeex.........",
+        ".........xLLLLLeeLLeeex.........",
+        "........xLLLLLeeeeeeeEEx........",
+        "........xDDDLLLeeeeeDDDx........",
+        "......xxLLLLDDeeeeDDLLLLxx......",
+        "....xxLLLLeeeeDeEDLLLLLLLLxx....",
+        "...xLLLLLLeLeeeDDLLLLLLLLLeex...",
+        "..xLLLLLLeeeeEEDLLLLLLeeeeeeEx..",
+        "..xLLLeLLeeeeeEDLLLLLeeeeeeEex..",
+        ".xLLLLLeeeeEEEDLLLLLLLeeeeeEEEx.",
+        ".xLLLeeeeEeEEEDLLeeLeeeeEEEEDDx.",
+        ".xeLeeeeeeEEDDDDDDDDeeeEEEEEEDx.",
+        ".xLeeeDDDDDDLLLLLeLLDDDDDDDDDDx.",
+        ".xeeDDLLLDLLLLLLLeeeeeDLLLDDDDx.",
+        ".xeDLLLLDLLLLLLeLLeeeeeDLeeeDDx.",
+        "..xLLLLDLLLLLLLeeeeeeEEEDeeeex..",
+        "..xLLLeDLLLLeeeeeeeeeEEEDeeeEx..",
+        "..xLeeDLLLeeLeeeeeEEEEEEEDEEDx..",
+        "..xLeeDLLeLeeeeeEEEEEDDDDDEDEx..",
+        "..xLeeDeeeeeeeeeEEEEEEDDDDEEDx..",
+        "..xeeeDeeeeEEEeEEEEDDDDDDDDDDx..",
+        "..xEeeDeeeeeeEEEEDEDDDDDDDDDDx..",
+        "..xEEEDeeeeEEEEEEDDDDDDDDDDDDx..",
+        "..xEEDDeeeEEEDDEDEDDDDDDDDDDDx..",
+        "...xEEDEEEEEEEDDDDDDDDDDDDDDx...",
+        "....xxDDEEEDDDDDDDDDDDDDDDxx....",
+        "......xxxEEEDDDDDDDDDDDxxx......",
+        ".........xEDDDDDDDDDDDx.........",
+        "..........xxDDDDDDDDxx..........",
+        "............xxxxxxxx............"
+      ]
+    },
+    { "name": "olhos_a", "only": "night", "offset": [10, 15], "rows": ["y.y"] },
+    { "name": "olhos_b", "only": "night", "offset": [20, 20], "rows": ["y.y"] }
+  ],
+  "frames": [
+    {
+      "name": "parado",
+      "layers": [
+        {
+          "name": "tronco",
+          "offset": [0, 33],
+          "rows": [
+            ".............xWWWWx.............",
+            ".............xWWwWx.............",
+            ".............xlwwWx.............",
+            ".............xlwWWx.............",
+            ".............xlwwWx.............",
+            ".............xlwwWx.............",
+            ".............xlwwWx.............",
+            ".............xlWwWx.............",
+            "..........hhhxlwwWxhhh..........",
+            "......hhhhhxxxlwwWxxxhhhhh......",
+            ".....hhhhhhWwWlWWWWwWhhhhhh.....",
+            "....hhhhhhxWWWWWWWWWWxhhhhhh....",
+            ".....hhhhhxxxxxxxxxxxxhhhhh.....",
+            "......hhhhhhhhhhhhhhhhhhhh......",
+            "..........hhhhhhhhhhhh.........."
+          ]
+        },
+        { "name": "vagalume_1", "only": "night", "offset": [20, 1], "rows": ["o"] },
+        { "name": "vagalume_2", "only": "night", "offset": [29, 4], "rows": ["o"] },
+        { "name": "vagalume_3", "only": "night", "offset": [3, 6], "rows": ["o"] },
+        { "name": "vagalume_4", "only": "night", "offset": [30, 27], "rows": ["o"] },
+        { "name": "vagalume_5", "only": "night", "offset": [1, 30], "rows": ["o"] },
+        { "name": "vagalume_6", "only": "night", "offset": [5, 37], "rows": ["o"] },
+        { "name": "vagalume_7", "only": "night", "offset": [27, 38], "rows": ["o"] }
+      ]
+    },
+    {
+      "name": "vento_esquerda",
+      "offset": [-1, 0],
+      "layers": [
+        {
+          "name": "tronco",
+          "offset": [0, 33],
+          "rows": [
+            ".............xWWWWx.............",
+            ".............xWWwWx.............",
+            ".............xlwwWx.............",
+            ".............xlwWWx.............",
+            ".............xlwwWx.............",
+            ".............xlwwWx.............",
+            ".............xlwwWx.............",
+            ".............xlWwWx.............",
+            "..........hhhxlwwWxhhh..........",
+            "......hhhhhxxxlwwWxxxhhhhh......",
+            ".....hhhhhhWwWlWWWWwWhhhhhh.....",
+            "....hhhhhhxWWWWWWWWWWxhhhhhh....",
+            ".....hhhhhxxxxxxxxxxxxhhhhh.....",
+            "......hhhhhhhhhhhhhhhhhhhh......",
+            "..........hhhhhhhhhhhh.........."
+          ]
+        },
+        { "name": "vagalume_1", "only": "night", "offset": [20, 1], "rows": ["o"] },
+        { "name": "vagalume_2", "only": "night", "offset": [29, 4], "rows": ["o"] },
+        { "name": "vagalume_3", "only": "night", "offset": [3, 6], "rows": ["o"] },
+        { "name": "vagalume_4", "only": "night", "offset": [30, 27], "rows": ["o"] },
+        { "name": "vagalume_5", "only": "night", "offset": [1, 30], "rows": ["o"] },
+        { "name": "vagalume_6", "only": "night", "offset": [5, 37], "rows": ["o"] },
+        { "name": "vagalume_7", "only": "night", "offset": [27, 38], "rows": ["o"] }
+      ]
+    },
+    {
+      "name": "vento_direita",
+      "offset": [1, 0],
+      "layers": [
+        {
+          "name": "tronco",
+          "offset": [0, 33],
+          "rows": [
+            ".............xWWWWx.............",
+            ".............xWWwWx.............",
+            ".............xlwwWx.............",
+            ".............xlwWWx.............",
+            ".............xlwwWx.............",
+            ".............xlwwWx.............",
+            ".............xlwwWx.............",
+            ".............xlWwWx.............",
+            "..........hhhxlwwWxhhh..........",
+            "......hhhhhxxxlwwWxxxhhhhh......",
+            ".....hhhhhhWwWlWWWWwWhhhhhh.....",
+            "....hhhhhhxWWWWWWWWWWxhhhhhh....",
+            ".....hhhhhxxxxxxxxxxxxhhhhh.....",
+            "......hhhhhhhhhhhhhhhhhhhh......",
+            "..........hhhhhhhhhhhh.........."
+          ]
+        },
+        { "name": "vagalume_1", "only": "night", "offset": [20, 1], "rows": ["o"] },
+        { "name": "vagalume_2", "only": "night", "offset": [29, 4], "rows": ["o"] },
+        { "name": "vagalume_3", "only": "night", "offset": [3, 6], "rows": ["o"] },
+        { "name": "vagalume_4", "only": "night", "offset": [30, 27], "rows": ["o"] },
+        { "name": "vagalume_5", "only": "night", "offset": [1, 30], "rows": ["o"] },
+        { "name": "vagalume_6", "only": "night", "offset": [5, 37], "rows": ["o"] },
+        { "name": "vagalume_7", "only": "night", "offset": [27, 38], "rows": ["o"] }
+      ]
+    }
+  ]
+}

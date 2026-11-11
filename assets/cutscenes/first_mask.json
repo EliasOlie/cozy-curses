@@ -1,0 +1,20 @@
+{
+  "id": "first_mask",
+  "title": "O Véu da Noite",
+  "notes": "Tocada pelo código ao conseguir a primeira máscara (economy.rs).",
+  "steps": [
+    {
+      "banner": "O SEGREDO DA FACE",
+      "subtitle": "A máscara se ajusta à sua pele como uma segunda alma",
+      "seconds": 3.0
+    },
+    {
+      "say": "Voz da Forja",
+      "pages": [
+        "De dia, você é o fazendeiro generoso. De noite, você é o mercador das sombras.",
+        "Com esta face esculpida, os habitantes da noite não o verão como caça, mas como cúmplice.",
+        "Transite livremente pela vila escura e comercialize suas oferendas na Banca Noturna."
+      ]
+    }
+  ]
+}

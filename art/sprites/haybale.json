@@ -1,0 +1,42 @@
+{
+  "name": "haybale",
+  "size": [
+    16,
+    16
+  ],
+  "palette": "both",
+  "outline": false,
+  "notes": "Fardo de feno amarrado (16x16), tampa clara em 3/4, duas cordas. Base em y 14. Noite: só a paleta (feno arroxeado).",
+  "legend": {
+    "W": "wood_dark",
+    "Y": "hay_dark",
+    "h": "shadow",
+    "u": "hay_light",
+    "w": "wood",
+    "x": "outline",
+    "y": "hay"
+  },
+  "layers": [
+    {
+      "name": "fardo",
+      "rows": [
+        "................",
+        "................",
+        "................",
+        "..xxxxxxxxxxxx..",
+        ".xuuuwuyyuwuuyx.",
+        "xuuuuwuuuuwyuyyx",
+        "xuuyuwuuuuwuuyyx",
+        "xuuyuwuuuuwuuyyx",
+        "xyYYYWYYYYWYYYYx",
+        "xuyyYWuYYyWuyyYx",
+        "xuyyyWYYyyWYYyYx",
+        "xuyuyWuyyyWuYYYx",
+        "xuyYYWYYyyWYYyYx",
+        ".xYYYWYYYYWYYYx.",
+        ".hxxxxxxxxxxxxh.",
+        "....hhhhhhhh...."
+      ]
+    }
+  ]
+}

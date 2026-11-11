@@ -1,0 +1,68 @@
+{
+  "name": "dialog",
+  "size": [
+    32,
+    32
+  ],
+  "palette": "day",
+  "outline": false,
+  "notes": "Caixa de diálogo 9-slice (borda 12): moldura de madeira com florzinha e folhas em cada canto, filete interno de pergaminho escuro, miolo pergaminho. Miolo e bordas lisos.",
+  "legend": {
+    "x": "outline",
+    "L": "wood_light",
+    "w": "wood",
+    "D": "wood_dark",
+    "K": "stone_light",
+    "s": "stone",
+    "S": "stone_dark",
+    "p": "plaster",
+    "P": "plaster_dark",
+    "q": "parchment_dark",
+    "f": "flower",
+    "F": "path_light",
+    "y": "flower_alt",
+    "l": "leaf",
+    "h": "leaf_light",
+    "e": "leaf",
+    "E": "leaf_dark"
+  },
+  "layers": [
+    {
+      "name": "moldura",
+      "rows": [
+        ".xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.",
+        "xffxffxxxLLLLLLLLLLLLLLxxxffxffx",
+        "xfFffxlhhxwwwwwwwwwwwwxhhlxffFfx",
+        "xxfyfxleeExwwwwwwwwwwxEeelxfyfxx",
+        "xffffxxEExwwwwwwwwwwwwxEExxffffx",
+        "xffxffxDxxDDDDDDDDDDDDxxDxffxffx",
+        "xxxlxxxxxxxxxxxxxxxxxxxxxxxxlxxx",
+        "xLxlhxxPPPPPPPPPPPPPPPPPPxxhlxDx",
+        "xLxleExPpppppppppppppppppxEelxDx",
+        "xLwxeExPpqqqqqqqqqqqqqqppxEexwDx",
+        "xLwwxxxPpqppppppppppppqppxxxwwDx",
+        "xLwwwDxPpqppppppppppppqppxLwwwDx",
+        "xLwwwDxPpqppppppppppppqppxLwwwDx",
+        "xLwwwDxPpqppppppppppppqppxLwwwDx",
+        "xLwwwDxPpqppppppppppppqppxLwwwDx",
+        "xLwwwDxPpqppppppppppppqppxLwwwDx",
+        "xLwwwDxPpqppppppppppppqppxLwwwDx",
+        "xLwwwDxPpqppppppppppppqppxLwwwDx",
+        "xLwwwDxPpqppppppppppppqppxLwwwDx",
+        "xLwwwDxPpqppppppppppppqppxLwwwDx",
+        "xLwwwDxPpqppppppppppppqppxLwwwDx",
+        "xLwwxxxPpqppppppppppppqppxxxwwDx",
+        "xLwxeExPpqqqqqqqqqqqqqqppxEexwDx",
+        "xLxleExPpppppppppppppppppxEelxDx",
+        "xLxlhxxPpppppppppppppppppxxhlxDx",
+        "xxxlxxxxxxxxxxxxxxxxxxxxxxxxlxxx",
+        "xffxffxLxxLLLLLLLLLLLLxxLxffxffx",
+        "xffffxxEExwwwwwwwwwwwwxEExxffffx",
+        "xxfyfxleeExwwwwwwwwwwxEeelxfyfxx",
+        "xfFffxlhhxwwwwwwwwwwwwxhhlxffFfx",
+        "xffxffxxxDDDDDDDDDDDDDDxxxffxffx",
+        ".xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx."
+      ]
+    }
+  ]
+}

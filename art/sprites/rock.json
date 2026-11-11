@@ -1,0 +1,29 @@
+{
+  "name": "rock",
+  "size": [16, 16],
+  "palette": "both",
+  "notes": "Pedra que bloqueia a passagem.",
+  "legend": { "K": "stone_light", "k": "stone", "S": "stone_dark", "w": "path_light", "m": "leaf" },
+  "layers": [
+    {
+      "rows": [
+        "................",
+        "................",
+        "................",
+        "................",
+        "......KKKK......",
+        "....KKwwKkKS....",
+        "...KwwKkkkkkS...",
+        "..KwKkkkkkSkkS..",
+        "..KKkkkkkSkkkS..",
+        "..KkkkkkSkkkkk..",
+        "..kkkSkkkkkkSS..",
+        "..SkkkSkkkkSSS..",
+        "..SSkkkkkSSSSS..",
+        "...SSSSSmSSSS...",
+        "................",
+        "................"
+      ]
+    }
+  ]
+}

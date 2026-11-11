@@ -1,0 +1,111 @@
+{
+  "name": "farmer_pants",
+  "size": [16, 32],
+  "palette": "day",
+  "columns": 3,
+  "notes": "Calça e sapatos do jogador. A calça é tingida; os sapatos (ink) continuam escuros.",
+  "legend": { "p": "tint", "P": "tint_dark", "k": "ink" },
+  "frames": [
+    {
+      "name": "down_0",
+      "layers": [
+        {
+          "offset": [0, 24],
+          "rows": [
+            "....pppPpppP....",
+            "....pppPpppP....",
+            "....pppPpppP....",
+            "....ppP..ppP....",
+            "....ppP..ppP....",
+            "....kkk..kkk....",
+            "...kkkk..kkkk..."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "down_1",
+      "layers": [
+        {
+          "offset": [0, 25],
+          "rows": [
+            "....pppPpppP....",
+            "....pppPpppP....",
+            "....ppP..ppP....",
+            "....kkk..ppP....",
+            "...kkkk..kkk....",
+            ".........kkkk..."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "down_2",
+      "layers": [
+        {
+          "offset": [0, 25],
+          "rows": [
+            "....pppPpppP....",
+            "....pppPpppP....",
+            "....ppP..ppP....",
+            "....ppP..kkk....",
+            "....kkk..kkkk...",
+            "...kkkk........."
+          ]
+        }
+      ]
+    },
+    { "name": "up_0", "from": "down_0" },
+    { "name": "up_1", "from": "down_1" },
+    { "name": "up_2", "from": "down_2" },
+    {
+      "name": "side_0",
+      "layers": [
+        {
+          "offset": [0, 24],
+          "rows": [
+            ".....pppppP.....",
+            ".....pppppP.....",
+            ".....pppppP.....",
+            "......ppPP......",
+            "......ppPP......",
+            "......kkkk......",
+            "......kkkkkk...."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "side_1",
+      "layers": [
+        {
+          "offset": [0, 25],
+          "rows": [
+            ".....pppppP.....",
+            ".....pppppP.....",
+            "....ppP...pp....",
+            "...ppP.....ppP..",
+            "...kk......kkk..",
+            "..kkk.......kkk."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "side_2",
+      "layers": [
+        {
+          "offset": [0, 25],
+          "rows": [
+            ".....pppppP.....",
+            ".....pppppP.....",
+            ".....ppPpP......",
+            "....ppP.ppP.....",
+            "....kkk.kkk.....",
+            "....kkk.kkkk...."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "wall",
+  "size": [16, 16],
+  "palette": "both",
+  "outline": false,
+  "columns": 2,
+  "notes": "Parede interna. Quadro 0: face (friso de madeira no topo, papel de parede listrado, rodameio, lambri, rodapé) -- vai logo abaixo do topo e encosta no chão. Quadro 1: topo/borda escura, liso, emenda em qualquer direção (serve também para as paredes laterais). Os dois emendam lado a lado.",
+  "legend": {
+    "d": "wood_dark",
+    "w": "wood",
+    "l": "wood_light",
+    "p": "wallpaper",
+    "P": "wallpaper_light",
+    "D": "wallpaper_dark",
+    "i": "ink",
+    "W": "outline"
+  },
+  "frames": [
+    {
+      "name": "face",
+      "layers": [
+        {
+          "rows": [
+            "llllllllllllllll",
+            "dddddddddddddddd",
+            "DDDDDDDDDDDDDDDD",
+            "pPpppPpppPpppPpp",
+            "pPpDpPpppPpDpPpp",
+            "pPpppPpppPpppPpp",
+            "pPpppPpDpPpppPpD",
+            "pPpppPpppPpppPpp",
+            "pPpDpPpppPpDpPpp",
+            "pPpppPpppPpppPpp",
+            "llllllllllllllll",
+            "wwwwwwwwwwwwwwww",
+            "dddddddddddddddd",
+            "wlwwwwwdwlwwwwwd",
+            "wlwwwwwdwlwwwwwd",
+            "dddddddddddddddd"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "topo",
+      "layers": [
+        {
+          "rows": [
+            "iiiiiiiiiiiiiiii",
+            "iiiiiiiiiiiWiiii",
+            "iiiiiiiiiiiiiiii",
+            "iiWiiiiiiiiiiiii",
+            "iiiiiiiiiiiiiiii",
+            "iiiiiiiiiiiiiiii",
+            "iiiiiiiiiWiiiiii",
+            "iiiiiiiiiiiiiiii",
+            "iiiiiiiiiiiiWiii",
+            "iiiiiiWiiiiiiiii",
+            "iiiiiiiiiiiiiiii",
+            "iiiiiiiiiiiiiiii",
+            "iiiiiiiiiiiiiiWi",
+            "iiiiiiiiiiiiiiii",
+            "iiiWiiiiiiiiiiii",
+            "iiiiiiiiiiiiiiii"
+          ]
+        }
+      ]
+    }
+  ]
+}

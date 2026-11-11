@@ -1,0 +1,72 @@
+{
+  "name": "tile_path",
+  "size": [16, 16],
+  "palette": "both",
+  "outline": false,
+  "columns": 2,
+  "notes": "Caminho de terra arenosa quente (inspiration_1): areia clara pontilhada, grãos mais escuros e pedrinhas com luz em cima e sombra embaixo. Nada encosta na borda; emenda sem costura. 2 variações.",
+  "legend": { "p": "path", "P": "path_light", "q": "path_dark", "k": "stone", "K": "stone_light", "S": "stone_dark" },
+  "layers": [
+    {
+      "name": "base",
+      "shape": "rect",
+      "color": "path",
+      "noise": [
+        { "color": "path_light", "density": 0.11, "seed": 31 },
+        { "color": "path_dark", "density": 0.04, "seed": 32 }
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "name": "pedrinhas_a",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "..KK............",
+            ".Kkkq...........",
+            "..Sq.......PP...",
+            "..........PPPq..",
+            "...........qq...",
+            "................",
+            "......K.........",
+            ".....kSq........",
+            "................",
+            "...........Kk...",
+            "..PP.......kSq..",
+            ".PPPq...........",
+            "..qq............",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pedrinhas_b",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "........PP......",
+            ".......PPPq.....",
+            "........qq......",
+            "..Kk............",
+            "..kSq.......K...",
+            "...........kSq..",
+            "................",
+            "........KK......",
+            ".......Kkkk.....",
+            "........SSq.....",
+            "................",
+            "..K.........PP..",
+            "..Sq.......PPq..",
+            "................"
+          ]
+        }
+      ]
+    }
+  ]
+}

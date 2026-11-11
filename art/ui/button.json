@@ -1,0 +1,43 @@
+{
+  "name": "button",
+  "size": [
+    16,
+    16
+  ],
+  "palette": "day",
+  "outline": false,
+  "notes": "Botão de madeira clara 9-slice (borda 5): chanfro claro em cima/esquerda, sombra à direita, espessura (wood_dark) embaixo. Miolo liso.",
+  "legend": {
+    "x": "outline",
+    "W": "path_light",
+    "H": "path",
+    "b": "wood_light",
+    "s": "wood",
+    "D": "wood_dark",
+    "G": "ui_wood_glow",
+    "o": "glow"
+  },
+  "layers": [
+    {
+      "name": "botao",
+      "rows": [
+        ".xxxxxxxxxxxxxx.",
+        "xHHHHHHHHHHHHHHx",
+        "xHWbbbbbbbbbbbsx",
+        "xHbbbbbbbbbbbbsx",
+        "xHbbbbbbbbbbbbsx",
+        "xHbbbbbbbbbbbbsx",
+        "xHbbbbbbbbbbbbsx",
+        "xHbbbbbbbbbbbbsx",
+        "xHbbbbbbbbbbbbsx",
+        "xHbbbbbbbbbbbbsx",
+        "xHbbbbbbbbbbbbsx",
+        "xHbbbbbbbbbbbbsx",
+        "xHbbbbbbbbbbbbsx",
+        "xssssssssssssssx",
+        "xDDDDDDDDDDDDDDx",
+        ".xxxxxxxxxxxxxx."
+      ]
+    }
+  ]
+}

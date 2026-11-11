@@ -1,0 +1,51 @@
+{
+  "name": "panel_dark",
+  "size": [
+    24,
+    24
+  ],
+  "palette": "day",
+  "outline": false,
+  "notes": "Igual ao panel, miolo marrom-escuro translúcido (ui_glass) para HUD sobre o mundo. Borda 8.",
+  "legend": {
+    "x": "outline",
+    "L": "wood_light",
+    "w": "wood",
+    "D": "wood_dark",
+    "K": "stone_light",
+    "s": "stone",
+    "S": "stone_dark",
+    "g": "ui_glass"
+  },
+  "layers": [
+    {
+      "name": "moldura",
+      "rows": [
+        "..xxxxxxxxxxxxxxxxxxxx..",
+        ".xLLLLLLLLLLLLLLLLLLLLx.",
+        "xLwwwwDwwwwwwwwwwDwwwwDx",
+        "xLwKswDwwwwwwwwwwDwKswDx",
+        "xLwsSwDwwwwwwwwwwDwsSwDx",
+        "xLwwwDDDDDDDDDDDDDDwwwDx",
+        "xLDDDDxxxxxxxxxxxxLDDDDx",
+        "xLwwwDxggggggggggxLwwwDx",
+        "xLwwwDxggggggggggxLwwwDx",
+        "xLwwwDxggggggggggxLwwwDx",
+        "xLwwwDxggggggggggxLwwwDx",
+        "xLwwwDxggggggggggxLwwwDx",
+        "xLwwwDxggggggggggxLwwwDx",
+        "xLwwwDxggggggggggxLwwwDx",
+        "xLwwwDxggggggggggxLwwwDx",
+        "xLwwwDxggggggggggxLwwwDx",
+        "xLwwwDxggggggggggxLwwwDx",
+        "xLDDDDxxxxxxxxxxxxLDDDDx",
+        "xLwwwLLLLLLLLLLLLLLwwwDx",
+        "xLwKswDwwwwwwwwwwDwKswDx",
+        "xLwsSwDwwwwwwwwwwDwsSwDx",
+        "xLwwwwDwwwwwwwwwwDwwwwDx",
+        ".xDDDDDDDDDDDDDDDDDDDDx.",
+        "..xxxxxxxxxxxxxxxxxxxx.."
+      ]
+    }
+  ]
+}

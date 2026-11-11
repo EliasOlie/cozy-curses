@@ -1,0 +1,140 @@
+{
+  "name": "tree_pine",
+  "size": [
+    24,
+    40
+  ],
+  "palette": "both",
+  "outline": false,
+  "columns": 3,
+  "notes": "Pinheiro 24x40 em três camadas de galhos. Âncora: centro de baixo; base do tronco em y≈37. Spritesheet de 3 quadros (vento): parado, copa 1 px p/ esquerda, copa 1 px p/ direita. Copa e olhos nas camadas globais (deslocadas pelo offset do quadro); tronco, sombra e vaga-lumes em cada quadro, fixos.",
+  "legend": {
+    "x": "outline",
+    "L": "leaf_light",
+    "e": "leaf",
+    "E": "leaf_dark",
+    "D": "leaf_deep",
+    "l": "wood_light",
+    "w": "wood",
+    "W": "wood_dark",
+    "h": "shadow",
+    "y": "eye",
+    "o": "glow"
+  },
+  "layers": [
+    {
+      "name": "copa",
+      "rows": [
+        "...........xx...........",
+        "...........xx...........",
+        ".........xxeExx.........",
+        "..........xeEx..........",
+        ".........xeeEDx.........",
+        "........xeeEEEDx........",
+        "........xDDDDDDx........",
+        "........xLLLeEDx........",
+        "......xxDLLeEEDDxx......",
+        ".......xLLLeeEEDx.......",
+        "......xDLLeeEEEDDx......",
+        ".......xLeeeEEEDx.......",
+        "......xLeeeEEEDDDx......",
+        "......xeLeEEEEDDDx......",
+        "......xLDDDDDDDDDx......",
+        "....xxLDLLLeeEEDDDxx....",
+        ".....xDLLLeeeEEEDDx.....",
+        "....xDLLeeeeEEEEEDDx....",
+        "...xeDLLLeeeeEEEDDDDx...",
+        "...xDDLLLeeeEEEDDDDDx...",
+        "...xxLLeeeeEEEEDDDDxx...",
+        ".....xLLeeeeEEEDDDx.....",
+        "....xLeeeeeEEEEEDDDx....",
+        "...xeeeeeEeEEEEDDDDDx...",
+        "...xeLeeeeEEEEEDDDDDx...",
+        "...xLeeeEEEEEDEDDDDDx...",
+        "..xeeeeEeEEEEDDDDDDDDx..",
+        "..xeeeeEEEEEEDDDDDDDDx..",
+        "..xeeeeeEEEEDDDDDDDDDx..",
+        "xxeeEEEEEEEDDEDDDDDDDDxx",
+        ".xeeEEEEEEDEDDDDDDDDDDx.",
+        "xxxxxxxxxxxxxxxxxxxxxxxx"
+      ]
+    },
+    { "name": "olhos", "only": "night", "offset": [9, 17], "rows": ["y..y"] }
+  ],
+  "frames": [
+    {
+      "name": "parado",
+      "layers": [
+        {
+          "name": "tronco",
+          "offset": [0, 32],
+          "rows": [
+            "..........xwWx..........",
+            "..........xwWx..........",
+            "..........xwWx..........",
+            ".....hhhhhxwWxhhhhh.....",
+            "...hhhhhxWwWWWWxhhhhh...",
+            "...hhhhhxxxxxxxxhhhhh...",
+            ".....hhhhhhhhhhhhhh.....",
+            "........................"
+          ]
+        },
+        { "name": "vagalume_1", "only": "night", "offset": [18, 3], "rows": ["o"] },
+        { "name": "vagalume_2", "only": "night", "offset": [2, 8], "rows": ["o"] },
+        { "name": "vagalume_3", "only": "night", "offset": [21, 12], "rows": ["o"] },
+        { "name": "vagalume_4", "only": "night", "offset": [1, 24], "rows": ["o"] },
+        { "name": "vagalume_5", "only": "night", "offset": [22, 30], "rows": ["o"] }
+      ]
+    },
+    {
+      "name": "vento_esquerda",
+      "offset": [-1, 0],
+      "layers": [
+        {
+          "name": "tronco",
+          "offset": [0, 32],
+          "rows": [
+            "..........xwWx..........",
+            "..........xwWx..........",
+            "..........xwWx..........",
+            ".....hhhhhxwWxhhhhh.....",
+            "...hhhhhxWwWWWWxhhhhh...",
+            "...hhhhhxxxxxxxxhhhhh...",
+            ".....hhhhhhhhhhhhhh.....",
+            "........................"
+          ]
+        },
+        { "name": "vagalume_1", "only": "night", "offset": [18, 3], "rows": ["o"] },
+        { "name": "vagalume_2", "only": "night", "offset": [2, 8], "rows": ["o"] },
+        { "name": "vagalume_3", "only": "night", "offset": [21, 12], "rows": ["o"] },
+        { "name": "vagalume_4", "only": "night", "offset": [1, 24], "rows": ["o"] },
+        { "name": "vagalume_5", "only": "night", "offset": [22, 30], "rows": ["o"] }
+      ]
+    },
+    {
+      "name": "vento_direita",
+      "offset": [1, 0],
+      "layers": [
+        {
+          "name": "tronco",
+          "offset": [0, 32],
+          "rows": [
+            "..........xwWx..........",
+            "..........xwWx..........",
+            "..........xwWx..........",
+            ".....hhhhhxwWxhhhhh.....",
+            "...hhhhhxWwWWWWxhhhhh...",
+            "...hhhhhxxxxxxxxhhhhh...",
+            ".....hhhhhhhhhhhhhh.....",
+            "........................"
+          ]
+        },
+        { "name": "vagalume_1", "only": "night", "offset": [18, 3], "rows": ["o"] },
+        { "name": "vagalume_2", "only": "night", "offset": [2, 8], "rows": ["o"] },
+        { "name": "vagalume_3", "only": "night", "offset": [21, 12], "rows": ["o"] },
+        { "name": "vagalume_4", "only": "night", "offset": [1, 24], "rows": ["o"] },
+        { "name": "vagalume_5", "only": "night", "offset": [22, 30], "rows": ["o"] }
+      ]
+    }
+  ]
+}

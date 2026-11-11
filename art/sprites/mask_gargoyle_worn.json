@@ -1,0 +1,23 @@
+{
+  "name": "mask_gargoyle_worn",
+  "size": [12, 10],
+  "palette": "night",
+  "notes": "Máscara de Gárgula usada no rosto (farmer_body down_0). Desenhar com o canto superior esquerdo em (2, 7) do quadro 16x32: os olhos caem sobre os olhos do jogador.",
+  "legend": { "s": "stone", "D": "stone_dark", "L": "stone_light", "E": "eye", "k": "ink" },
+  "layers": [
+    {
+      "rows": [
+        "............",
+        ".D........D.",
+        ".DssLsssssD.",
+        ".sDDsssDDDs.",
+        ".ssEssssEss.",
+        ".ssEssssEss.",
+        ".sssDssDsss.",
+        ".sDkkkkkkDs.",
+        "..sLsLLsLs..",
+        "............"
+      ]
+    }
+  ]
+}

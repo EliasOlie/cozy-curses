@@ -1,0 +1,69 @@
+{
+  "name": "tile_cobble",
+  "size": [
+    16,
+    16
+  ],
+  "palette": "both",
+  "outline": false,
+  "columns": 2,
+  "notes": "Calçamento de pedra da Vila Serena, 2 variações, sem costura (fileiras de 4 px, quebras dão a volta).",
+  "legend": {
+    "K": "stone_light",
+    "k": "stone",
+    "S": "stone_dark",
+    "N": "grass_dark"
+  },
+  "frames": [
+    {
+      "name": "pedras_a",
+      "layers": [
+        {
+          "rows": [
+            "KKkSKKKkSKKKKkSK",
+            "kkkNkkKkSkkkkkSK",
+            "KSkNkkSSSkkkkkSk",
+            "SSSSSSSSSSSSSSSS",
+            "KKkSKKkSKKKKkSKK",
+            "kkkSkkKSkkkkkSkk",
+            "kSSSkkSSkkSNSSkS",
+            "SSSSSSSNSSSSSSSS",
+            "KKKSKKKKSKKKKkSK",
+            "kKkSkkkkSkkkkkSK",
+            "kSSSkSSkSkSSkkSk",
+            "SSSSSSSSSSSSSSSS",
+            "kSKKkSKKKKkSKKKK",
+            "kSkkkSkkkkkSkkkk",
+            "kSkkSSkkkkkSkSSk",
+            "SSSSSSSSSSSSSSSS"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pedras_b",
+      "layers": [
+        {
+          "rows": [
+            "KKkSKKkSKKKKKSKK",
+            "kkkSkkkSkkkkkSkk",
+            "SkSSkkkSkkkkSSKS",
+            "SSSSSSSSSSSSSSSS",
+            "KKkSKKKkSKKKKkSK",
+            "kkkSkkkKSkkkkkSk",
+            "KSSSkSkkSkNkKSSk",
+            "SSSSSSSSSSSSSSSS",
+            "KkSKKkSKKKKkSKKK",
+            "kkSkkkSkkkkkSkkk",
+            "kkSkkkSkSkkkSkkk",
+            "SSSSSSSSSSSSSSSS",
+            "KKKkSKKKkSKKKKkS",
+            "KkkkSkkkkSkkkkkS",
+            "kkkSSkkkNSkkSkkS",
+            "SSSSSSSSSSSSSSSS"
+          ]
+        }
+      ]
+    }
+  ]
+}

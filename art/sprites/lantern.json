@@ -1,0 +1,24 @@
+{
+  "name": "lantern",
+  "size": [8, 12],
+  "palette": "night",
+  "notes": "Lampião que o jogador segura à noite. A argola (topo, x 3-4) fica na mão.",
+  "legend": { "m": "metal", "d": "wood_dark", "G": "window", "F": "eye" },
+  "layers": [
+    {
+      "offset": [0, 1],
+      "rows": [
+        "...mm...",
+        "..m..m..",
+        "..mmmm..",
+        ".dddddd.",
+        ".mGGGGm.",
+        ".mGFFGm.",
+        ".mGFFGm.",
+        ".mGGGGm.",
+        ".dddddd.",
+        "..dddd.."
+      ]
+    }
+  ]
+}

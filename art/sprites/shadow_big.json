@@ -1,0 +1,26 @@
+{
+  "name": "shadow_big",
+  "size": [32, 10],
+  "palette": "both",
+  "outline": false,
+  "notes": "Sombra de chão sob a copa das árvores: elipse larga da chave shadow (translúcida), borda pontilhada para suavizar. Mesma linguagem da sombra de contato (shadow.json).",
+  "legend": { "s": "shadow" },
+  "layers": [
+    {
+      "name": "elipse",
+      "mirror": true,
+      "rows": [
+        "........s.s.ssss",
+        ".....s.sssssssss",
+        "...s.sssssssssss",
+        ".s.sssssssssssss",
+        "s.ssssssssssssss",
+        "s.ssssssssssssss",
+        ".s.sssssssssssss",
+        "...s.sssssssssss",
+        ".....s.sssssssss",
+        "........s.s.ssss"
+      ]
+    }
+  ]
+}

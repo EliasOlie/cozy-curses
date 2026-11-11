@@ -1,0 +1,1988 @@
+{
+  "name": "items",
+  "size": [16, 16],
+  "palette": "day",
+  "columns": 8,
+  "notes": "Ícones de inventário 16x16 (estilo Stardew: silhueta clara, contorno automático, 3-4 tons + highlight). Ordem: 0 enxada, 1 regador, 2 machado, 3 picareta, 4 foice, 5 sementes de cenoura, 6 cenoura, 7 madeira, 8 pedra, 9 fibra, 10 pão, 11 bolo, 12 essência, 13 moeda, 14 energia, 15 almoço (sopa de cenoura), 16 sementes_morango, 17 sementes_couve_flor, 18 sementes_batata, 19 sementes_milho, 20 sementes_tomate, 21 sementes_mirtilo, 22 sementes_melao, 23 sementes_abobora, 24 sementes_berinjela, 25 sementes_uva, 26 sementes_batata_doce, 27 sementes_raiz_inverno, 28 sementes_repolho_inverno, 29 sementes_alho, 30 morango, 31 couve_flor, 32 batata, 33 milho, 34 tomate, 35 mirtilo, 36 melao, 37 abobora, 38 berinjela, 39 uva, 40 batata_doce, 41 raiz_inverno, 42 repolho_inverno, 43 alho, 44 leite_vaca, 45 leite_cabra, 46 ovo, 47 la, 48 pelo_coelho, 49 carne_bovina, 50 carne_frango, 51 carne_cordeiro, 52 carne_coelho, 53 torta_morango, 54 salada, 55 ensopado, 56 omelete, 57 sopa_abobora, 58 frango_assado, 59 assado_campeiro, 60 geleia_mirtilo, 61 certidao, 62 cerca, 63 bau, 64 espantalho, 65 aspersor, 66 elixir, 67 incenso, 68 fertilizante, 69 mascara_gargula, 70 mascara_corvo, 71 mascara_nevoa, 72 mascara_dragao, 73 mascara_rustica, 74 espada_enferrujada. Ferramentas na diagonal: cabo de madeira de baixo-esquerda para cima-direita.",
+  "legend": {
+    "k": "ink",
+    "v": "wood_light", "w": "wood", "q": "wood_dark",
+    "W": "tint_light", "H": "stone_light", "m": "metal", "n": "slate", "N": "slate_dark",
+    "X": "slate_light",
+    "s": "stone", "S": "stone_dark",
+    "O": "crop_light", "o": "crop", "d": "crop_dark",
+    "g": "crop_leaf", "L": "leaf_light", "e": "leaf", "E": "leaf_dark", "D": "leaf_deep",
+    "p": "path_light", "P": "path",
+    "y": "hay", "Y": "hay_dark", "h": "hat",
+    "B": "bone", "c": "plaster", "C": "plaster_dark",
+    "f": "flower", "V": "velvet", "R": "roof", "r": "roof_light",
+    "i": "window", "l": "water_light",
+    "1": "essence_light", "2": "essence", "3": "essence_dark",
+    "G": "glow", "F": "flower_alt", "Z": "gold", "z": "gold_dark",
+    "b": "cloth", "j": "cloth_dark",
+    "a": "comb", "A": "barn", "x": "barn_dark", "@": "roof_dark", "T": "water", "t": "water_dark",
+    "U": "velvet_dark", "K": "fur_white", "I": "fur_white_shade", ":": "fur_dark", "J": "bone_dark", "Q": "petal",
+    "4": "grass_light", "5": "grass", "6": "grass_dark", "7": "hay_light", "8": "fur_tan", "9": "fur_tan_dark",
+    "#": "fur_tan_light", "+": "swamp", "=": "swamp_light", "-": "swamp_dark", "^": "leaf_shine", "*": "beak",
+    "&": "glow_alt", "~": "parchment_dark", "%": "skin", "$": "skin_shadow", "0": "eye"
+  },
+  "frames": [
+    {
+      "name": "enxada",
+      "layers": [
+        {
+          "name": "cabo",
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "..........vw....",
+            ".........vw.....",
+            "........vw......",
+            ".......vw.......",
+            "......vw........",
+            ".....vw.........",
+            "....vw..........",
+            "...vw...........",
+            "..vw............",
+            ".vq.............",
+            "................"
+          ]
+        },
+        {
+          "name": "lamina",
+          "rows": [
+            "................",
+            "................",
+            "...........NHmn.",
+            "...........NHmn.",
+            "...........nHmn.",
+            "............Hmn.",
+            "............HWn.",
+            "............WWN.",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "regador",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "........NNNN....",
+            ".......N....N...",
+            ".XX....N....N...",
+            ".XnX..XXXXXXXX..",
+            "..XnXXWXXXXXXnN.",
+            "...XnXWXXXXXXnN.",
+            "....XnXXXXXXXnN.",
+            ".....nnXXXXXXnN.",
+            "......nnnnnnnnN.",
+            "......NnnnnnnnN.",
+            ".......NNNNNNN..",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "machado",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "....WHHm........",
+            "...WHmmmm....vw.",
+            "...Hmmmmmn..vw..",
+            "...HmmmnnNNvw...",
+            "....HmnnNNvw....",
+            ".....nNN.vw.....",
+            "........vw......",
+            ".......vw.......",
+            "......vw........",
+            ".....vw.........",
+            "....vw..........",
+            "...vw...........",
+            "..vw............",
+            ".vq.............",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "picareta",
+      "layers": [
+        {
+          "name": "cabo",
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "..........vw....",
+            ".........vw.....",
+            "........vw......",
+            ".......vw.......",
+            "......vw........",
+            ".....vw.........",
+            "....vw..........",
+            "...vw...........",
+            "..vw............",
+            ".vq.............",
+            "................"
+          ]
+        },
+        {
+          "name": "cabeca",
+          "rows": [
+            "................",
+            ".....HHHHm......",
+            "....Hm...Hmn....",
+            "..........Hmn...",
+            "...........Hmn..",
+            "............Hmn.",
+            ".............Hn.",
+            ".............mn.",
+            ".............mN.",
+            ".............nN.",
+            "............N..."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "foice",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            ".....HHHHHHn....",
+            "...HWmmmmmnnNvw.",
+            "..Hmmn......vw..",
+            "..Hn.......vw...",
+            "...n......vw....",
+            ".........vw.....",
+            "........vw......",
+            ".......vw.......",
+            "......vw........",
+            ".....vw.........",
+            "....vw..........",
+            "...vw...........",
+            "..vw............",
+            ".vq.............",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sementes_cenoura",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "...YyYyYyYyY....",
+            "...yyyyyyyyyy...",
+            "...cccccccccC...",
+            "...cccLgLcccC...",
+            "...ccccgccccC...",
+            "...cccOoocccC...",
+            "...cccOodcccC...",
+            "...ccccodcccC...",
+            "...ccccoccccC...",
+            "...cccccccccC...",
+            "...cCCCCCcccC...",
+            "...cccccccccC...",
+            "...CCCCCCCCCC...",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cenoura",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "..........L..L..",
+            "........g.gL.gE.",
+            ".........g.gLgE.",
+            "..........gEgE..",
+            ".........OOod...",
+            "........OOood...",
+            ".......Ooodd....",
+            "......Ooood.....",
+            ".....Oood.......",
+            "....Oood........",
+            "...Ood..........",
+            "..Od............",
+            ".d..............",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "madeira",
+      "layers": [
+        {
+          "name": "tora_de_cima",
+          "offset": [2, 3],
+          "rows": [
+            "..pPpvvvvvvw.",
+            ".pPYPpwwwwwwq",
+            ".PYpYPwvwwwwq",
+            ".pPYPpwwwvwwq",
+            "..pPpqqqqqqq."
+          ]
+        },
+        {
+          "name": "tora_de_baixo",
+          "offset": [0, 9],
+          "rows": [
+            "..pPpvvvvvvw.",
+            ".pPYPpwwwwwwq",
+            ".PYpYPwvwwwwq",
+            ".pPYPpwwwvwwq",
+            "..pPpqqqqqqq."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pedra",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "......HHHs......",
+            "....HHHHsssS....",
+            "...HHHssssssS...",
+            "..HHssssssSsSS..",
+            "..HsssHHsssSSS..",
+            ".HssssHsssssSSS.",
+            ".HsssssssssSSSS.",
+            ".ssssssssSSSSSS.",
+            "..sSSSSSSSSSSS..",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fibra",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "...L...L...L....",
+            "...Le..Le.Le....",
+            "....Le.LeLe.....",
+            "....LeeLeLeE....",
+            ".....LeLeLeE....",
+            ".....LeLeLE.....",
+            "......yYyYy.....",
+            "......YyYyY.....",
+            ".....LeLeLE.....",
+            ".....LeeLeEE....",
+            "....LeLeeLeEE...",
+            "....LeeLeeLeE...",
+            "...LeE.LeE.LeE..",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pao",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            ".....pvvvvv.....",
+            "...ppvPvvPvvw...",
+            "..pvvPvvPvvPww..",
+            ".pvvvvvvvvPvvww.",
+            ".vvvvvvvvvvvvww.",
+            ".wvvvvvvvvvvwwq.",
+            ".wwwwwwwwwwwwqq.",
+            "..qwwwwwwwwwqq..",
+            "...qqqqqqqqqq...",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bolo",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "........k.......",
+            ".......rR.......",
+            ".......RR.......",
+            "....BBffffff....",
+            "..Bfffffffffff..",
+            "..fffffffffffV..",
+            "..hfhhfhhhfhYY..",
+            "..hhhhhhhhhhYY..",
+            "..ffffffffffVV..",
+            "..hhhhhhhhhhYY..",
+            "..hhhhhhhhhhYY..",
+            ".CccccccccccccC.",
+            "..CCCCCCCCCCCC..",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "essencia",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "......vwwq......",
+            ".....iiiiii.....",
+            "......iWii......",
+            "......i11i......",
+            "....iWi11iii....",
+            "...iW1122222i...",
+            "..iW112222223i..",
+            "..iW122222223i..",
+            "..i1222222233i..",
+            "..i2222222233i..",
+            "...i22222333i...",
+            "....ii3333ii....",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "moeda",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            ".....FFFFFF.....",
+            "...FGGFFFFFFZ...",
+            "..FGFFFFFFFFZZ..",
+            "..FFFFzzzzFFZZ..",
+            ".FFFFzZZZZzFZZz.",
+            ".FFFzZFZZZZzZZz.",
+            ".FFFzZZZZZZzZZz.",
+            ".FFFFzZZZZzZZzz.",
+            "..FFFFzzzzZZzz..",
+            "..FFZZZZZZZZzz..",
+            "...ZZZZZZZzzz...",
+            ".....zzzzzz.....",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "energia",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            ".........GFF....",
+            "........GFFZ....",
+            ".......GFFZ.....",
+            "......GFFZ......",
+            ".....GFFZ.......",
+            "....GFFFFFFZ....",
+            "........GFZ.....",
+            ".......GFZ......",
+            "......GFZ.......",
+            ".....GFZ........",
+            "....GZ..........",
+            "...z............",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "almoco",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            ".....WH....WH...",
+            "......WH....WH..",
+            ".....WH....WH...",
+            "................",
+            "...BBBBBBBBBB...",
+            "..BOOOoOOOoOOB..",
+            ".BoOoodoooogooB.",
+            ".cBBBBBBBBBBBBC.",
+            ".bbbbbbbbbbbbjj.",
+            "..bWbbbbbbbbjj..",
+            "..bbbbbbbbbjjj..",
+            "...jbbbbbbjjj...",
+            ".....jjjjjj.....",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sementes_morango",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "...YyYyYyYyY....",
+            "...yyyyyyyyyy...",
+            "...cccccccccC...",
+            "...ccccgEgccC...",
+            "...cccaagaacC...",
+            "...cccaWahacC...",
+            "...cccahaaAcC...",
+            "...ccccaaAccC...",
+            "...cccccAcccC...",
+            "...cccccccccC...",
+            "...cCCCCCcccC...",
+            "...cccccccccC...",
+            "...CCCCCCCCCC...",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sementes_couve_flor",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "...YyYyYyYyY....",
+            "...yyyyyyyyyy...",
+            "...cccccccccC...",
+            "...cccKKKKccC...",
+            "...ccKQKKKIcC...",
+            "...ccLKKKIecC...",
+            "...ccLeKIeEcC...",
+            "...cccLeeEccC...",
+            "...ccccEEcccC...",
+            "...cccccccccC...",
+            "...cCCCCCcccC...",
+            "...cccccccccC...",
+            "...CCCCCCCCCC...",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sementes_batata",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "...YyYyYyYyY....",
+            "...yyyyyyyyyy...",
+            "...cccccccccC...",
+            "...cccccccccC...",
+            "...ccc#888ccC...",
+            "...cc#8:889cC...",
+            "...cc88889:cC...",
+            "...ccc9999ccC...",
+            "...cccccccccC...",
+            "...cccccccccC...",
+            "...cCCCCCcccC...",
+            "...cccccccccC...",
+            "...CCCCCCCCCC...",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sementes_milho",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "...YyYyYyYyY....",
+            "...yyyyyyyyyy...",
+            "...cccccccccC...",
+            "...cccc7ZcccC...",
+            "...ccc7ZhZccC...",
+            "...cccZhZzccC...",
+            "...ccc7ZzzccC...",
+            "...cceZhzEccC...",
+            "...ccceEEcccC...",
+            "...cccccccccC...",
+            "...cCCCCCcccC...",
+            "...cccccccccC...",
+            "...CCCCCCCCCC...",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sementes_tomate",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "...YyYyYyYyY....",
+            "...yyyyyyyyyy...",
+            "...cccccccccC...",
+            "...ccccgEgccC...",
+            "...cccaagaacC...",
+            "...ccaWaaaaAC...",
+            "...ccaaaaaaAC...",
+            "...cccaaaAAcC...",
+            "...ccccAAAccC...",
+            "...cccccccccC...",
+            "...cCCCCCcccC...",
+            "...cccccccccC...",
+            "...CCCCCCCCCC...",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sementes_mirtilo",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "...YyYyYyYyY....",
+            "...yyyyyyyyyy...",
+            "...cccccccccC...",
+            "...cccccEcccC...",
+            "...cccbbcbbcC...",
+            "...ccbWbjWbjC...",
+            "...ccbbjbbjjC...",
+            "...cccjbbjccC...",
+            "...ccccjjcccC...",
+            "...cccccccccC...",
+            "...cCCCCCcccC...",
+            "...cccccccccC...",
+            "...CCCCCCCCCC...",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sementes_melao",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "...YyYyYyYyY....",
+            "...yyyyyyyyyy...",
+            "...cccccccccC...",
+            "...cccccqEccC...",
+            "...ccc4566ccC...",
+            "...cc456566cC...",
+            "...cc456566cC...",
+            "...cc556566cC...",
+            "...ccc6666ccC...",
+            "...cccccccccC...",
+            "...cCCCCCcccC...",
+            "...cccccccccC...",
+            "...CCCCCCCCCC...",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sementes_abobora",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "...YyYyYyYyY....",
+            "...yyyyyyyyyy...",
+            "...cccccccccC...",
+            "...cccccqEccC...",
+            "...cccOOqodcC...",
+            "...ccOOoOoddC...",
+            "...ccOoOooddC...",
+            "...ccooddoddC...",
+            "...cccddddccC...",
+            "...cccccccccC...",
+            "...cCCCCCcccC...",
+            "...cccccccccC...",
+            "...CCCCCCCCCC...",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sementes_berinjela",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "...YyYyYyYyY....",
+            "...yyyyyyyyyy...",
+            "...cccccccccC...",
+            "...ccccccgEcC...",
+            "...cccccggEcC...",
+            "...cccc122ccC...",
+            "...ccc1223ccC...",
+            "...cc12233ccC...",
+            "...ccc333cccC...",
+            "...cccccccccC...",
+            "...cCCCCCcccC...",
+            "...cccccccccC...",
+            "...CCCCCCCCCC...",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sementes_uva",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "...YyYyYyYyY....",
+            "...yyyyyyyyyy...",
+            "...cccccccccC...",
+            "...cccccqgccC...",
+            "...cccVfVUccC...",
+            "...ccVfVUVUcC...",
+            "...cccVUVfUcC...",
+            "...ccccVUUccC...",
+            "...cccccUcccC...",
+            "...cccccccccC...",
+            "...cCCCCCcccC...",
+            "...cccccccccC...",
+            "...CCCCCCCCCC...",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sementes_batata_doce",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "...YyYyYyYyY....",
+            "...yyyyyyyyyy...",
+            "...cccccccccC...",
+            "...cccccccgEC...",
+            "...ccccccrRcC...",
+            "...cccccrRR@C...",
+            "...ccccrRR@cC...",
+            "...cccRR@@ccC...",
+            "...cc@@cccccC...",
+            "...cccccccccC...",
+            "...cCCCCCcccC...",
+            "...cccccccccC...",
+            "...CCCCCCCCCC...",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sementes_raiz_inverno",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "...YyYyYyYyY....",
+            "...yyyyyyyyyy...",
+            "...cccccccccC...",
+            "...cccXccXccC...",
+            "...ccccnXnccC...",
+            "...ccccliiccC...",
+            "...ccclWiiXcC...",
+            "...cccciiXccC...",
+            "...cccccXcccC...",
+            "...cccccccccC...",
+            "...cCCCCCcccC...",
+            "...cccccccccC...",
+            "...CCCCCCCCCC...",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sementes_repolho_inverno",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "...YyYyYyYyY....",
+            "...yyyyyyyyyy...",
+            "...cccccccccC...",
+            "...cccccccccC...",
+            "...ccc=++=ccC...",
+            "...cc=^=+=-cC...",
+            "...cc+=^=+-cC...",
+            "...cc-+=+--cC...",
+            "...ccc----ccC...",
+            "...cccccccccC...",
+            "...cCCCCCcccC...",
+            "...cccccccccC...",
+            "...CCCCCCCCCC...",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sementes_alho",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "...YyYyYyYyY....",
+            "...yyyyyyyyyy...",
+            "...cccccccccC...",
+            "...cccccgcccC...",
+            "...cccccBJccC...",
+            "...ccccBBJccC...",
+            "...cccBQBJJcC...",
+            "...cccBBJBJcC...",
+            "...ccccJJJccC...",
+            "...cccccccccC...",
+            "...cCCCCCcccC...",
+            "...cccccccccC...",
+            "...CCCCCCCCCC...",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "morango",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "........e.......",
+            ".....LgLeggE....",
+            "....aagLeEgaA...",
+            "...aaWaaaahaAA..",
+            "...aWaahaaaaAA..",
+            "...aaaaaaahaAA..",
+            "...ahaaaaaaaAx..",
+            "....aaahaaaAx...",
+            "....aaaaahAAx...",
+            ".....aaaaAAx....",
+            "......aaAAx.....",
+            ".......aAx......",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "couve_flor",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "......KKKK......",
+            "....KKQKKKKI....",
+            "...KQKKKQKKII...",
+            "...KKKQKKKKII...",
+            "..LKKKKKKKIIIe..",
+            "..LeKKKKKIIIeE..",
+            ".LLeeKIIIIIeeED.",
+            ".LeeLeeeeeeeEED.",
+            "..LeeLeeeeEEED..",
+            "...DLeeeeEEDD...",
+            ".....DDEEDD.....",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "batata",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            ".....#888.......",
+            "...#88888889....",
+            "..#8888:88889...",
+            "..88:888888899..",
+            ".#88888888:899..",
+            ".88888:8888899..",
+            ".8888888888999..",
+            "..88888:88999...",
+            "...999999999....",
+            ".....9999.......",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "milho",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "........7.......",
+            ".......7Z7......",
+            "......7ZhZz.....",
+            "......ZhZZz.....",
+            "......7ZhZz.....",
+            "......ZZZhz.....",
+            "....e.7ZhZz.E...",
+            "....ee.ZZz.EE...",
+            ".....ee7zzEE....",
+            ".....eLeLEEE....",
+            "......eLeEE.....",
+            "......eLEE......",
+            ".......eE.......",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tomate",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            ".......E........",
+            ".....gEgEg......",
+            "....aaagEaaa....",
+            "...aWWaaaaaaA...",
+            "..aWaaaaaaaaAA..",
+            "..aaaaaaaaaaAA..",
+            "..aaaaaaaaaaAA..",
+            "..aaaaaaaaaAAA..",
+            "...aaaaaaaAAA...",
+            "....aaaaAAAx....",
+            ".....xxxxxx.....",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mirtilo",
+      "layers": [
+        {
+          "name": "folha",
+          "rows": [
+            "................",
+            "................",
+            ".......LeE......",
+            "........eE......",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "................"
+          ]
+        },
+        {
+          "name": "baga_tras",
+          "offset": [
+            6,
+            3
+          ],
+          "rows": [
+            ".bbb.",
+            "bWbbj",
+            "bbjbj",
+            "bbbjj",
+            ".jjj."
+          ]
+        },
+        {
+          "name": "baga_esq",
+          "offset": [
+            3,
+            7
+          ],
+          "rows": [
+            ".bbb.",
+            "bWbbj",
+            "bbjbj",
+            "bbbjj",
+            ".jjj."
+          ]
+        },
+        {
+          "name": "baga_dir",
+          "offset": [
+            8,
+            8
+          ],
+          "rows": [
+            ".bbb.",
+            "bWbbj",
+            "bbjbj",
+            "bbbjj",
+            ".jjj."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "melao",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            ".......qE.......",
+            ".....4DDD5......",
+            "...44D4D5D55....",
+            "..44D45D55D55...",
+            "..44D55D55D55...",
+            ".44DD55D55DD56..",
+            ".44DD55D55DD66..",
+            ".45DD55D55DD66..",
+            ".55DD55D55DD66..",
+            "..55D55D56D66...",
+            "...5D55D66D6....",
+            "....5D6D6D6.....",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "abobora",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            ".......qq.......",
+            "........qE......",
+            ".....OOdoo......",
+            "...OOdOdodoo....",
+            "..OOdOodoodoo...",
+            ".OOOdoodoodooo..",
+            ".OOddoodoodddd..",
+            ".Ooddoodoodddd..",
+            ".ooodoodoodddd..",
+            "..oodoodddddd...",
+            "...oododdddd....",
+            ".....odddd......",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "berinjela",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            ".........gE.....",
+            ".......gLggE....",
+            "......12gEE.....",
+            ".....11222......",
+            "....112223......",
+            "...1122223......",
+            "..11222233......",
+            "..12222233......",
+            ".122222233......",
+            ".12222233.......",
+            ".2222333........",
+            "..23333.........",
+            "...333..........",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "uva",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            ".......qw.......",
+            "......q.gLe.....",
+            "....VVVVgEe.....",
+            "...VfVVfVVU.....",
+            "...VVUVVUVU.....",
+            "....VfVVfVU.....",
+            "....VVUVVUU.....",
+            ".....VfVVU......",
+            ".....VVUVU......",
+            "......VfU.......",
+            "......VUU.......",
+            ".......U........",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "batata_doce",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "...........gE...",
+            "..........rR....",
+            "........rrRR@...",
+            "......rrRRRR@...",
+            ".....rRRRRR@@...",
+            "....rRRRRR@@....",
+            "...rRRRRR@@.....",
+            "..rRRRR@@@......",
+            "..RRR@@@@.......",
+            ".@R@@@..........",
+            ".@..............",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "raiz_inverno",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "......X..X......",
+            ".....XnXnXn.....",
+            "......nXnn......",
+            "......lin.......",
+            "....lWllii......",
+            "...lWlliiiX.....",
+            "...llliiiiX.....",
+            "...lliiiiXX.....",
+            "....iiiiXX......",
+            ".....iiXX.......",
+            "......iX........",
+            "......X.........",
+            ".......n........",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "repolho_inverno",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "......==++......",
+            "....=^^=+++-....",
+            "...=^==+=+--....",
+            "..=^=+=++=+--...",
+            "..=^=++=++---...",
+            "..+=+++=+----...",
+            "..+=++=++----...",
+            "...++=+=----....",
+            "...-+++----.....",
+            ".....-----......",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "alho",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            ".......g........",
+            ".......gE.......",
+            "......BJ........",
+            "......BJ........",
+            ".....BBJJ.......",
+            "....BQBBJJ......",
+            "...BQBBJBJJ.....",
+            "..BQBBJBBJJ.....",
+            "..BQBBJBBJJJ....",
+            "..BBBJBBJJJJ....",
+            "...BBJBJJJJ.....",
+            "....JJJJJJ......",
+            ".....J.J.J......",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "leite_vaca",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "......bbbb......",
+            "......jjjj......",
+            "......lKKl......",
+            "......lKKl......",
+            ".....lKKKKl.....",
+            "....lKKKKKKl....",
+            "....lWKKKKIl....",
+            "....lWKbbKIl....",
+            "....lKbjjbIl....",
+            "....lKKbbKIl....",
+            "....lKKKKKIl....",
+            "....lKKKKIIl....",
+            ".....llllll.....",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "leite_cabra",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "....KKKKKK......",
+            "...cKKKKKKc.....",
+            "....cccccc.cc...",
+            "....ccccccc..c..",
+            "...cccccccC..c..",
+            "...cRRRRRRR.c...",
+            "...cWccccCCCc...",
+            "...ccccCCCC.....",
+            "...ccccCCCC.....",
+            "....ccCCCC......",
+            "....CCCCCC......",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ovo",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "......BBBJ......",
+            ".....BWBBBJ.....",
+            "....BWBBBBBJ....",
+            "....BWBBBBBJ....",
+            "...BBBBBBBBJJ...",
+            "...BBBBBBBBJJ...",
+            "...BBBBBBBJJJ...",
+            "...BBBBBBJJJJ...",
+            "....BBBJJJJJ....",
+            ".....JJJJJJ.....",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "la",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            ".....KKKKK......",
+            "....KIKKKIK.....",
+            "...KKKIKKKIK....",
+            "..KIKKKIKKKII...",
+            "..KKIKKKIKKII...",
+            "..IKKIKKKIKII...",
+            "..KIKKIKKKIII...",
+            "..KKIKKIKKII....",
+            "...KKIKKIIII....",
+            "....IIIIII..KK..",
+            "............IK..",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pelo_coelho",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "......#..#......",
+            "....#.##.##.....",
+            "...##W###W#8....",
+            "..#WW###WW##8...",
+            ".#W####f####8...",
+            "..###ffWf###88..",
+            ".#W###ff###888..",
+            "..####f#####88..",
+            "...##8###8888...",
+            "....8.8888.8....",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "carne_bovina",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "....BBBBB.......",
+            "..BBaaaaaBB.....",
+            ".BaaafaaaaaB....",
+            ".BaaaaaafaaAB...",
+            ".BafaaaaaaaAB...",
+            ".BaaaaafaaAAB...",
+            "..BaaaaaaAAAB...",
+            "..BBaaaAAAAB....",
+            "...BBAAAAABB....",
+            ".....BBBBB......",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "carne_frango",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            ".....#888.......",
+            "....#88889......",
+            "...#8888889.....",
+            "...88888889.....",
+            "...8888889......",
+            "....88889.......",
+            ".....999BB......",
+            "........BB......",
+            ".........BBJ....",
+            "........BBJJ....",
+            ".........JJ.....",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "carne_cordeiro",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "....ffff........",
+            "...fWfffV.......",
+            "..ffffffVV......",
+            "..fffBffVV......",
+            "..ffffffVV......",
+            "...ffffVV.......",
+            "....fVVBBBBBB...",
+            "......BBBBBBJ...",
+            "................",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "carne_coelho",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "...%%%%.........",
+            "..%W%%%$........",
+            "..%%%%%$$.......",
+            "...%%%%%$$......",
+            "....%%%%$$$.....",
+            ".....$%%%$$.....",
+            "......$$$$BB....",
+            "..........BBJ...",
+            "...........J....",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "torta_morango",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            "....vvvvvvvv....",
+            "..vvaavaavaavv..",
+            ".vaaavaaavaaaww.",
+            ".vvvvvvvvvvvvww.",
+            ".waavaaavaaavqw.",
+            ".wwwwwwwwwwwwqq.",
+            "..XXXXXXXXXXXn..",
+            "...nnnnnnnnnn...",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "salada",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "......L.........",
+            "....LeLeLaL.....",
+            "...LeaeLeLeE....",
+            "..LeLeLeaeLeE...",
+            ".LeaeLeLeLeaEE..",
+            ".vvvvvvvvvvvvww.",
+            ".wvvvvvvvvvvwwq.",
+            "..wvvvvvvvvwwq..",
+            "...wwwwwwwwqq...",
+            ".....qqqqq......",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ensopado",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "......W...W.....",
+            ".....W...W......",
+            "......W...W.....",
+            "...NNNNNNNNN....",
+            "..NPowPwgPowN...",
+            ".nXXXXXXXXXXXn..",
+            ".n.XmmmmmmmnN.n.",
+            "...XmmmmmmmnN...",
+            "...XmmmmmmnnN...",
+            "....mmmmmnnN....",
+            ".....NNNNNN.....",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "omelete",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "......hhhh......",
+            "....hhhhhhhh....",
+            "...hhgLhhhhhY...",
+            "..hhhhhhgLhhYY..",
+            "..hhhLghhhhYYY..",
+            "..YYYYYYYYYYYY..",
+            ".cccccccccccccC.",
+            "..CCCCCCCCCCCC..",
+            "................",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sopa_abobora",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "......W..W......",
+            ".....W..W.......",
+            "...dddddddddd...",
+            "..dh7hhhhhh7hd..",
+            ".oOddddddddddod.",
+            ".OOoOooOooOoodd.",
+            ".OooOooOooOoodd.",
+            ".oooOooOooOoddd.",
+            "..ooodooododdd..",
+            "...dddddddddd...",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "frango_assado",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "...BB......BB...",
+            "....9......9....",
+            "....9#8888#9....",
+            "...#8#88888899..",
+            "..#888888888899.",
+            "..8888888888899.",
+            "..988888888999..",
+            ".cy9999999999yC.",
+            ".cccccccccccccC.",
+            "..CCCCCCCCCCCC..",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "assado_campeiro",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "............BB..",
+            "...........BBJ..",
+            ".....A99999BJ...",
+            "...A9888888A....",
+            "..A98#888888A...",
+            "..A988#88g8AA...",
+            "..AA98888LgAA...",
+            "...AA9999AAA....",
+            ".qwwwwwwwwwwwwq.",
+            "..qqqqqqqqqqqq..",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "geleia_mirtilo",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "....aWaaWa......",
+            "...aaaWaaaa.....",
+            "...WaaaaWaa.....",
+            ".....yyyyy......",
+            "....l33333l.....",
+            "...l2W22223l....",
+            "...l2Wcccc3l....",
+            "...l2cbcbc3l....",
+            "...l2cccc33l....",
+            "...l2222233l....",
+            "...l2222333l....",
+            "....l33333l.....",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "certidao",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "..CccccccccccC..",
+            ".C~CcccccccccCC.",
+            "..cccccccccccc..",
+            "..ck~kkk~kccC...",
+            "..cccccccccccC..",
+            "..c~~~~~~~~ccC..",
+            "..cccccccccccC..",
+            "..c~~~~~~ccccC..",
+            "..ccccccccaaacC.",
+            "..ccccccaaWaaA..",
+            "..CCCCCCaaaaAA..",
+            ".C~CcccccAaAAx..",
+            "..CCCCCCCax.ax..",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cerca",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "...vq......vq...",
+            "..vwwq....vwwq..",
+            "..vwwq....vwwq..",
+            ".vvvvvvvvvvvvvw.",
+            ".wwwwwwwwwwwwwq.",
+            "..vwwq....vwwq..",
+            "..vwwq....vwwq..",
+            ".vvvvvvvvvvvvvw.",
+            ".wwwwwwwwwwwwwq.",
+            "..vwwq....vwwq..",
+            "..vwwq....vwwq..",
+            "..qqqq....qqqq..",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bau",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "...vvvvvvvvvv...",
+            "..vwwwwwwwwwwq..",
+            "..nwwwwwwwwwnq..",
+            "..nwwwwwwwwwnq..",
+            "..nnnnnZZnnnnN..",
+            "..nwwwwZzwwwnq..",
+            "..nwwwwwwwwwnq..",
+            "..nwwwwwwwwwnq..",
+            "..nwwwwwwwwwnq..",
+            "..qqqqqqqqqqqq..",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "espantalho",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            ".....hhhh.......",
+            "....hhhhhY......",
+            "...YYYYYYYY.....",
+            ".....pppP.......",
+            ".....kppk.......",
+            ".....pkkP.......",
+            "..yy.bbbb.yy....",
+            ".yybbbbbbbbyy...",
+            ".....bbjb.......",
+            ".....bjbj.......",
+            ".......w........",
+            ".......w........",
+            ".......q........",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "aspersor",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            "...l...l...l....",
+            "....l..l..l.....",
+            ".l.....T....l...",
+            "......XnX.......",
+            ".....XmmmN......",
+            "...XXmmmmmNN....",
+            "..XmmmTmmmmnN...",
+            "..XmmTlTmmmnN...",
+            "..nmmmTmmmmnN...",
+            "...nnmmmmnNN....",
+            ".....NNNNN......",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "elixir",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "......vwq.......",
+            "......vwq.......",
+            ".....iiiii......",
+            "......iWi.......",
+            "......iWi.......",
+            ".....iWGGi......",
+            "....iWGFFFi.....",
+            "...iWGFFFFZi....",
+            "...iGFFFFFZi....",
+            "...iFFFFFZZi....",
+            "...iFFFFZZzi....",
+            "....iZZZzzi.....",
+            ".....iiiii......",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "incenso",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "........HH......",
+            ".......H........",
+            "......H.........",
+            ".......HH.......",
+            ".........H......",
+            ".......aH.......",
+            ".......q........",
+            ".......q........",
+            ".......q........",
+            "..VVVVVVVVVV....",
+            ".VfVVVVVVVVUU...",
+            "..UUUUUUUUUU....",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fertilizante",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            "................",
+            ".1...yYyY..1....",
+            "......YY........",
+            ".....pPPp.......",
+            "....pppppP......",
+            "...pp1pppPP.....",
+            "..pp121ppPPP....",
+            "..pp121pp2PP....",
+            "..ppp1pp232P....",
+            "..ppppppp2PP....",
+            "..pppppppPPP....",
+            "...PPPPPPPP.....",
+            "................",
+            "................",
+            "................"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mascara_gargula",
+      "layers": [
+        {
+          "mirror": true,
+          "rows": [
+            "........",
+            ".S......",
+            ".HS.....",
+            "..HS.Sss",
+            "...SsHHG",
+            "..SsHsss",
+            "..sSSSSS",
+            "..sk00ks",
+            "..sHkkss",
+            "...sHsSS",
+            "...ssSks",
+            "...SsHHH",
+            "....SHkH",
+            "....Skkk",
+            ".....SSS",
+            "........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mascara_corvo",
+      "layers": [
+        {
+          "mirror": true,
+          "rows": [
+            "........",
+            "....NNNN",
+            "...NnnnX",
+            "..NnnnnX",
+            "..NliiNn",
+            "..NiWiNn",
+            "..NliiNn",
+            "..NnnnnN",
+            "...NnnnB",
+            "....NNBB",
+            ".....NBB",
+            "......BJ",
+            "......BJ",
+            ".......J",
+            "........",
+            "........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mascara_nevoa",
+      "layers": [
+        {
+          "mirror": true,
+          "rows": [
+            "........",
+            ".....KKK",
+            "...KKWWW",
+            "..KWWKKK",
+            "..KWKKKK",
+            "..K:::KK",
+            "..K::kKK",
+            "..KKKKKK",
+            "..IKKKKK",
+            "..IKKK::",
+            "..IIKKKK",
+            "...IKIKI",
+            "...l.IlI",
+            "....l..l",
+            "........",
+            "........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mascara_dragao",
+      "layers": [
+        {
+          "mirror": true,
+          "rows": [
+            "........",
+            ".z......",
+            ".Zz....F",
+            "..Zz.zFG",
+            "...zZFFF",
+            "..zZFZZZ",
+            ".zZZzzzz",
+            ".zZkaakz",
+            "..zZkkZZ",
+            "..zZZZZF",
+            "...zZZZZ",
+            "...zZkZZ",
+            "....zZZZ",
+            ".....zBk",
+            "......zz",
+            "........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mascara_rustica",
+      "layers": [
+        {
+          "mirror": true,
+          "rows": [
+            "........",
+            "....7yyy",
+            "...7yYyY",
+            "..7yYyYy",
+            "..yYyYyY",
+            ".wYkkkYy",
+            "..yYyYyY",
+            "..YyYyYy",
+            "...yYyYy",
+            "...YyYkk",
+            "...yYyYy",
+            "....yYyY",
+            ".....yYy",
+            "........",
+            "........",
+            "........"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "espada_enferrujada",
+      "layers": [
+        {
+          "rows": [
+            "................",
+            ".............Hn.",
+            "............HmN.",
+            "...........Hmdn.",
+            "..........Hm@n..",
+            ".........Hdmn...",
+            "........H@dn....",
+            "...z...Hmmn.....",
+            "...zZ.Hd@n......",
+            "....zZmn........",
+            ".....zZ.........",
+            "....9qzZ........",
+            "...q9..Z........",
+            "..9q............",
+            ".Zz.............",
+            "................"
+          ]
+        }
+      ]
+    }
+  ]
+}

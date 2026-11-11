@@ -1,0 +1,350 @@
+{
+  "name": "rabbit",
+  "size": [
+    16,
+    16
+  ],
+  "palette": "both",
+  "columns": 4,
+  "notes": "Coelha branca (linha 0) e coelho caramelo malhado (linha 1), olhando para a DIREITA (o jogo espelha). Pés em y=14. Quadros por linha: 0-1 pulando (agachado / no ar), 2-3 parado farejando (no 3 a orelha da frente tomba e o focinho mexe). Noite: olho aceso e um dentinho pontudo aparece embaixo do focinho.",
+  "legend": {
+    "W": "fur_white",
+    "w": "fur_white_shade",
+    "p": "flower",
+    "T": "fur_tan",
+    "D": "fur_tan_dark",
+    "l": "fur_tan_light",
+    "E": "eye",
+    "f": "bone"
+  },
+  "frames": [
+    {
+      "name": "coelha_pular_a",
+      "layers": [
+        {
+          "name": "corpo",
+          "offset": [
+            0,
+            0
+          ],
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            ".....WWW........",
+            "......wWpW......",
+            ".......wWWWW....",
+            "....WWWWWWEWW...",
+            "...WWWWWWWWWWp..",
+            "..WWWWWWWWWWw...",
+            "..WWWWWWWWWw....",
+            "..wWWWWWWWwW....",
+            "...wwWWWwwWW....",
+            "....wwww..ww....",
+            "................"
+          ]
+        },
+        {
+          "name": "dentinho",
+          "only": "night",
+          "offset": [
+            11,
+            10
+          ],
+          "rows": [
+            "f"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "coelha_pular_b",
+      "layers": [
+        {
+          "name": "corpo",
+          "offset": [
+            0,
+            0
+          ],
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "......WW........",
+            "......wpWW......",
+            ".......wWpW.....",
+            "........wWWWW...",
+            ".....WWWWWWEWW..",
+            "..WWWWWWWWWWWWp.",
+            ".WWWWWWWWWWWWw..",
+            ".wWWWWWWWWWWw...",
+            "wwwWWWWWWWWwWW..",
+            "ww..wwww.....WW.",
+            "................",
+            "................",
+            "................"
+          ]
+        },
+        {
+          "name": "dentinho",
+          "only": "night",
+          "offset": [
+            12,
+            9
+          ],
+          "rows": [
+            "f"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "coelha_farejar_a",
+      "layers": [
+        {
+          "name": "corpo",
+          "offset": [
+            0,
+            0
+          ],
+          "rows": [
+            "................",
+            "......WW........",
+            "......wpW.......",
+            ".......wpW......",
+            ".......wWpW.....",
+            "........wWWW....",
+            "........WWWEW...",
+            "........WWWWWp..",
+            ".....WWWWWWWw...",
+            "....WWWWWWWW....",
+            "...WWWWWWWWWW...",
+            "...WWWWWWWWWW...",
+            "...wWWWWWWwWW...",
+            "....wwWWWwwWW...",
+            ".....wwww..ww...",
+            "................"
+          ]
+        },
+        {
+          "name": "dentinho",
+          "only": "night",
+          "offset": [
+            12,
+            8
+          ],
+          "rows": [
+            "f"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "coelha_farejar_b",
+      "layers": [
+        {
+          "name": "corpo",
+          "offset": [
+            0,
+            0
+          ],
+          "rows": [
+            "................",
+            "................",
+            "....WWW.........",
+            ".....wpWW.......",
+            "......wwWpW.....",
+            "........wWWW....",
+            "........WWWEW...",
+            "........WWWWWWp.",
+            ".....WWWWWWWw...",
+            "....WWWWWWWW....",
+            "...WWWWWWWWWW...",
+            "...WWWWWWWWWW...",
+            "...wWWWWWWwWW...",
+            "....wwWWWwwWW...",
+            ".....wwww..ww...",
+            "................"
+          ]
+        },
+        {
+          "name": "dentinho",
+          "only": "night",
+          "offset": [
+            12,
+            8
+          ],
+          "rows": [
+            "f"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "coelho_pular_a",
+      "layers": [
+        {
+          "name": "corpo",
+          "offset": [
+            0,
+            0
+          ],
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "................",
+            "................",
+            ".....lll........",
+            "......DTlT......",
+            ".......DTTTT....",
+            "....lllTTTETl...",
+            "...lTTTTTTTTTl..",
+            "..lWWTTTTTTTD...",
+            "..TWTTTTTTTD....",
+            "..DTTTTTTTDT....",
+            "...DDTTTDDTT....",
+            "....DDDD..DD....",
+            "................"
+          ]
+        },
+        {
+          "name": "dentinho",
+          "only": "night",
+          "offset": [
+            11,
+            10
+          ],
+          "rows": [
+            "f"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "coelho_pular_b",
+      "layers": [
+        {
+          "name": "corpo",
+          "offset": [
+            0,
+            0
+          ],
+          "rows": [
+            "................",
+            "................",
+            "................",
+            "......ll........",
+            "......DlTl......",
+            ".......DTlT.....",
+            "........DTTTT...",
+            ".....lllTTTETl..",
+            "..lllTTTTTTTTTl.",
+            ".lWWTTTTTTTTTD..",
+            ".DTWTTTTTTTTD...",
+            "DDDTTTTTTTTDTT..",
+            "DD..DDDD.....TT.",
+            "................",
+            "................",
+            "................"
+          ]
+        },
+        {
+          "name": "dentinho",
+          "only": "night",
+          "offset": [
+            12,
+            9
+          ],
+          "rows": [
+            "f"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "coelho_farejar_a",
+      "layers": [
+        {
+          "name": "corpo",
+          "offset": [
+            0,
+            0
+          ],
+          "rows": [
+            "................",
+            "......ll........",
+            "......DlT.......",
+            ".......DlT......",
+            ".......DTlT.....",
+            "........DTTT....",
+            "........TTTET...",
+            "........TTTTTl..",
+            ".....lllTTTTD...",
+            "....lTTTTTTT....",
+            "...lWWTTTTTTT...",
+            "...TWTTTTTTTT...",
+            "...DTTTTTTDTT...",
+            "....DDTTTDDTT...",
+            ".....DDDD..DD...",
+            "................"
+          ]
+        },
+        {
+          "name": "dentinho",
+          "only": "night",
+          "offset": [
+            12,
+            8
+          ],
+          "rows": [
+            "f"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "coelho_farejar_b",
+      "layers": [
+        {
+          "name": "corpo",
+          "offset": [
+            0,
+            0
+          ],
+          "rows": [
+            "................",
+            "................",
+            "....lll.........",
+            ".....DlTT.......",
+            "......DDTlT.....",
+            "........DTTT....",
+            "........TTTET...",
+            "........TTTTTTl.",
+            ".....lllTTTTD...",
+            "....lTTTTTTT....",
+            "...lWWTTTTTTT...",
+            "...TWTTTTTTTT...",
+            "...DTTTTTTDTT...",
+            "....DDTTTDDTT...",
+            ".....DDDD..DD...",
+            "................"
+          ]
+        },
+        {
+          "name": "dentinho",
+          "only": "night",
+          "offset": [
+            12,
+            8
+          ],
+          "rows": [
+            "f"
+          ]
+        }
+      ]
+    }
+  ]
+}

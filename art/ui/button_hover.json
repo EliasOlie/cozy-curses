@@ -1,0 +1,43 @@
+{
+  "name": "button_hover",
+  "size": [
+    16,
+    16
+  ],
+  "palette": "day",
+  "outline": false,
+  "notes": "Botão em hover: madeira mais clara (ui_wood_glow), chanfro creme e brilho no canto. Borda 5.",
+  "legend": {
+    "x": "outline",
+    "W": "path_light",
+    "H": "path",
+    "b": "wood_light",
+    "s": "wood",
+    "D": "wood_dark",
+    "G": "ui_wood_glow",
+    "o": "glow"
+  },
+  "layers": [
+    {
+      "name": "botao",
+      "rows": [
+        ".xxxxxxxxxxxxxx.",
+        "xWWWWWWWWWWWWWWx",
+        "xWoWGGGGGGGGGGbx",
+        "xWWGGGGGGGGGGGbx",
+        "xWGGGGGGGGGGGGbx",
+        "xWGGGGGGGGGGGGbx",
+        "xWGGGGGGGGGGGGbx",
+        "xWGGGGGGGGGGGGbx",
+        "xWGGGGGGGGGGGGbx",
+        "xWGGGGGGGGGGGGbx",
+        "xWGGGGGGGGGGGGbx",
+        "xWGGGGGGGGGGGGbx",
+        "xWGGGGGGGGGGGGbx",
+        "xbbbbbbbbbbbbbbx",
+        "xssssssssssssssx",
+        ".xxxxxxxxxxxxxx."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "mask_gargoyle",
+  "size": [16, 16],
+  "palette": "night",
+  "notes": "Máscara de Gárgula (ícone de inventário). Pedra pesada, chifres, runa no centro da testa, olhos verde-ácido. Simétrica: só a metade esquerda é desenhada.",
+  "legend": {
+    "s": "stone",
+    "S": "stone_light",
+    "d": "stone_dark",
+    "k": "ink",
+    "e": "eye",
+    "g": "glow"
+  },
+  "layers": [
+    {
+      "name": "rosto",
+      "mirror": true,
+      "rows": [
+        "........",
+        ".d......",
+        ".Sd.....",
+        "..Sd.dss",
+        "...dsSSg",
+        "..dsSsss",
+        "..sddddd",
+        "..skeeks",
+        "..sSkkss",
+        "...sSsdd",
+        "...ssdks",
+        "...dsSSS",
+        "....dSkS",
+        "....dkkk",
+        ".....ddd",
+        "........"
+      ]
+    }
+  ]
+}

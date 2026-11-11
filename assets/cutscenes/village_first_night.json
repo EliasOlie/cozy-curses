@@ -1,0 +1,19 @@
+{
+  "id": "village_first_night",
+  "title": "A vila depois das seis",
+  "notes": "Exemplo de gatilho: toca sozinha, uma vez por save, na primeira vez em que o jogador está na vila de noite.",
+  "when": { "map": "village", "phase": "night" },
+  "once": true,
+  "steps": [
+    { "fade": "out", "seconds": 0.6 },
+    { "banner": "DEPOIS DAS SEIS", "subtitle": "A vila é a mesma. Os moradores, nem tanto.", "seconds": 3.0 },
+    { "fade": "in", "seconds": 0.8 },
+    {
+      "say": "{nome}",
+      "pages": [
+        "A padaria está com a luz acesa. O padeiro também, de certa forma.",
+        "Ninguém aqui parece saber o que vira quando escurece. Melhor assim: cliente que não sabe não pede desconto."
+      ]
+    }
+  ]
+}

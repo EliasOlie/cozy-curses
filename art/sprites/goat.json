@@ -1,0 +1,703 @@
+{
+  "name": "goat",
+  "size": [
+    24,
+    24
+  ],
+  "palette": "both",
+  "columns": 4,
+  "notes": "Cabra creme de chifrinhos (linha 0) e bode castanho de chifres grandes e barbicha (linha 1), olhando para a DIREITA (o jogo espelha). Pés em y=22, pernas finas. Quadros por linha: 0-1 andando, 2-3 pastando (cabeça baixa; no 3 o rabinho levanta). Noite: o olho vira a pupila horizontal acesa (2 px) de bode.",
+  "legend": {
+    "C": "fur_tan_light",
+    "c": "fur_tan",
+    "W": "fur_white",
+    "d": "fur_tan_dark",
+    "B": "bone",
+    "j": "bone_dark",
+    "T": "fur_tan_dark",
+    "t": "fur_tan",
+    "D": "fur_dark",
+    "n": "ink",
+    "b": "bone",
+    "l": "fur_tan_light",
+    "E": "eye"
+  },
+  "frames": [
+    {
+      "name": "cabra_andar_a",
+      "layers": [
+        {
+          "name": "rabo",
+          "offset": [
+            3,
+            9
+          ],
+          "rows": [
+            "C.",
+            "WC",
+            ".C"
+          ]
+        },
+        {
+          "name": "corpo",
+          "offset": [
+            4,
+            10
+          ],
+          "rows": [
+            ".WWWWWWWWWWWW.",
+            "WCCCCCCCCCCCCC",
+            "CCCCCCCCCCCCCC",
+            "CCCCCCCCCCCCCC",
+            "cCCCCCCCCCCCCc",
+            ".ccCCCCCCCCcc.",
+            "...cccccccc..."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            4,
+            17
+          ],
+          "rows": [
+            ".C.c......c.C",
+            ".C.c......c.C",
+            ".C.c......c.C",
+            ".C.c......c.C",
+            ".C.c......c.C",
+            ".d.d......d.d"
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            14,
+            4
+          ],
+          "rows": [
+            "..jB.....",
+            "..jBW....",
+            "cc.WCCC..",
+            ".ccCCECC.",
+            "...CCCCCW",
+            "...CCCCWW",
+            "...CCcc..",
+            "..CCC....",
+            "..CCC...."
+          ]
+        },
+        {
+          "name": "pupila de bode",
+          "only": "night",
+          "offset": [
+            18,
+            7
+          ],
+          "rows": [
+            "EE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cabra_andar_b",
+      "layers": [
+        {
+          "name": "rabo",
+          "offset": [
+            3,
+            9
+          ],
+          "rows": [
+            "C.",
+            "WC",
+            ".C"
+          ]
+        },
+        {
+          "name": "corpo",
+          "offset": [
+            4,
+            10
+          ],
+          "rows": [
+            ".WWWWWWWWWWWW.",
+            "WCCCCCCCCCCCCC",
+            "CCCCCCCCCCCCCC",
+            "CCCCCCCCCCCCCC",
+            "cCCCCCCCCCCCCc",
+            ".ccCCCCCCCCcc.",
+            "...cccccccc..."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            4,
+            17
+          ],
+          "rows": [
+            ".C.c......c.C.",
+            ".C..c....c...C",
+            "C...c....c...C",
+            "C...c....c...C",
+            "C...c....c...C",
+            "d...d....d...d"
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            14,
+            5
+          ],
+          "rows": [
+            "..jB.....",
+            "..jBW....",
+            "cc.WCCC..",
+            ".ccCCECC.",
+            "...CCCCCW",
+            "...CCCCWW",
+            "...CCcc..",
+            "..CCC....",
+            "..CCC...."
+          ]
+        },
+        {
+          "name": "pupila de bode",
+          "only": "night",
+          "offset": [
+            18,
+            8
+          ],
+          "rows": [
+            "EE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cabra_pastar_a",
+      "layers": [
+        {
+          "name": "rabo",
+          "offset": [
+            3,
+            9
+          ],
+          "rows": [
+            "C.",
+            "WC",
+            ".C"
+          ]
+        },
+        {
+          "name": "corpo",
+          "offset": [
+            4,
+            10
+          ],
+          "rows": [
+            ".WWWWWWWWWWWW.",
+            "WCCCCCCCCCCCCC",
+            "CCCCCCCCCCCCCC",
+            "CCCCCCCCCCCCCC",
+            "cCCCCCCCCCCCCc",
+            ".ccCCCCCCCCcc.",
+            "...cccccccc..."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            4,
+            17
+          ],
+          "rows": [
+            ".C.c......c.C",
+            ".C.c......c.C",
+            ".C.c......c.C",
+            ".C.c......c.C",
+            ".C.c......c.C",
+            ".d.d......d.d"
+          ]
+        },
+        {
+          "name": "pescoço",
+          "offset": [
+            15,
+            10
+          ],
+          "rows": [
+            "CC..",
+            "CCC.",
+            ".CCC",
+            ".CCC",
+            "..cC"
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            14,
+            13
+          ],
+          "rows": [
+            "..jB.....",
+            "..jBW....",
+            "cc.WCCC..",
+            ".ccCCECC.",
+            "...CCCCCW",
+            "...CCCCWW",
+            "...CCcc..",
+            "..CCC....",
+            "..CCC...."
+          ]
+        },
+        {
+          "name": "pupila de bode",
+          "only": "night",
+          "offset": [
+            18,
+            16
+          ],
+          "rows": [
+            "EE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cabra_pastar_b",
+      "layers": [
+        {
+          "name": "rabo",
+          "offset": [
+            3,
+            9
+          ],
+          "rows": [
+            ".C",
+            "C.",
+            "WC"
+          ]
+        },
+        {
+          "name": "corpo",
+          "offset": [
+            4,
+            10
+          ],
+          "rows": [
+            ".WWWWWWWWWWWW.",
+            "WCCCCCCCCCCCCC",
+            "CCCCCCCCCCCCCC",
+            "CCCCCCCCCCCCCC",
+            "cCCCCCCCCCCCCc",
+            ".ccCCCCCCCCcc.",
+            "...cccccccc..."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            4,
+            17
+          ],
+          "rows": [
+            ".C.c......c.C",
+            ".C.c......c.C",
+            ".C.c......c.C",
+            ".C.c......c.C",
+            ".C.c......c.C",
+            ".d.d......d.d"
+          ]
+        },
+        {
+          "name": "pescoço",
+          "offset": [
+            15,
+            10
+          ],
+          "rows": [
+            "CC..",
+            "CCC.",
+            ".CCC",
+            ".CCC",
+            "..cC"
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            14,
+            14
+          ],
+          "rows": [
+            "..jB.....",
+            "..jBW....",
+            "cc.WCCC..",
+            ".ccCCECC.",
+            "...CCCCCW",
+            "...CCCCWW",
+            "...CCcc..",
+            "..CCC....",
+            "..CCC...."
+          ]
+        },
+        {
+          "name": "pupila de bode",
+          "only": "night",
+          "offset": [
+            18,
+            17
+          ],
+          "rows": [
+            "EE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bode_andar_a",
+      "layers": [
+        {
+          "name": "rabo",
+          "offset": [
+            3,
+            9
+          ],
+          "rows": [
+            "T.",
+            "tT",
+            ".T"
+          ]
+        },
+        {
+          "name": "corpo",
+          "offset": [
+            4,
+            10
+          ],
+          "rows": [
+            ".tttttttttttt.",
+            "tTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTT",
+            "DTTTTTTTTTTTTD",
+            ".DDTTTTTTTTDD.",
+            "...DDDDDDDD..."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            4,
+            17
+          ],
+          "rows": [
+            ".T.D......D.T",
+            ".T.D......D.T",
+            ".T.D......D.T",
+            ".T.D......D.T",
+            ".T.D......D.T",
+            ".n.n......n.n"
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            14,
+            3
+          ],
+          "rows": [
+            ".jjbb....",
+            "j...bb...",
+            "j..tbb...",
+            "DD.tTbT..",
+            ".DDTTETT.",
+            "...TTTTTl",
+            "...TTTTll",
+            "...TTDDD.",
+            "..TTTDD..",
+            "..TTT.D.."
+          ]
+        },
+        {
+          "name": "pupila de bode",
+          "only": "night",
+          "offset": [
+            18,
+            7
+          ],
+          "rows": [
+            "EE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bode_andar_b",
+      "layers": [
+        {
+          "name": "rabo",
+          "offset": [
+            3,
+            9
+          ],
+          "rows": [
+            "T.",
+            "tT",
+            ".T"
+          ]
+        },
+        {
+          "name": "corpo",
+          "offset": [
+            4,
+            10
+          ],
+          "rows": [
+            ".tttttttttttt.",
+            "tTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTT",
+            "DTTTTTTTTTTTTD",
+            ".DDTTTTTTTTDD.",
+            "...DDDDDDDD..."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            4,
+            17
+          ],
+          "rows": [
+            ".T.D......D.T.",
+            ".T..D....D...T",
+            "T...D....D...T",
+            "T...D....D...T",
+            "T...D....D...T",
+            "n...n....n...n"
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            14,
+            4
+          ],
+          "rows": [
+            ".jjbb....",
+            "j...bb...",
+            "j..tbb...",
+            "DD.tTbT..",
+            ".DDTTETT.",
+            "...TTTTTl",
+            "...TTTTll",
+            "...TTDDD.",
+            "..TTTDD..",
+            "..TTT.D.."
+          ]
+        },
+        {
+          "name": "pupila de bode",
+          "only": "night",
+          "offset": [
+            18,
+            8
+          ],
+          "rows": [
+            "EE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bode_pastar_a",
+      "layers": [
+        {
+          "name": "rabo",
+          "offset": [
+            3,
+            9
+          ],
+          "rows": [
+            "T.",
+            "tT",
+            ".T"
+          ]
+        },
+        {
+          "name": "corpo",
+          "offset": [
+            4,
+            10
+          ],
+          "rows": [
+            ".tttttttttttt.",
+            "tTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTT",
+            "DTTTTTTTTTTTTD",
+            ".DDTTTTTTTTDD.",
+            "...DDDDDDDD..."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            4,
+            17
+          ],
+          "rows": [
+            ".T.D......D.T",
+            ".T.D......D.T",
+            ".T.D......D.T",
+            ".T.D......D.T",
+            ".T.D......D.T",
+            ".n.n......n.n"
+          ]
+        },
+        {
+          "name": "pescoço",
+          "offset": [
+            15,
+            10
+          ],
+          "rows": [
+            "TT..",
+            "TTT.",
+            ".TTT",
+            ".TTT",
+            "..DT"
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            14,
+            12
+          ],
+          "rows": [
+            ".jjbb....",
+            "j...bb...",
+            "j..tbb...",
+            "DD.tTbT..",
+            ".DDTTETT.",
+            "...TTTTTl",
+            "...TTTTll",
+            "...TTDDD.",
+            "..TTTDD..",
+            "..TTT.D.."
+          ]
+        },
+        {
+          "name": "pupila de bode",
+          "only": "night",
+          "offset": [
+            18,
+            16
+          ],
+          "rows": [
+            "EE"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bode_pastar_b",
+      "layers": [
+        {
+          "name": "rabo",
+          "offset": [
+            3,
+            9
+          ],
+          "rows": [
+            ".T",
+            "T.",
+            "tT"
+          ]
+        },
+        {
+          "name": "corpo",
+          "offset": [
+            4,
+            10
+          ],
+          "rows": [
+            ".tttttttttttt.",
+            "tTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTT",
+            "TTTTTTTTTTTTTT",
+            "DTTTTTTTTTTTTD",
+            ".DDTTTTTTTTDD.",
+            "...DDDDDDDD..."
+          ]
+        },
+        {
+          "name": "pernas",
+          "offset": [
+            4,
+            17
+          ],
+          "rows": [
+            ".T.D......D.T",
+            ".T.D......D.T",
+            ".T.D......D.T",
+            ".T.D......D.T",
+            ".T.D......D.T",
+            ".n.n......n.n"
+          ]
+        },
+        {
+          "name": "pescoço",
+          "offset": [
+            15,
+            10
+          ],
+          "rows": [
+            "TT..",
+            "TTT.",
+            ".TTT",
+            ".TTT",
+            "..DT"
+          ]
+        },
+        {
+          "name": "cabeça",
+          "offset": [
+            14,
+            13
+          ],
+          "rows": [
+            ".jjbb....",
+            "j...bb...",
+            "j..tbb...",
+            "DD.tTbT..",
+            ".DDTTETT.",
+            "...TTTTTl",
+            "...TTTTll",
+            "...TTDDD.",
+            "..TTTDD..",
+            "..TTT.D.."
+          ]
+        },
+        {
+          "name": "pupila de bode",
+          "only": "night",
+          "offset": [
+            18,
+            17
+          ],
+          "rows": [
+            "EE"
+          ]
+        }
+      ]
+    }
+  ]
+}

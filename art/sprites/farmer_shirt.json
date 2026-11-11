@@ -1,0 +1,67 @@
+{
+  "name": "farmer_shirt",
+  "size": [16, 32],
+  "palette": "day",
+  "columns": 3,
+  "notes": "Camisa do jogador (tronco e mangas). Tingida pela cor da camisa.",
+  "legend": { "s": "tint", "L": "tint_light", "S": "tint_dark", "D": "tint_deep" },
+  "frames": [
+    {
+      "name": "down_0",
+      "layers": [
+        {
+          "offset": [0, 17],
+          "rows": [
+            "...LsssDDsssS...",
+            "...LssssssssS...",
+            "...LSssssssSS...",
+            "...LSssssssSS...",
+            "...LSssssssSS...",
+            "....SssssssS....",
+            "....DDDDDDDD...."
+          ]
+        }
+      ]
+    },
+    { "name": "down_1", "from": "down_0", "offset": [0, 1] },
+    { "name": "down_2", "from": "down_0", "offset": [0, 1] },
+    {
+      "name": "up_0",
+      "layers": [
+        {
+          "offset": [0, 17],
+          "rows": [
+            "...LssssssssS...",
+            "...LssssssssS...",
+            "...LSssssssSS...",
+            "...LSssSsssSS...",
+            "...LSssssssSS...",
+            "....SssssssS....",
+            "....DDDDDDDD...."
+          ]
+        }
+      ]
+    },
+    { "name": "up_1", "from": "up_0", "offset": [0, 1] },
+    { "name": "up_2", "from": "up_0", "offset": [0, 1] },
+    {
+      "name": "side_0",
+      "layers": [
+        {
+          "offset": [0, 17],
+          "rows": [
+            ".....LssssS.....",
+            ".....LssssS.....",
+            ".....LDssDS.....",
+            ".....LDssDS.....",
+            ".....LDssDS.....",
+            ".....Ss..sS.....",
+            ".....DD..DD....."
+          ]
+        }
+      ]
+    },
+    { "name": "side_1", "from": "side_0", "offset": [0, 1] },
+    { "name": "side_2", "from": "side_0", "offset": [0, 1] }
+  ]
+}

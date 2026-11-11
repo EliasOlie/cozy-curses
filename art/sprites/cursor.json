@@ -1,0 +1,20 @@
+{
+  "name": "cursor",
+  "size": [6, 6],
+  "palette": "both",
+  "outline": false,
+  "notes": "Canto superior esquerdo do colchete de seleção (⌜), 2 px de espessura, branco com contorno escuro manual. O jogo espelha para os outros 3 cantos.",
+  "legend": { "x": "outline", "W": "tint_light" },
+  "layers": [
+    {
+      "rows": [
+        "xxxxxx",
+        "xWWWWx",
+        "xWWxxx",
+        "xWWx..",
+        "xWWx..",
+        "xxxx.."
+      ]
+    }
+  ]
+}

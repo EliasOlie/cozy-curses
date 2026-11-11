@@ -1,0 +1,36 @@
+{
+  "name": "rug",
+  "size": [16, 16],
+  "palette": "both",
+  "outline": false,
+  "notes": "Tapete de losangos (treliça dourada sobre vermelho, medalhão no centro de cada losango). Padrão periódico em 16 px: emenda em qualquer direção.",
+  "legend": {
+    "r": "roof",
+    "R": "roof_dark",
+    "q": "roof_light",
+    "y": "hay",
+    "Y": "hay_dark"
+  },
+  "layers": [
+    {
+      "rows": [
+        "YRrrqrryyyrrqrrR",
+        "RYRrrqrryrrqrrRY",
+        "rRYRrrqrrrqrrRYR",
+        "rrRYRrrqrqrrRYRr",
+        "qrrRYRrrqrrRYRrr",
+        "rqrrRYRrrrRYRrrq",
+        "rrqrrRYRrRYRrrqr",
+        "yrrqrrRYRYRrrqrr",
+        "yyrrqrrRYRrrqrry",
+        "yrrqrrRYRYRrrqrr",
+        "rrqrrRYRrRYRrrqr",
+        "rqrrRYRrrrRYRrrq",
+        "qrrRYRrrqrrRYRrr",
+        "rrRYRrrqrqrrRYRr",
+        "rRYRrrqrrrqrrRYR",
+        "RYRrrqrryrrqrrRY"
+      ]
+    }
+  ]
+}
